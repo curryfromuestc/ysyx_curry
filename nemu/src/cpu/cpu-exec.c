@@ -17,7 +17,7 @@
 #include <cpu/decode.h>
 #include <cpu/difftest.h>
 #include <locale.h>
-#include </home/curry/code/ysyx-workbench/nemu/src/monitor/sdb/watchpoint.h>
+#include </home/curry/code/ysyx_curry/nemu/src/monitor/sdb/watchpoint.h>
 
 /* The assembly code of instructions executed is only output to the screen
  * when the number of instructions executed is less than this value.
