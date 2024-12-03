@@ -32,10 +32,10 @@ typedef struct watchpoint {
 } WP;
 
 
-static WP wp_pool[NR_WP] ;
+static WP wp_pool[NR_WP] = {};
 
-static WP *head ;
-static WP *free_ ;
+static WP *head = NULL;
+static WP *free_ = NULL;
 
 void init_wp_pool() {
   int i;
@@ -47,8 +47,6 @@ void init_wp_pool() {
   head = NULL;
   free_ = wp_pool;
 }
-
-
 
 WP* new_wp(){
     for(WP* p = free_ ; p -> next != NULL ; p = p -> next){
@@ -66,8 +64,6 @@ WP* new_wp(){
     return NULL;
 
 }
-
-
 
 void free_wp(WP *wp){
     if(head -> NO == wp -> NO){
@@ -88,7 +84,6 @@ void free_wp(WP *wp){
     }
 }
 
-
 int wp_pool_flag(int i){
     return wp_pool[i].flag;
 }
@@ -97,20 +92,17 @@ int wp_pool_old_value(int i){
     return wp_pool[i].old_value;
 }
 
-
 void wp_pool_write_new_value(int i,int value){
+    wp_pool[i].old_value=value;
     wp_pool[i].new_value=value;
     return;
 }
-
 
 char* wp_pool_expr(int i){
     static char expre_str[100];
     strcpy(expre_str,wp_pool[i].expr);
     return expre_str;
 }
-
-
 
 void sdb_watchpoint_display(){
     bool flag = true;
@@ -124,8 +116,6 @@ void sdb_watchpoint_display(){
     if(flag) printf("No watchpoint now.\n");
 }
 
-
-
 void delete_watchpoint(int no){
     for(int i = 0 ; i < NR_WP ; i ++)
         if(wp_pool[i].NO == no){
@@ -133,8 +123,6 @@ void delete_watchpoint(int no){
             return ;
         }
 }
-
-
 
 void create_watchpoint(char* args){
     WP* p =  new_wp();

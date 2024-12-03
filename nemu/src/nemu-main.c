@@ -38,7 +38,7 @@ void test_expr() {
     char *expr_str = strtok(NULL, "\n");
 
     bool success = true;
-    int expected = atoi(expected_str);
+    int expected = atoi(expected_str);//将字符串转换为整数
     int result = expr(expr_str, &success);
 
     if (success) {

@@ -28,7 +28,7 @@ const char *regs1[] = {
 };
 
 enum {
-	NOTYPE = 256, EQ, NUMBER, HEXNUMBER, REGISTER, NEQ, AND, OR, NOT, MINUS,POINTER,PC
+	NOTYPE, EQ, NUMBER, HEXNUMBER, REGISTER, NEQ, AND,MINUS,POINTER,PC
 
 	/* TODO: Add more token types */
 
@@ -41,32 +41,25 @@ static struct rule {
 	/* TODO: Add more rules.
 	 * Pay attention to the precedence level of different rules.
 	 */
-	{" +",	NOTYPE},				// spaces
-	{"\\+", '+'},					// plus
-	{"==", EQ},						// equal
+	{" +",	NOTYPE},				// 空格
+	{"\\+", '+'},					// 加
+	{"==", EQ},						// 等于
 	{"!=", NEQ},
-	{"!", NOT},
 	{"&&", AND},
-	{"\\|\\|", OR},
-	{"\\$[a-zA-z]+", REGISTER},		// register
-	{"\\pc", PC},
-	{"\\b0[xX][0-9a-fA-F]+\\b", HEXNUMBER}, // hexnumber
-	{"\\b[0-9]+\\b", NUMBER},				// number
-	{"-", '-'},						// minus
-	{"\\*", '*'},					// multiply
-	{"/", '/'},						// divide
-	{"\\(", '('},					// left bracket
-	{"\\)", ')'},					// right bracket
-	//{"\\b[a-zA-Z0-9_]+\\b",MARK},
+	{"\\$[a-zA-Z0-9]+", REGISTER},		// register
+	{"\\pc", PC},// 为了区分，就直接叫pc，不要美分号
+	{"\\b0[xX][0-9a-fA-F]+\\b", HEXNUMBER}, 
+	{"\\b[0-9]+\\b", NUMBER},
+	{"-", '-'},						// 减
+	{"\\*", '*'},					// 乘
+	{"/", '/'},						// 除
+	{"\\(", '('},					// 左空格
+	{"\\)", ')'},					// 右空格
 };
 #define NR_REGEX ARRLEN(rules)
 
 static regex_t re[NR_REGEX] = {};
-
-/* Rules are used for many times.
- * Therefore we compile them only once before any usage.
- */
-void init_regex() {
+void init_regex() {	//初始化正则表达式，编译为正则化对象
   int i;
   char error_msg[128];
   int ret;
@@ -177,72 +170,44 @@ int dominant_op(int l, int r) {
 		if (tokens[i].type == '(') b_num--;
 		if (b_num != 0) continue;
 		switch (tokens[i].type) {
-		case '+': { // pri = 4
-			if (pri < 4) pos = i, pri = 4;
-			break;
-		}
-		case '-': { // pri = 4
-			if (pri < 4) pos = i, pri = 4;
-			break;
-		}
-		case '*': { // pri = 3
+		case '+': {
 			if (pri < 3) pos = i, pri = 3;
 			break;
 		}
-		case '/': { // pri = 3
+		case '-': {
 			if (pri < 3) pos = i, pri = 3;
 			break;
 		}
-		case NOT: { // pri = 2
+		case '*': {
 			if (pri < 2) pos = i, pri = 2;
 			break;
 		}
-		case EQ: { // pri = 7
-			if (pri < 7) pos = i, pri = 7;
+		case '/': {
+			if (pri < 2) pos = i, pri = 2;
 			break;
 		}
-		case NEQ: { // pri = 7
-			if (pri < 7) pos = i, pri = 7;
+		case EQ: {
+			if (pri < 4) pos = i, pri = 4;
 			break;
 		}
-		case AND: { // pri = 11
-			if (pri < 11) pos = i, pri = 11;
+		case NEQ: {
+			if (pri < 4) pos = i, pri = 4;
 			break;
 		}
-		case OR: { // pri = 12
-			if (pri < 12) pos = i, pri = 12;
+		case AND: {
+			if (pri < 5) pos = i, pri = 5;
 			break;
 		}
 		case POINTER:{
-			if (pri <2) pos = i, pri = 2;
+			if (pri <1) pos = i, pri = 1;
 			break;
 		}
 		default: break;
 		}
 	}
-//	printf("%d-%d %d %d\n",l,r,pos,pri);
 	if (pri == 0) {
 		return 0;
 		}
-
-	if (pri == 2) {
-		pri = 0;
-		for (i = l; i <= r; i ++) {
-			if (tokens[i].type == '(') b_num++;
-			if (tokens[i].type == ')') b_num--;
-			if (b_num != 0) continue;
-			switch (tokens[i].type) {
-			case NOT: { // pri = 2
-				if (pri < 2) pos = i, pri = 2;
-				break;
-			}
-			case POINTER:{
-				if (pri <2) pos = i, pri = 2;
-				break;
-			}
-		}
-	}
-	}
 	return pos;
 }
 uint32_t eval(int l, int r) {
@@ -262,34 +227,26 @@ uint32_t eval(int l, int r) {
 			{
 				if (strcmp(tokens[l].str, regs1[i]) == 0)
 				{
-					printf("%d\n",i);
+					//printf("%d\n",i);
 					printf(ANSI_FG_GREEN"%-3s: "ANSI_FG_MAGENTA FMT_WORD" "ANSI_NONE, regs1[i], cpu.gpr[i]);
-					//return gpr(i);
+					return gpr(i);
 				}
 			}
 			
 		} 
 		else if (tokens[l].type == PC)
 		{
-			printf(ANSI_FG_RED"%-3s: "ANSI_FG_MAGENTA FMT_WORD ANSI_NONE"\n", "$pc", cpu.pc);
+			printf(ANSI_FG_RED"%-3s: "ANSI_FG_MAGENTA FMT_WORD ANSI_NONE, "$pc", cpu.pc);
 			return cpu.pc;
 		}
 		else {return 0;}
 		return num;
 	}
 	uint32_t ans = 0;
-
 	if (check_bracket(l, r)) return eval(l + 1, r - 1);
 	else {
 		int pos = dominant_op(l, r);
-		if (l == pos || tokens[pos].type == NOT) {
-			uint32_t r_ans = eval(pos + 1, r);
-			switch (tokens[pos].type) {
-			case NOT: return !r_ans;
-			default: {return 0;}
-			}
-		}
-		uint32_t l_ans = eval(l, pos - 1), r_ans =  eval(pos + 1, r);
+		uint32_t l_ans = eval(l, pos - 1), r_ans =  eval(pos + 1, r);//递归调用，分别计算左侧和右侧的表达式值
 		switch (tokens[pos].type) {
 		case '+': ans = l_ans + r_ans; break;
 		case '-': ans = l_ans - r_ans; break;
@@ -298,7 +255,6 @@ uint32_t eval(int l, int r) {
 		case EQ : ans = l_ans == r_ans; break;
 		case NEQ: ans = l_ans != r_ans; break;
 		case AND: ans = l_ans && r_ans; break;
-		case OR : ans = l_ans && r_ans; break;
 		default: {return 0;}
 		}
 	}
@@ -328,8 +284,6 @@ uint32_t expr(char *e, bool *success) {
 		*success = false;
 		return 0;
 	}
-
-//	panic("please implement me");
 	*success = true;
 	uint32_t sum1=0;
 	sum1=eval(0, nr_token - 1);

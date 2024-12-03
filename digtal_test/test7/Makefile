@@ -21,7 +21,7 @@ $(SRC_AUTO_BIND): $(NXDC_FILES)
 
 # project source
 VSRCS = $(shell find $(abspath ./vsrc) -name "*.v")
-CSRCS = $(shell find $(abspath ./csrc) -name "*.c" -or -name "*.cc" -or -name "*.cpp")
+CSRCS = $(shell find $(abspath ./csrc) -name "run_nvboard.cpp")
 CSRCS += $(SRC_AUTO_BIND)
 
 # rules for NVBoard
@@ -45,5 +45,12 @@ run: $(BIN)
 
 clean:
 	rm -rf $(BUILD_DIR)
+	rm -rf ./obj_dir
 
 .PHONY: default all clean run
+
+sim:
+	verilator -Wall --trace -cc $(VSRCS) --exe ./csrc/tb_top.cpp
+	make -C obj_dir -f Vtop.mk Vtop
+	./obj_dir/Vtop
+	gtkwave ./wave.vcd

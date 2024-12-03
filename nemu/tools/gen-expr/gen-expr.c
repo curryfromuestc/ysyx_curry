@@ -25,14 +25,14 @@ static char buf[65536] = {};
 static char code_buf[65536 + 128] = {}; // a little larger than `buf`
 static char *code_format =
 "#include <stdio.h>\n"
-"int main() { "
-"  unsigned result = %s; "
-"  printf(\"%%u\", result); "
-"  return 0; "
-"}";
+"int main() { \n"
+"  unsigned result = %s; \n"
+"  printf(\"%%u\", result); \n"
+"  return 0; \n"
+"}\n";
 
 static int choose(int n) {
-  return rand() % n;
+  return rand() % n;//返回一个0到n-1的随机数
 }
 
 static void gen_num() {
@@ -70,12 +70,12 @@ static inline void gen_rand_expr() {
   buf[strlen(buf)] = '\0';
 }
 
+//之前在表达式里面添加了'u'，现在要去掉，不知道为啥，如果不加的话，输进去的表达式跟期望的不对
 void remove_u(char *p) {
   char *q = p;
   while ((q = strchr(q, 'u')) != NULL) {
-    // reuse code_buf
     strcpy(code_buf, q + 1);
-    strcpy(q, code_buf);
+    strcpy(q, code_buf);//覆盖'u'
   }
 }
 
@@ -88,7 +88,7 @@ int main(int argc, char *argv[]) {
   }
   int i;
   for (i = 0; i < loop; i ++) {
-    memset(buf,0,sizeof(buf));
+    memset(buf,0,sizeof(buf));//防止溢出
     gen_rand_expr();
 
     sprintf(code_buf, code_format, buf);
@@ -99,16 +99,16 @@ int main(int argc, char *argv[]) {
     fclose(fp);
 
     int ret = system("gcc /tmp/.code.c -o /tmp/.expr");
-    if (ret != 0) continue;
+    if (ret == -1) continue;//出现除0的情况，会导致错误，system返回的是-1，这里条件就不满足了，直接continue
 
     fp = popen("/tmp/.expr", "r");
     assert(fp != NULL);
 
     int result;
     ret = fscanf(fp, "%d", &result);
-    if (ret != 1) continue;
+    if (ret != 1) continue;//不为1说明读取失败，说明读取了多个整数结果
     ret = pclose(fp);
-    if (ret != 0) continue;
+    if (ret == -1) continue;//关闭失败
 
     remove_u(buf);
 
