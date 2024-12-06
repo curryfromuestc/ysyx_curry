@@ -56,6 +56,10 @@ static void trace_and_difftest(Decode *_this, vaddr_t dnpc) {
                     nemu_state.state = NEMU_STOP;
                     wp_pool_write_new_value(i,tmp);
                     printf("NO.%d : expression:\"%s\",old:0x%x,new:0x%x\n",i, expr1,old_value, tmp);
+                    if(old_value == 0x8000000c){
+                      nemu_state.state = NEMU_END;
+                    }
+
                     return;
                 }
             }
