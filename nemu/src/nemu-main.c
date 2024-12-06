@@ -62,7 +62,7 @@ int main(int argc, char *argv[]) {
   test_expr();
 #else
   init_monitor(argc, argv);
-  test_expr();
+  //test_expr();
 #endif
 
   /* Start engine. */
