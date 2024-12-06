@@ -26,7 +26,7 @@ word_t expr(char *e, bool *success);
 void init_regex();
 void test_expr() {
   char line[256];
-  FILE *file = fopen("/home/curry/code/ysyx-workbench/nemu/tools/gen-expr/input", "r");
+  FILE *file = fopen("/home/curry/code/ysyx_curry/nemu/tools/gen-expr/input", "r");
 
   if (file == NULL) {
     printf("Could not open file input\n");
