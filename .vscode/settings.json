@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "system_error": "cpp",
+        "random": "c",
+        "paddr.h": "c"
+    }
+}
