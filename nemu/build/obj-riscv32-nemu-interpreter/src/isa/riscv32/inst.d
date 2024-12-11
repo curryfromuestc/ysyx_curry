@@ -21,7 +21,7 @@ deps_/home/curry/code/ysyx_curry/nemu/build/obj-riscv32-nemu-interpreter/src/isa
   /home/curry/code/ysyx_curry/nemu/include/cpu/decode.h \
     $(wildcard include/config/itrace.h) \
   /home/curry/code/ysyx_curry/nemu/include/isa.h \
-  /home/curry/code/ysyx_curry/nemu/src/isa/riscv32/include/isa-def.h \
+  /home/curry/code/ysyx-workbench/nemu/src/isa/riscv32/include/isa-def.h \
     $(wildcard include/config/rv64.h) \
 
 /home/curry/code/ysyx_curry/nemu/build/obj-riscv32-nemu-interpreter/src/isa/riscv32/inst.o: $(deps_/home/curry/code/ysyx_curry/nemu/build/obj-riscv32-nemu-interpreter/src/isa/riscv32/inst.o)
