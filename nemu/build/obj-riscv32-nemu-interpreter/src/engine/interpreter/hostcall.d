@@ -15,7 +15,7 @@ deps_/home/curry/code/ysyx_curry/nemu/build/obj-riscv32-nemu-interpreter/src/eng
   /home/curry/code/ysyx_curry/nemu/include/cpu/ifetch.h \
   /home/curry/code/ysyx_curry/nemu/include/memory/vaddr.h \
   /home/curry/code/ysyx_curry/nemu/include/isa.h \
-  /home/curry/code/ysyx-workbench/nemu/src/isa/riscv32/include/isa-def.h \
+  /home/curry/code/ysyx_curry/nemu/src/isa/riscv32/include/isa-def.h \
     $(wildcard include/config/rve.h) \
     $(wildcard include/config/rv64.h) \
   /home/curry/code/ysyx_curry/nemu/include/cpu/difftest.h \
