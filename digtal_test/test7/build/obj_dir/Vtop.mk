@@ -39,12 +39,12 @@ VM_USER_CFLAGS = \
 	-O3 \
 	-I/usr/include/SDL2 \
 	-D_REENTRANT \
-	-I/home/curry/code/ysyx-workbench/nvboard/usr/include \
+	-I/home/curry/code/ysyx_curry/nvboard/usr/include \
 	-DTOP_NAME="Vtop" \
 
 # User LDLIBS (from -LDFLAGS on Verilator command line)
 VM_USER_LDLIBS = \
-	/home/curry/code/ysyx-workbench/nvboard/build/nvboard.a \
+	/home/curry/code/ysyx_curry/nvboard/build/nvboard.a \
 	-lSDL2 \
 	-lSDL2_image \
 	-lSDL2_ttf \
