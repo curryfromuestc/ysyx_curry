@@ -15,7 +15,9 @@
 0x80000028: fe 9f f0 ef jal	-0x18
 0x80000010: 00 00 05 13 mv	a0, zero
 0x80000014: 00 00 80 67 ret
-[1;34m[src/cpu/cpu-exec.c:147 cpu_exec] nemu: [1;31mABORT[0m at pc = 0x80000014[0m
-[1;34m[src/cpu/cpu-exec.c:115 statistic] host time spent = 385 us[0m
-[1;34m[src/cpu/cpu-exec.c:116 statistic] total guest instructions = 11[0m
-[1;34m[src/cpu/cpu-exec.c:117 statistic] simulation frequency = 28,571 inst/s[0m
+0x8000002c: 00 05 05 13 mv	a0, a0
+0x80000030: 00 10 00 73 ebreak
+[1;34m[src/cpu/cpu-exec.c:147 cpu_exec] nemu: [1;32mHIT GOOD TRAP[0m at pc = 0x80000030[0m
+[1;34m[src/cpu/cpu-exec.c:115 statistic] host time spent = 159 us[0m
+[1;34m[src/cpu/cpu-exec.c:116 statistic] total guest instructions = 13[0m
+[1;34m[src/cpu/cpu-exec.c:117 statistic] simulation frequency = 81,761 inst/s[0m
