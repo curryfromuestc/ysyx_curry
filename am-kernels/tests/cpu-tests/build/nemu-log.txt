@@ -9,6 +9,6 @@
 0x80000008: ff c1 01 13 addi	sp, sp, -4
 0x8000000c: 00 c0 00 ef jal	0xc
 [1;34m[src/cpu/cpu-exec.c:147 cpu_exec] nemu: [1;31mABORT[0m at pc = 0x8000000c[0m
-[1;34m[src/cpu/cpu-exec.c:115 statistic] host time spent = 1,154 us[0m
+[1;34m[src/cpu/cpu-exec.c:115 statistic] host time spent = 4,278 us[0m
 [1;34m[src/cpu/cpu-exec.c:116 statistic] total guest instructions = 4[0m
-[1;34m[src/cpu/cpu-exec.c:117 statistic] simulation frequency = 3,466 inst/s[0m
+[1;34m[src/cpu/cpu-exec.c:117 statistic] simulation frequency = 935 inst/s[0m

@@ -1,3 +1,0 @@
-NAME = dummy
-SRCS = tests/dummy.c
-include /home/curry/code/ysyx_curry/abstract-machine/Makefile
