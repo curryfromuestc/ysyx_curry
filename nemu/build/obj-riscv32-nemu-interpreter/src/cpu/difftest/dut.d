@@ -5,7 +5,7 @@ source_/home/curry/code/ysyx_curry/nemu/build/obj-riscv32-nemu-interpreter/src/c
 deps_/home/curry/code/ysyx_curry/nemu/build/obj-riscv32-nemu-interpreter/src/cpu/difftest/dut.o := \
     $(wildcard include/config/difftest.h) \
   /home/curry/code/ysyx_curry/nemu/include/isa.h \
-  /home/curry/code/ysyx-workbench/nemu/src/isa/riscv32/include/isa-def.h \
+  /home/curry/code/ysyx_curry/nemu/src/isa/riscv32/include/isa-def.h \
     $(wildcard include/config/rve.h) \
     $(wildcard include/config/rv64.h) \
   /home/curry/code/ysyx_curry/nemu/include/common.h \
