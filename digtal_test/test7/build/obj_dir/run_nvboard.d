@@ -5,5 +5,5 @@ run_nvboard.o: \
  /usr/local/share/verilator/include/verilated_config.h \
  /usr/local/share/verilator/include/verilated_types.h \
  /usr/local/share/verilator/include/verilated_funcs.h Vtop.h \
- /home/curry/code/ysyx-workbench/nvboard/usr/include/nvboard.h \
- /home/curry/code/ysyx-workbench/nvboard/usr/include/pins.h
+ /home/curry/code/ysyx_curry/nvboard/usr/include/nvboard.h \
+ /home/curry/code/ysyx_curry/nvboard/usr/include/pins.h
