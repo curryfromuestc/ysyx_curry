@@ -3,12 +3,12 @@
 [1;34m[src/monitor/monitor.c:51 load_img] No image is given. Use the default build-in image.[0m
 [1;34m[src/monitor/monitor.c:28 welcome] Trace: [1;32mON[0m[0m
 [1;34m[src/monitor/monitor.c:29 welcome] If trace is enabled, a log file will be generated to record the trace. This may lead to a large log file. If it is not necessary, you can disable it in menuconfig[0m
-[1;34m[src/monitor/monitor.c:32 welcome] Build time: 10:21:05, Dec 11 2024[0m
+[1;34m[src/monitor/monitor.c:32 welcome] Build time: 10:56:35, Dec 11 2024[0m
 0x80000000: 00 00 02 97 auipc	t0, 0
 0x80000004: 00 02 88 23 sb	zero, 0x10(t0)
 0x80000008: 01 02 c5 03 lbu	a0, 0x10(t0)
 0x8000000c: 00 10 00 73 ebreak
 [1;34m[src/cpu/cpu-exec.c:147 cpu_exec] nemu: [1;32mHIT GOOD TRAP[0m at pc = 0x8000000c[0m
-[1;34m[src/cpu/cpu-exec.c:115 statistic] host time spent = 2,590 us[0m
+[1;34m[src/cpu/cpu-exec.c:115 statistic] host time spent = 7,191 us[0m
 [1;34m[src/cpu/cpu-exec.c:116 statistic] total guest instructions = 4[0m
-[1;34m[src/cpu/cpu-exec.c:117 statistic] simulation frequency = 1,544 inst/s[0m
+[1;34m[src/cpu/cpu-exec.c:117 statistic] simulation frequency = 556 inst/s[0m
