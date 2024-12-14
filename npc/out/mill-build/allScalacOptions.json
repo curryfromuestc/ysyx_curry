@@ -1,0 +1,11 @@
+{
+    "value": [
+        "-Xplugin:/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/scalac-mill-moduledefs-plugin_2.13.15/0.11.1/scalac-mill-moduledefs-plugin_2.13.15-0.11.1.jar",
+        "-Xplugin:/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/mill-runner-linenumbers_2.13/0.12.3/mill-runner-linenumbers_2.13-0.12.3.jar,/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.15/scala-compiler-2.13.15.jar,/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.15/scala-library-2.13.15.jar,/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/mill-moduledefs_2.13/0.11.1/mill-moduledefs_2.13-0.11.1.jar,/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/mill-main-client/0.12.3/mill-main-client-0.12.3.jar,/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.15/scala-reflect-2.13.15.jar,/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.jar,/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.26.3/jline-3.26.3.jar,/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.14.0/jna-5.14.0.jar,/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.13/0.3.0/sourcecode_2.13-0.3.0.jar",
+        "-deprecation",
+        "-Xplugin-require:mill-linenumber-plugin",
+        "-Xplugin-require:auto-override-plugin"
+    ],
+    "valueHash": 1108121453,
+    "inputsHash": -40706654
+}
