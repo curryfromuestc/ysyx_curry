@@ -27,6 +27,6 @@
 0x80000054: 00 47 07 13 addi	a4, a4, 4
 0x80000058: fe d7 9a e3 bne	a5, a3, -0xc
 [1;34m[src/cpu/cpu-exec.c:147 cpu_exec] nemu: [1;31mABORT[0m at pc = 0x80000058[0m
-[1;34m[src/cpu/cpu-exec.c:115 statistic] host time spent = 7,768 us[0m
+[1;34m[src/cpu/cpu-exec.c:115 statistic] host time spent = 8,242 us[0m
 [1;34m[src/cpu/cpu-exec.c:116 statistic] total guest instructions = 22[0m
-[1;34m[src/cpu/cpu-exec.c:117 statistic] simulation frequency = 2,832 inst/s[0m
+[1;34m[src/cpu/cpu-exec.c:117 statistic] simulation frequency = 2,669 inst/s[0m
