@@ -27,9 +27,9 @@ enum {
   TYPE_I, 
   TYPE_U, 
   TYPE_S,
-  TYPE_N,//用户中断指令
   TYPE_J,
   TYPE_B,
+  TYPE_N,//用户中断指令
 };
 
 #define src1R() do { *src1 = R(rs1); } while (0)
