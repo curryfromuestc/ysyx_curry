@@ -27,7 +27,7 @@ enum {
   TYPE_I, 
   TYPE_U, 
   TYPE_S,
-  TYPE_N,
+  TYPE_N,//用户中断指令
   TYPE_J,
   TYPE_B,
 };
