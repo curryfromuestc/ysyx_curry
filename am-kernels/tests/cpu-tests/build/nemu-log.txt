@@ -27,7 +27,51 @@
 0x80000054: 00 17 87 93 addi	a5, a5, 1
 0x80000058: 00 47 07 13 addi	a4, a4, 4
 0x8000005c: fe d7 9a e3 bne	a5, a3, -0xc
-[1;34m[src/cpu/cpu-exec.c:147 cpu_exec] nemu: [1;31mABORT[0m at pc = 0x8000005c[0m
-[1;34m[src/cpu/cpu-exec.c:115 statistic] host time spent = 7,950 us[0m
-[1;34m[src/cpu/cpu-exec.c:116 statistic] total guest instructions = 23[0m
-[1;34m[src/cpu/cpu-exec.c:117 statistic] simulation frequency = 2,893 inst/s[0m
+0x80000050: 00 f7 20 23 sw	a5, 0(a4)
+0x80000054: 00 17 87 93 addi	a5, a5, 1
+0x80000058: 00 47 07 13 addi	a4, a4, 4
+0x8000005c: fe d7 9a e3 bne	a5, a3, -0xc
+0x80000050: 00 f7 20 23 sw	a5, 0(a4)
+0x80000054: 00 17 87 93 addi	a5, a5, 1
+0x80000058: 00 47 07 13 addi	a4, a4, 4
+0x8000005c: fe d7 9a e3 bne	a5, a3, -0xc
+0x80000050: 00 f7 20 23 sw	a5, 0(a4)
+0x80000054: 00 17 87 93 addi	a5, a5, 1
+0x80000058: 00 47 07 13 addi	a4, a4, 4
+0x8000005c: fe d7 9a e3 bne	a5, a3, -0xc
+0x80000050: 00 f7 20 23 sw	a5, 0(a4)
+0x80000054: 00 17 87 93 addi	a5, a5, 1
+0x80000058: 00 47 07 13 addi	a4, a4, 4
+0x8000005c: fe d7 9a e3 bne	a5, a3, -0xc
+0x80000050: 00 f7 20 23 sw	a5, 0(a4)
+0x80000054: 00 17 87 93 addi	a5, a5, 1
+0x80000058: 00 47 07 13 addi	a4, a4, 4
+0x8000005c: fe d7 9a e3 bne	a5, a3, -0xc
+0x80000050: 00 f7 20 23 sw	a5, 0(a4)
+0x80000054: 00 17 87 93 addi	a5, a5, 1
+0x80000058: 00 47 07 13 addi	a4, a4, 4
+0x8000005c: fe d7 9a e3 bne	a5, a3, -0xc
+0x80000050: 00 f7 20 23 sw	a5, 0(a4)
+0x80000054: 00 17 87 93 addi	a5, a5, 1
+0x80000058: 00 47 07 13 addi	a4, a4, 4
+0x8000005c: fe d7 9a e3 bne	a5, a3, -0xc
+0x80000050: 00 f7 20 23 sw	a5, 0(a4)
+0x80000054: 00 17 87 93 addi	a5, a5, 1
+0x80000058: 00 47 07 13 addi	a4, a4, 4
+0x8000005c: fe d7 9a e3 bne	a5, a3, -0xc
+0x80000050: 00 f7 20 23 sw	a5, 0(a4)
+0x80000054: 00 17 87 93 addi	a5, a5, 1
+0x80000058: 00 47 07 13 addi	a4, a4, 4
+0x8000005c: fe d7 9a e3 bne	a5, a3, -0xc
+0x80000060: 00 00 05 97 auipc	a1, 0
+0x80000064: 13 45 85 93 addi	a1, a1, 0x134
+0x80000068: 00 00 06 17 auipc	a2, 0
+0x8000006c: 10 46 06 13 addi	a2, a2, 0x104
+0x80000070: 00 b0 06 93 addi	a3, zero, 0xb
+0x80000074: 00 06 27 03 lw	a4, 0(a2)
+0x80000078: 00 10 07 93 addi	a5, zero, 1
+0x8000007c: 02 f7 07 33 mul	a4, a4, a5
+[1;34m[src/cpu/cpu-exec.c:147 cpu_exec] nemu: [1;31mABORT[0m at pc = 0x8000007c[0m
+[1;34m[src/cpu/cpu-exec.c:115 statistic] host time spent = 380 us[0m
+[1;34m[src/cpu/cpu-exec.c:116 statistic] total guest instructions = 67[0m
+[1;34m[src/cpu/cpu-exec.c:117 statistic] simulation frequency = 176,315 inst/s[0m
