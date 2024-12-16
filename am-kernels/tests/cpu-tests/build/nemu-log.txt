@@ -23,30 +23,6 @@
 0x80000044: 13 02 82 93 addi	t0, t0, 0x130
 0x80000048: 00 00 03 13 mv	t1, zero
 0x8000004c: 00 63 83 b3 add	t2, t2, t1
-0x80000050: 00 43 a7 83 lw	a5, 4(t2)
-0x80000054: 00 03 a6 83 lw	a3, 0(t2)
-0x80000058: 00 00 03 97 auipc	t2, 0
-0x8000005c: 31 83 83 93 addi	t2, t2, 0x318
-0x80000060: 00 f1 22 23 sw	a5, 4(sp)
-0x80000064: 00 02 84 93 mv	s1, t0
-0x80000068: 00 61 24 23 sw	t1, 8(sp)
-0x8000006c: 00 51 26 23 sw	t0, 0xc(sp)
-0x80000070: 00 71 28 23 sw	t2, 0x10(sp)
-0x80000074: 00 03 84 13 mv	s0, t2
-0x80000078: 00 04 27 03 lw	a4, 0(s0)
-0x8000007c: 00 41 27 83 lw	a5, 4(sp)
-0x80000080: 00 44 22 83 lw	t0, 4(s0)
-0x80000084: 00 e6 87 33 add	a4, a3, a4
-0x80000088: 00 44 a5 83 lw	a1, 4(s1)
-0x8000008c: 00 04 a5 03 lw	a0, 0(s1)
-0x80000090: 00 d7 33 33 sltu	t1, a4, a3
-0x80000094: 00 57 82 b3 add	t0, a5, t0
-0x80000098: 00 53 03 33 add	t1, t1, t0
-0x8000009c: 00 e5 45 33 xor	a0, a0, a4
-0x800000a0: 00 65 c7 33 xor	a4, a1, t1
-0x800000a4: 00 e5 65 33 or	a0, a0, a4
-0x800000a8: 00 15 35 13 seqz	a0, a0
-[1;34m[src/cpu/cpu-exec.c:147 cpu_exec] nemu: [1;31mABORT[0m at pc = 0x800000a8[0m
-[1;34m[src/cpu/cpu-exec.c:115 statistic] host time spent = 484 us[0m
-[1;34m[src/cpu/cpu-exec.c:116 statistic] total guest instructions = 42[0m
-[1;34m[src/cpu/cpu-exec.c:117 statistic] simulation frequency = 86,776 inst/s[0m
+[1;34m[src/cpu/cpu-exec.c:115 statistic] host time spent = 0 us[0m
+[1;34m[src/cpu/cpu-exec.c:116 statistic] total guest instructions = 19[0m
+[1;34m[src/cpu/cpu-exec.c:118 statistic] Finish running in less than 1 us and can not calculate the simulation frequency[0m
