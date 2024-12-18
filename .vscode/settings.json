@@ -2,6 +2,7 @@
     "files.associations": {
         "system_error": "cpp",
         "random": "c",
-        "paddr.h": "c"
+        "paddr.h": "c",
+        "getopt.h": "c"
     }
 }
