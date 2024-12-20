@@ -126,6 +126,6 @@
 0x800001ac: 00 05 05 13 mv	a0, a0
 0x800001b0: 00 10 00 73 ebreak
 [1;34m[src/cpu/cpu-exec.c:143 cpu_exec] nemu: [1;31mHIT BAD TRAP[0m at pc = 0x800001b0[0m
-[1;34m[src/cpu/cpu-exec.c:111 statistic] host time spent = 458 us[0m
+[1;34m[src/cpu/cpu-exec.c:111 statistic] host time spent = 668 us[0m
 [1;34m[src/cpu/cpu-exec.c:112 statistic] total guest instructions = 121[0m
-[1;34m[src/cpu/cpu-exec.c:113 statistic] simulation frequency = 264,192 inst/s[0m
+[1;34m[src/cpu/cpu-exec.c:113 statistic] simulation frequency = 181,137 inst/s[0m
