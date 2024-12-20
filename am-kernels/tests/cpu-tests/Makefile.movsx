@@ -1,3 +1,0 @@
-NAME = movsx
-SRCS = tests/movsx.c
-include /home/curry/code/ysyx_curry/abstract-machine/Makefile
