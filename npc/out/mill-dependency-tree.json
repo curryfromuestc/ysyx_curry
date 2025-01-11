@@ -1,0 +1,177 @@
+{
+  "playground.test.test": {
+    "playground.test.testReportXml": {},
+    "playground.test.forkArgs": {
+      "playground.test.forkArgs.super.RunModule": {}
+    },
+    "playground.test.testFramework": {},
+    "playground.test.testForkGrouping": {
+      "playground.test.discoveredTestClasses": {}
+    },
+    "playground.test.resources": {},
+    "playground.test.forkEnv": {
+      "playground.test.forkEnv.super.RunModule": {}
+    },
+    "playground.test.runClasspath": {
+      "playground.test.transitiveLocalClasspath": {
+        "playground.localClasspath": {
+          "playground.localCompileClasspath": {
+            "playground.unmanagedClasspath": {},
+            "playground.compileResources": {}
+          },
+          "playground.localRunClasspath": {
+            "playground.resources": {},
+            "playground.localRunClasspath.super.RunModule": {},
+            "playground.compile": {
+              "playground.compileClasspath": {
+                "playground.transitiveCompileClasspath": {},
+                "playground.resolvedIvyDeps": {
+                  "playground.transitiveCompileIvyDeps": {
+                    "playground.compileIvyDeps": {}
+                  },
+                  "playground.artifactTypes": {}
+                }
+              },
+              "playground.mandatoryJavacOptions": {},
+              "playground.zincIncrementalCompilation": {},
+              "playground.scalaCompilerClasspath": {},
+              "playground.upstreamCompileOutput": {},
+              "playground.zincAuxiliaryClassFileExtensions": {
+                "playground.zincAuxiliaryClassFileExtensions.super.JavaModule": {}
+              },
+              "playground.zincReportCachedProblems": {},
+              "playground.allSourceFiles": {
+                "playground.allSources": {
+                  "playground.generatedSources": {}
+                }
+              },
+              "playground.allScalacOptions": {
+                "playground.enablePluginScalacOptions.super.ScalaModule": {},
+                "playground.mandatoryScalacOptions": {}
+              }
+            }
+          }
+        }
+      },
+      "playground.test.resolvedRunIvyDeps": {
+        "playground.test.platformSuffix": {},
+        "playground.test.transitiveRunIvyDeps": {
+          "playground.transitiveRunIvyDeps": {
+            "playground.platformSuffix": {},
+            "playground.runIvyDeps": {}
+          },
+          "playground.test.runIvyDeps": {}
+        },
+        "playground.test.scalaVersion": {
+          "playground.scalaVersion": {}
+        },
+        "playground.test.artifactTypes": {},
+        "playground.test.scalaOrganization": {
+          "playground.scalaOrganization": {}
+        },
+        "playground.test.transitiveIvyDeps": {
+          "playground.test.depManagement": {},
+          "playground.test.bomIvyDeps": {},
+          "playground.test.allIvyDeps": {
+            "playground.test.ivyDeps": {
+              "playground.ivyDeps": {}
+            },
+            "playground.test.mandatoryIvyDeps": {
+              "playground.test.mandatoryIvyDeps.super.JavaModule": {}
+            }
+          },
+          "playground.transitiveIvyDeps": {
+            "playground.bomIvyDeps": {},
+            "playground.depManagement": {},
+            "playground.allIvyDeps": {
+              "playground.mandatoryIvyDeps": {
+                "playground.scalaLibraryIvyDeps": {},
+                "playground.mandatoryIvyDeps.super.JavaModule": {}
+              }
+            }
+          }
+        }
+      },
+      "playground.test.localClasspath": {
+        "playground.test.localCompileClasspath": {
+          "playground.test.unmanagedClasspath": {},
+          "playground.test.compileResources": {}
+        }
+      },
+      "playground.test.runClasspath.super.RunModule": {}
+    },
+    "playground.test.testSandboxWorkingDir": {},
+    "mill.scalalib.ZincWorkerModule.scalalibClasspath": {},
+    "playground.test.testClasspath": {
+      "playground.test.localRunClasspath": {
+        "playground.test.compile": {
+          "playground.test.compileClasspath": {
+            "playground.test.resolvedIvyDeps": {
+              "playground.test.transitiveCompileIvyDeps": {
+                "playground.test.compileIvyDeps": {}
+              }
+            },
+            "playground.test.transitiveCompileClasspath": {}
+          },
+          "mill.scalalib.ZincWorkerModule.worker": {
+            "mill.scalalib.ZincWorkerModule.classpath": {},
+            "mill.scalalib.ZincWorkerModule.zincLogDebug": {}
+          },
+          "playground.test.zincAuxiliaryClassFileExtensions": {
+            "playground.test.zincAuxiliaryClassFileExtensions.super.JavaModule": {}
+          },
+          "playground.test.upstreamCompileOutput": {},
+          "playground.test.scalaCompilerClasspath": {
+            "playground.test.scalaLibraryIvyDeps": {}
+          },
+          "playground.test.allScalacOptions": {
+            "playground.test.enablePluginScalacOptions.super.ScalaModule": {
+              "playground.test.scalacPluginIvyDeps": {}
+            },
+            "playground.test.scalacOptions": {
+              "playground.scalacOptions": {}
+            },
+            "playground.test.mandatoryScalacOptions": {
+              "playground.test.mandatoryScalacOptions.super.ScalaModule": {}
+            }
+          },
+          "playground.test.javacOptions": {
+            "playground.javacOptions": {}
+          },
+          "playground.test.allSourceFiles": {
+            "playground.test.allSources": {
+              "playground.test.sources": {
+                "playground.sources": {}
+              },
+              "playground.test.generatedSources": {}
+            }
+          },
+          "playground.test.zincIncrementalCompilation": {},
+          "playground.test.mandatoryJavacOptions": {},
+          "playground.test.scalacPluginClasspath": {
+            "playground.scalacPluginClasspath": {
+              "playground.scalacPluginIvyDeps": {}
+            }
+          },
+          "playground.test.zincReportCachedProblems": {}
+        },
+        "playground.test.localRunClasspath.super.RunModule": {}
+      }
+    },
+    "mill.scalalib.ZincWorkerModule.testrunnerEntrypointClasspath": {},
+    "mill.scalalib.ZincWorkerModule.javaHome": {
+      "mill.scalalib.ZincWorkerModule.jvmId": {},
+      "mill.scalalib.ZincWorkerModule.jvmIndexVersion": {}
+    },
+    "playground.test.forkWorkingDir": {
+      "playground.test.forkWorkingDir.super.RunModule": {}
+    },
+    "playground.test.testUseArgsFile": {
+      "playground.test.runUseArgsFile": {
+        "playground.runUseArgsFile": {
+          "playground.runUseArgsFile.super.RunModule": {}
+        }
+      }
+    }
+  }
+}

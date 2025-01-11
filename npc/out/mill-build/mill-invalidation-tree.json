@@ -1,0 +1,94 @@
+{
+  "scalaVersion": {
+    "zincAuxiliaryClassFileExtensions": {},
+    "scalaOrganization": {},
+    "scalaLibraryIvyDeps": {}
+  },
+  "bomIvyDeps": {},
+  "zincAuxiliaryClassFileExtensions.super.JavaModule": {},
+  "cliImports": {
+    "runIvyDeps": {}
+  },
+  "zincReportCachedProblems": {},
+  "javacOptions": {},
+  "runClasspath.super.RunModule": {
+    "runClasspath": {}
+  },
+  "mill.scalalib.ZincWorkerModule.jvmId": {
+    "mill.scalalib.ZincWorkerModule.javaHome": {}
+  },
+  "transitiveCompileClasspath": {
+    "compileClasspath": {}
+  },
+  "millVersion": {},
+  "mill.scalalib.ZincWorkerModule.jvmIndexVersion": {},
+  "scalacPluginIvyDeps": {},
+  "platformSuffix": {},
+  "mandatoryJavacOptions": {},
+  "mill.scalalib.ZincWorkerModule.zincLogDebug": {
+    "mill.scalalib.ZincWorkerModule.worker": {}
+  },
+  "scriptSources": {
+    "allSourceFiles": {},
+    "parseBuildFiles": {
+      "ivyDeps": {},
+      "lineNumberPluginClasspath": {}
+    },
+    "generateScriptSources": {
+      "generatedSources": {}
+    }
+  },
+  "resolveDepsExclusions": {
+    "transitiveCompileIvyDeps": {},
+    "resolvedIvyDeps": {},
+    "transitiveRunIvyDeps": {},
+    "scalacPluginClasspath.super.ScalaModule": {
+      "scalacPluginClasspath": {}
+    },
+    "resolvedRunIvyDeps": {},
+    "enablePluginScalacOptions.super.ScalaModule": {},
+    "scalaCompilerClasspath": {},
+    "transitiveIvyDeps": {}
+  },
+  "mill.scalalib.ZincWorkerModule.classpath": {},
+  "depManagement": {},
+  "scalacOptions.super.ScalaModule": {
+    "scalacOptions": {}
+  },
+  "compileResources": {
+    "localCompileClasspath": {}
+  },
+  "artifactTypes": {},
+  "localRunClasspath.super.RunModule": {
+    "localRunClasspath": {
+      "localClasspath": {}
+    }
+  },
+  "mandatoryScalacOptions": {
+    "allScalacOptions": {}
+  },
+  "resources.super.JavaModule": {
+    "resources": {}
+  },
+  "zincIncrementalCompilation": {
+    "compile": {
+      "methodCodeHashSignatures": {}
+    }
+  },
+  "upstreamCompileOutput": {},
+  "transitiveLocalClasspath": {},
+  "enclosingClasspath": {
+    "unmanagedClasspath": {}
+  },
+  "mandatoryIvyDeps.super.JavaModule": {
+    "mandatoryIvyDeps": {
+      "allIvyDeps": {}
+    }
+  },
+  "compileIvyDeps": {},
+  "sources.super.JavaModule": {
+    "sources": {
+      "allSources": {}
+    }
+  }
+}

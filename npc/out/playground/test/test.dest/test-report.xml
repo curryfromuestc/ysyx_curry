@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites tests="1" failures="0" errors="0" skipped="0" time="8.62">
+        <testsuite name="gcd.GCDSpec" tests="1" failures="0" errors="0" skipped="0" time="8.62" timestamp="2025-01-11T08:30:22">
+        <properties>
+        
+      </properties>
+        <testcase classname="gcd.GCDSpec" name="Gcd should calculate proper greatest common denominator" time="8.62">
+          
+        </testcase>
+      </testsuite>
+      </testsuites>
