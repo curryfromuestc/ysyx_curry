@@ -1,9 +1,0 @@
-{
-    "value": [
-        "org.chipsalliance::chisel:6.6.0",
-        "org.scalatest::scalatest::3.2.19",
-        "edu.berkeley.cs::chiseltest:6.0.0"
-    ],
-    "valueHash": 30074262,
-    "inputsHash": -862198339
-}

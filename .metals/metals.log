@@ -1,0 +1,865 @@
+2025.01.12 20:05:44 INFO  Started: Metals version 1.4.2 in folders '/home/curry/code/ysyx_curry' for client Visual Studio Code 1.96.2.[0m
+2025.01.12 20:05:45 INFO  Attempting to connect to the build server...[0m
+2025.01.12 20:05:45 INFO  No running Bloop server found, starting one.[0m
+2025.01.12 20:05:46 INFO  Starting compilation server[0m
+2025.01.12 20:05:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/curry/code/ysyx_curry/.metals/bsp.trace.json or /home/curry/.cache/metals/bsp.trace.json[0m
+2025.01.12 20:05:47 INFO  time: Connected to build server in 2.25s[0m
+2025.01.12 20:05:47 INFO  Connected to Build server: Bloop v2.0.6[0m
+2025.01.12 20:05:47 INFO  time: Imported build in 0.12s[0m
+2025.01.12 20:05:47 INFO  running doctor check[0m
+2025.01.12 20:05:47 INFO  java targets: npc, npc.test[0m
+2025.01.12 20:05:48 INFO  time: indexed workspace in 1.9s[0m
+Jan 12, 2025 8:05:56 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.01.12 20:24:42 INFO  compiling npc (3 scala sources)[0m
+2025.01.12 20:24:46 INFO  time: compiled npc in 3.79s[0m
+2025.01.12 20:24:56 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.12 20:27:18 INFO  compiling npc (1 scala source)[0m
+2025.01.12 20:27:18 INFO  time: compiled npc in 0.57s[0m
+2025.01.12 20:27:55 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.12 20:53:34 INFO  Started: Metals version 1.4.2 in folders '/home/curry/code/ysyx_curry' for client Visual Studio Code 1.96.2.[0m
+2025.01.12 20:53:38 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/config/Configs.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.01.12 20:53:38 INFO  Attempting to connect to the build server...[0m
+2025.01.12 20:53:38 INFO  No running Bloop server found, starting one.[0m
+2025.01.12 20:53:39 INFO  Starting compilation server[0m
+2025.01.12 20:53:39 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/config/Configs.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.01.12 20:53:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/curry/code/ysyx_curry/.metals/bsp.trace.json or /home/curry/.cache/metals/bsp.trace.json[0m
+2025.01.12 20:53:40 INFO  time: Connected to build server in 2.17s[0m
+2025.01.12 20:53:40 INFO  Connected to Build server: Bloop v2.0.6[0m
+2025.01.12 20:53:40 INFO  time: Imported build in 0.12s[0m
+2025.01.12 20:53:40 INFO  running doctor check[0m
+2025.01.12 20:53:40 INFO  java targets: npc, npc.test[0m
+2025.01.12 20:53:45 INFO  time: indexed workspace in 4.94s[0m
+2025.01.12 20:53:46 INFO  compiling npc.test (1 scala source)[0m
+2025.01.12 20:53:49 INFO  time: compiled npc.test in 3.36s[0m
+2025.01.12 21:16:44 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+Jan 12, 2025 9:16:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 30
+Jan 12, 2025 9:19:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 418
+Jan 12, 2025 9:19:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 421
+Jan 12, 2025 9:19:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 422
+Jan 12, 2025 9:19:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 424
+Jan 12, 2025 9:19:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 426
+2025.01.12 21:19:40 INFO  compiling npc (1 scala source)[0m
+2025.01.12 21:19:40 INFO  time: compiled npc in 0.71s[0m
+2025.01.12 21:19:44 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.12 21:21:01 INFO  compiling npc (1 scala source)[0m
+2025.01.12 21:21:01 INFO  time: compiled npc in 0.33s[0m
+2025.01.12 21:21:41 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.12 21:24:41 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+Jan 12, 2025 9:28:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 803
+2025.01.12 21:28:46 INFO  compiling npc (1 scala source)[0m
+2025.01.12 21:28:46 INFO  time: compiled npc in 97ms[0m
+2025.01.12 21:33:54 INFO  compiling npc (1 scala source)[0m
+2025.01.12 21:33:54 INFO  time: compiled npc in 0.13s[0m
+Jan 12, 2025 10:07:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1214
+2025.01.12 22:30:40 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.12 22:33:42 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+Jan 12, 2025 10:36:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1547
+Jan 12, 2025 10:36:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1741
+Jan 12, 2025 10:36:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1815
+2025.01.12 22:37:09 INFO  compiling npc (1 scala source)[0m
+2025.01.12 22:37:09 INFO  time: compiled npc in 0.83s[0m
+2025.01.12 22:40:04 INFO  compiling npc (1 scala source)[0m
+2025.01.12 22:40:04 INFO  time: compiled npc in 0.2s[0m
+2025.01.12 22:40:04 WARN  Could not load snapshot text for /home/curry/code/ysyx_curry/npc/src/main/scala/rv32i/PCReg.scala[0m
+2025.01.12 22:41:28 INFO  compiling npc (2 scala sources)[0m
+2025.01.12 22:41:28 INFO  time: compiled npc in 0.21s[0m
+2025.01.12 22:41:31 WARN  Could not load snapshot text for /home/curry/code/ysyx_curry/npc/src/main/scala/rv32i/PCReg.scala[0m
+2025.01.12 22:41:31 INFO  compiling npc (2 scala sources)[0m
+2025.01.12 22:41:31 INFO  time: compiled npc in 0.11s[0m
+2025.01.12 22:41:31 WARN  Could not load snapshot text for /home/curry/code/ysyx_curry/npc/src/main/scala/rv32i/PCReg.scala[0m
+2025.01.12 22:41:39 WARN  Could not load snapshot text for /home/curry/code/ysyx_curry/npc/src/main/scala/rv32i/PCReg.scala[0m
+2025.01.12 22:41:41 WARN  Could not load snapshot text for /home/curry/code/ysyx_curry/npc/src/main/scala/rv32i/PCReg.scala[0m
+2025.01.12 22:41:42 INFO  compiling npc (2 scala sources)[0m
+2025.01.12 22:41:42 INFO  time: compiled npc in 0.76s[0m
+2025.01.12 22:43:32 INFO  compiling npc (1 scala source)[0m
+2025.01.12 22:43:32 INFO  time: compiled npc in 0.82s[0m
+2025.01.13 10:27:36 INFO  Started: Metals version 1.4.2 in folders '/home/curry/code/ysyx_curry' for client Visual Studio Code 1.96.2.[0m
+2025.01.13 10:27:36 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/rv32i/PCReg.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.01.13 10:27:36 INFO  Attempting to connect to the build server...[0m
+2025.01.13 10:27:36 INFO  No running Bloop server found, starting one.[0m
+2025.01.13 10:27:37 INFO  Starting compilation server[0m
+2025.01.13 10:27:37 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/rv32i/PCReg.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.01.13 10:27:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/curry/code/ysyx_curry/.metals/bsp.trace.json or /home/curry/.cache/metals/bsp.trace.json[0m
+2025.01.13 10:27:39 INFO  time: Connected to build server in 2.25s[0m
+2025.01.13 10:27:39 INFO  Connected to Build server: Bloop v2.0.6[0m
+2025.01.13 10:27:38 INFO  time: Imported build in 0.14s[0m
+2025.01.13 10:27:38 INFO  running doctor check[0m
+2025.01.13 10:27:38 INFO  java targets: npc, npc.test[0m
+2025.01.13 10:27:40 INFO  time: indexed workspace in 1.55s[0m
+2025.01.13 10:28:04 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 10:31:04 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+Jan 13, 2025 10:31:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 172
+2025.01.13 10:31:57 INFO  compiling npc (1 scala source)[0m
+2025.01.13 10:31:59 INFO  time: compiled npc in 1.79s[0m
+2025.01.13 10:31:59 INFO  compiling npc (1 scala source)[0m
+2025.01.13 10:32:00 INFO  time: compiled npc in 1.05s[0m
+2025.01.13 10:32:04 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 10:34:26 INFO  compiling npc.test (1 scala source)[0m
+2025.01.13 10:34:26 INFO  time: compiled npc.test in 0.32s[0m
+2025.01.13 10:34:53 INFO  compiling npc.test (1 scala source)[0m
+2025.01.13 10:34:53 INFO  time: compiled npc.test in 0.13s[0m
+2025.01.13 10:35:04 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 10:35:40 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 10:35:40 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 10:35:40 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 10:35:40 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 10:35:42 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 10:35:48 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 10:35:48 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 10:36:13 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 10:36:13 INFO  no build target found for /home/curry/code/ysyx_curry/npc/project/plugins.sbt. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 10:36:13 INFO  no build target found for /home/curry/code/ysyx_curry/npc/project/plugins.sbt. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 10:36:13 INFO  no build target found for /home/curry/code/ysyx_curry/npc/project/plugins.sbt. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 10:36:14 INFO  no build target found for /home/curry/code/ysyx_curry/npc/project/plugins.sbt. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 10:36:25 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 10:36:25 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 10:36:25 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 10:36:25 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 10:36:37 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 10:36:37 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 10:36:40 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 10:37:15 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 10:37:15 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 10:37:15 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 10:37:19 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 10:37:19 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 10:37:19 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+Jan 13, 2025 10:37:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 710
+Jan 13, 2025 10:41:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://ccbf72f3-1e78-4496-a0b7-8fb03ab83372/response_24c93e11-72fa-483f-a83a-e5c6f1b9c5cf/0#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22external%22%3A%22vscode-remote%3A%2F%2Fwsl%252Bubuntu%2Fhome%2Fcurry%2Fcode%2Fysyx_curry%2Fnpc%2Fbuild.sc%22%2C%22path%22%3A%22%2Fhome%2Fcurry%2Fcode%2Fysyx_curry%2Fnpc%2Fbuild.sc%22%2C%22scheme%22%3A%22vscode-remote%22%2C%22authority%22%3A%22wsl%2Bubuntu%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A1%2C%22startColumn%22%3A1%2C%22endLineNumber%22%3A8%2C%22endColumn%22%3A18%7D%7D%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:774)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:771)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:718)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2025.01.13 10:46:30 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 10:47:12 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 10:47:12 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 10:47:29 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 10:47:29 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 10:47:29 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 10:47:29 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 10:47:29 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 10:47:30 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 10:47:32 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 10:47:32 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 10:47:32 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 10:47:32 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 10:47:33 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 10:47:36 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 10:48:41 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 10:48:54 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 10:49:04 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 10:49:04 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 10:56:50 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 11:02:45 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 11:03:00 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 11:03:00 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sbt. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 11:03:00 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sbt. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 11:03:00 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sbt. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 11:03:00 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sbt. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 11:03:11 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sbt. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 11:03:11 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 11:03:11 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 11:03:11 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 11:03:11 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 11:03:15 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 11:03:20 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 11:03:20 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 11:03:20 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 11:03:21 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 11:26:05 INFO  compiling npc.test (1 scala source)[0m
+2025.01.13 11:26:05 INFO  time: compiled npc.test in 0.18s[0m
+Jan 13, 2025 11:26:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 909
+2025.01.13 11:27:30 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 11:27:30 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 11:27:30 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 11:27:30 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 11:27:32 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 11:27:35 INFO  compiling npc.test (1 scala source)[0m
+2025.01.13 11:27:35 INFO  time: compiled npc.test in 0.42s[0m
+2025.01.13 11:28:41 INFO  compiling npc.test (1 scala source)[0m
+2025.01.13 11:28:41 INFO  time: compiled npc.test in 0.32s[0m
+Jan 13, 2025 11:37:42 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://ccbf72f3-1e78-4496-a0b7-8fb03ab83372/response_66574f30-fa4d-4e8d-af73-e3b0658340c9/0#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22external%22%3A%22vscode-remote%3A%2F%2Fwsl%252Bubuntu%2Fhome%2Fcurry%2Fcode%2Fysyx_curry%2Fnpc%2Fsrc%2Fmain%2Fscala%2Frv32i%2FPCReg.scala%22%2C%22path%22%3A%22%2Fhome%2Fcurry%2Fcode%2Fysyx_curry%2Fnpc%2Fsrc%2Fmain%2Fscala%2Frv32i%2FPCReg.scala%22%2C%22scheme%22%3A%22vscode-remote%22%2C%22authority%22%3A%22wsl%2Bubuntu%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A1%2C%22startColumn%22%3A1%2C%22endLineNumber%22%3A14%2C%22endColumn%22%3A2%7D%7D%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:774)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:771)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:718)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at jdk.internal.reflect.GeneratedMethodAccessor15.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Jan 13, 2025 11:40:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1513
+2025.01.13 11:40:57 INFO  compiling npc.test (1 scala source)[0m
+2025.01.13 11:40:57 INFO  time: compiled npc.test in 0.2s[0m
+2025.01.13 11:42:30 INFO  compiling npc.test (1 scala source)[0m
+2025.01.13 11:42:30 INFO  time: compiled npc.test in 0.27s[0m
+2025.01.13 11:45:00 INFO  compiling npc.test (1 scala source)[0m
+2025.01.13 11:45:00 INFO  time: compiled npc.test in 0.72s[0m
+2025.01.13 11:46:42 INFO  compiling npc.test (1 scala source)[0m
+2025.01.13 11:46:42 INFO  time: compiled npc.test in 0.83s[0m
+2025.01.13 11:46:57 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.01.13 11:50:03 INFO  compiling npc (2 scala sources)[0m
+2025.01.13 11:50:03 INFO  time: compiled npc in 0.76s[0m
+Jan 13, 2025 3:31:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2603
+2025.01.13 15:34:04 INFO  compiling npc.test (1 scala source)[0m
+2025.01.13 15:34:04 INFO  time: compiled npc.test in 0.87s[0m
+Jan 13, 2025 3:37:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2688
+Jan 13, 2025 3:37:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2690
+Jan 13, 2025 3:37:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2691
+Jan 13, 2025 3:37:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2693
+2025.01.13 15:37:50 INFO  compiling npc (1 scala source)[0m
+2025.01.13 15:37:50 INFO  time: compiled npc in 0.45s[0m
+2025.01.13 15:37:50 INFO  compiling npc (1 scala source)[0m
+2025.01.13 15:37:50 INFO  time: compiled npc in 0.1s[0m
+2025.01.13 15:38:36 INFO  compiling npc (2 scala sources)[0m
+2025.01.13 15:38:36 INFO  time: compiled npc in 0.72s[0m
+Jan 13, 2025 3:40:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://62e41b56-af7c-4ee6-af65-4794efec46f0/response_86bb7c93-cf5b-40a5-bc84-236d0ceae989/0#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22external%22%3A%22vscode-remote%3A%2F%2Fwsl%252Bubuntu%2Fhome%2Fcurry%2Fcode%2Fysyx_curry%2Fnpc%2Fsrc%2Fmain%2Fscala%2Fconfig%2FConfigs.scala%22%2C%22path%22%3A%22%2Fhome%2Fcurry%2Fcode%2Fysyx_curry%2Fnpc%2Fsrc%2Fmain%2Fscala%2Fconfig%2FConfigs.scala%22%2C%22scheme%22%3A%22vscode-remote%22%2C%22authority%22%3A%22wsl%2Bubuntu%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A3%2C%22startColumn%22%3A1%2C%22endLineNumber%22%3A12%2C%22endColumn%22%3A2%7D%7D%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:774)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:771)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:718)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at jdk.internal.reflect.GeneratedMethodAccessor15.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Jan 13, 2025 3:40:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://62e41b56-af7c-4ee6-af65-4794efec46f0/response_86bb7c93-cf5b-40a5-bc84-236d0ceae989/0#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22external%22%3A%22vscode-remote%3A%2F%2Fwsl%252Bubuntu%2Fhome%2Fcurry%2Fcode%2Fysyx_curry%2Fnpc%2Fsrc%2Fmain%2Fscala%2Fconfig%2FConfigs.scala%22%2C%22path%22%3A%22%2Fhome%2Fcurry%2Fcode%2Fysyx_curry%2Fnpc%2Fsrc%2Fmain%2Fscala%2Fconfig%2FConfigs.scala%22%2C%22scheme%22%3A%22vscode-remote%22%2C%22authority%22%3A%22wsl%2Bubuntu%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A3%2C%22startColumn%22%3A1%2C%22endLineNumber%22%3A12%2C%22endColumn%22%3A2%7D%7D%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:774)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:771)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:718)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at jdk.internal.reflect.GeneratedMethodAccessor15.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Jan 13, 2025 3:40:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://62e41b56-af7c-4ee6-af65-4794efec46f0/response_5011c820-5623-45d6-9817-26f05f664793/2#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22external%22%3A%22vscode-remote%3A%2F%2Fwsl%252Bubuntu%2Fhome%2Fcurry%2Fcode%2Fysyx_curry%2Fnpc%2Fsrc%2Ftest%2Fscala%2Frv32i%2FPCRegTest.scala%22%2C%22path%22%3A%22%2Fhome%2Fcurry%2Fcode%2Fysyx_curry%2Fnpc%2Fsrc%2Ftest%2Fscala%2Frv32i%2FPCRegTest.scala%22%2C%22scheme%22%3A%22vscode-remote%22%2C%22authority%22%3A%22wsl%2Bubuntu%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A13%2C%22startColumn%22%3A1%2C%22endLineNumber%22%3A23%2C%22endColumn%22%3A1%7D%7D%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:774)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:771)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:718)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at jdk.internal.reflect.GeneratedMethodAccessor15.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Jan 13, 2025 3:40:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://62e41b56-af7c-4ee6-af65-4794efec46f0/response_5011c820-5623-45d6-9817-26f05f664793/0#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22external%22%3A%22vscode-remote%3A%2F%2Fwsl%252Bubuntu%2Fhome%2Fcurry%2Fcode%2Fysyx_curry%2Fnpc%2Fsrc%2Ftest%2Fscala%2Frv32i%2FPCRegTest.scala%22%2C%22path%22%3A%22%2Fhome%2Fcurry%2Fcode%2Fysyx_curry%2Fnpc%2Fsrc%2Ftest%2Fscala%2Frv32i%2FPCRegTest.scala%22%2C%22scheme%22%3A%22vscode-remote%22%2C%22authority%22%3A%22wsl%2Bubuntu%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A13%2C%22startColumn%22%3A1%2C%22endLineNumber%22%3A23%2C%22endColumn%22%3A1%7D%7D%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:774)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:771)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:718)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at jdk.internal.reflect.GeneratedMethodAccessor15.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Jan 13, 2025 3:40:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://62e41b56-af7c-4ee6-af65-4794efec46f0/response_e219db5c-3109-48e6-b77d-8033b827de02/2#%7B%22references%22%3A%5B%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:774)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:771)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:718)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at jdk.internal.reflect.GeneratedMethodAccessor15.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Jan 13, 2025 3:40:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://62e41b56-af7c-4ee6-af65-4794efec46f0/response_e219db5c-3109-48e6-b77d-8033b827de02/3#%7B%22references%22%3A%5B%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:774)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:771)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:718)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at jdk.internal.reflect.GeneratedMethodAccessor15.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Jan 13, 2025 3:40:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://62e41b56-af7c-4ee6-af65-4794efec46f0/response_e219db5c-3109-48e6-b77d-8033b827de02/3#%7B%22references%22%3A%5B%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:774)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:771)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:718)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at jdk.internal.reflect.GeneratedMethodAccessor15.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Jan 13, 2025 3:40:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://62e41b56-af7c-4ee6-af65-4794efec46f0/response_e219db5c-3109-48e6-b77d-8033b827de02/1#%7B%22references%22%3A%5B%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:774)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:771)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:718)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at jdk.internal.reflect.GeneratedMethodAccessor15.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Jan 13, 2025 3:40:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://62e41b56-af7c-4ee6-af65-4794efec46f0/response_5011c820-5623-45d6-9817-26f05f664793/2#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22external%22%3A%22vscode-remote%3A%2F%2Fwsl%252Bubuntu%2Fhome%2Fcurry%2Fcode%2Fysyx_curry%2Fnpc%2Fsrc%2Ftest%2Fscala%2Frv32i%2FPCRegTest.scala%22%2C%22path%22%3A%22%2Fhome%2Fcurry%2Fcode%2Fysyx_curry%2Fnpc%2Fsrc%2Ftest%2Fscala%2Frv32i%2FPCRegTest.scala%22%2C%22scheme%22%3A%22vscode-remote%22%2C%22authority%22%3A%22wsl%2Bubuntu%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A13%2C%22startColumn%22%3A1%2C%22endLineNumber%22%3A23%2C%22endColumn%22%3A1%7D%7D%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:774)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:771)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:718)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at jdk.internal.reflect.GeneratedMethodAccessor15.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Jan 13, 2025 3:40:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://62e41b56-af7c-4ee6-af65-4794efec46f0/response_86bb7c93-cf5b-40a5-bc84-236d0ceae989/0#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22external%22%3A%22vscode-remote%3A%2F%2Fwsl%252Bubuntu%2Fhome%2Fcurry%2Fcode%2Fysyx_curry%2Fnpc%2Fsrc%2Fmain%2Fscala%2Fconfig%2FConfigs.scala%22%2C%22path%22%3A%22%2Fhome%2Fcurry%2Fcode%2Fysyx_curry%2Fnpc%2Fsrc%2Fmain%2Fscala%2Fconfig%2FConfigs.scala%22%2C%22scheme%22%3A%22vscode-remote%22%2C%22authority%22%3A%22wsl%2Bubuntu%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A3%2C%22startColumn%22%3A1%2C%22endLineNumber%22%3A12%2C%22endColumn%22%3A2%7D%7D%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:774)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:771)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:718)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at jdk.internal.reflect.GeneratedMethodAccessor15.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Jan 13, 2025 3:40:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://62e41b56-af7c-4ee6-af65-4794efec46f0/request_fee09ad2-d852-4421-8de6-6371cca09335/0"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:774)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:771)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:718)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at jdk.internal.reflect.GeneratedMethodAccessor15.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Jan 13, 2025 3:40:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://62e41b56-af7c-4ee6-af65-4794efec46f0/response_5011c820-5623-45d6-9817-26f05f664793/1#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22external%22%3A%22vscode-remote%3A%2F%2Fwsl%252Bubuntu%2Fhome%2Fcurry%2Fcode%2Fysyx_curry%2Fnpc%2Fsrc%2Ftest%2Fscala%2Frv32i%2FPCRegTest.scala%22%2C%22path%22%3A%22%2Fhome%2Fcurry%2Fcode%2Fysyx_curry%2Fnpc%2Fsrc%2Ftest%2Fscala%2Frv32i%2FPCRegTest.scala%22%2C%22scheme%22%3A%22vscode-remote%22%2C%22authority%22%3A%22wsl%2Bubuntu%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A13%2C%22startColumn%22%3A1%2C%22endLineNumber%22%3A23%2C%22endColumn%22%3A1%7D%7D%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:774)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:771)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:718)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at jdk.internal.reflect.GeneratedMethodAccessor15.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Jan 13, 2025 3:40:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://62e41b56-af7c-4ee6-af65-4794efec46f0/response_86bb7c93-cf5b-40a5-bc84-236d0ceae989/0#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22external%22%3A%22vscode-remote%3A%2F%2Fwsl%252Bubuntu%2Fhome%2Fcurry%2Fcode%2Fysyx_curry%2Fnpc%2Fsrc%2Fmain%2Fscala%2Fconfig%2FConfigs.scala%22%2C%22path%22%3A%22%2Fhome%2Fcurry%2Fcode%2Fysyx_curry%2Fnpc%2Fsrc%2Fmain%2Fscala%2Fconfig%2FConfigs.scala%22%2C%22scheme%22%3A%22vscode-remote%22%2C%22authority%22%3A%22wsl%2Bubuntu%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A3%2C%22startColumn%22%3A1%2C%22endLineNumber%22%3A12%2C%22endColumn%22%3A2%7D%7D%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:774)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:771)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:718)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at jdk.internal.reflect.GeneratedMethodAccessor15.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2025.01.13 15:40:59 INFO  compiling npc (1 scala source)[0m
+2025.01.13 15:41:00 WARN  Could not load snapshot text for /home/curry/code/ysyx_curry/npc/src/main/scala/config/Configs.scala[0m
+2025.01.13 15:41:00 WARN  Could not load snapshot text for /home/curry/code/ysyx_curry/npc/src/main/scala/config/Configs.scala[0m
+2025.01.13 15:40:59 INFO  time: compiled npc in 0.63s[0m
+2025.01.13 15:41:12 INFO  compiling npc (1 scala source)[0m
+2025.01.13 15:41:12 WARN  Could not load snapshot text for /home/curry/code/ysyx_curry/npc/src/main/scala/rv32i/PCReg.scala[0m
+2025.01.13 15:41:12 WARN  Could not load snapshot text for /home/curry/code/ysyx_curry/npc/src/main/scala/rv32i/PCReg.scala[0m
+2025.01.13 15:41:12 WARN  Could not find 'START_ADDR' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. [0m
+2025.01.13 15:41:12 WARN  Could not load snapshot text for /home/curry/code/ysyx_curry/npc/src/main/scala/rv32i/PCReg.scala[0m
+2025.01.13 15:41:12 WARN  Could not load snapshot text for /home/curry/code/ysyx_curry/npc/src/main/scala/rv32i/PCReg.scala[0m
+2025.01.13 15:41:12 INFO  time: compiled npc in 0.1s[0m
+2025.01.13 15:41:18 WARN  Could not load snapshot text for /home/curry/code/ysyx_curry/npc/src/main/scala/rv32i/PCReg.scala[0m
+2025.01.13 15:41:20 WARN  Could not load snapshot text for /home/curry/code/ysyx_curry/npc/src/main/scala/rv32i/PCReg.scala[0m
+2025.01.13 15:41:21 INFO  time: compiled npc in 3ms[0m
+2025.01.13 15:41:21 INFO  time: compiled npc.test in 2ms[0m
+Jan 13, 2025 3:46:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://62e41b56-af7c-4ee6-af65-4794efec46f0/response_40734d49-20ab-46a4-af4a-4a612e7d4e17/0#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22external%22%3A%22vscode-remote%3A%2F%2Fwsl%252Bubuntu%2Fhome%2Fcurry%2Fcode%2Fysyx_curry%2Fnpc%2Fsrc%2Fmain%2Fscala%2Fconfig%2FConfigs.scala%22%2C%22path%22%3A%22%2Fhome%2Fcurry%2Fcode%2Fysyx_curry%2Fnpc%2Fsrc%2Fmain%2Fscala%2Fconfig%2FConfigs.scala%22%2C%22scheme%22%3A%22vscode-remote%22%2C%22authority%22%3A%22wsl%2Bubuntu%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A1%2C%22startColumn%22%3A1%2C%22endLineNumber%22%3A12%2C%22endColumn%22%3A2%7D%7D%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:774)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:771)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:718)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at jdk.internal.reflect.GeneratedMethodAccessor15.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Jan 13, 2025 3:47:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2980
+2025.01.13 17:45:26 INFO  compiling npc (1 scala source)[0m
+2025.01.13 17:45:26 INFO  time: compiled npc in 0.12s[0m
+Jan 13, 2025 5:45:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3073
+Jan 13, 2025 5:45:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3074
+2025.01.13 17:45:44 INFO  compiling npc (1 scala source)[0m
+2025.01.13 17:45:44 INFO  time: compiled npc in 0.45s[0m
+2025.01.13 17:45:44 INFO  compiling npc (1 scala source)[0m
+2025.01.13 17:45:44 INFO  time: compiled npc in 0.13s[0m
+2025.01.13 17:45:55 INFO  compiling npc (2 scala sources)[0m
+2025.01.13 17:45:55 INFO  time: compiled npc in 0.55s[0m
+2025.01.13 17:45:55 INFO  time: compiled npc.test in 2ms[0m
+Jan 13, 2025 5:46:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3135
+2025.01.13 17:46:40 INFO  compiling npc (1 scala source)[0m
+2025.01.13 17:46:40 INFO  time: compiled npc in 0.58s[0m
+Jan 13, 2025 5:46:40 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jan 13, 2025 5:46:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3188
+2025.01.13 17:46:46 INFO  compiling npc (1 scala source)[0m
+2025.01.13 17:46:46 INFO  time: compiled npc in 0.31s[0m
+Jan 13, 2025 5:47:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://62e41b56-af7c-4ee6-af65-4794efec46f0/response_94729f0a-4a9e-45a5-bc20-807055208151/0#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22external%22%3A%22vscode-remote%3A%2F%2Fwsl%252Bubuntu%2Fhome%2Fcurry%2Fcode%2Fysyx_curry%2Fnpc%2Fsrc%2Ftest%2Fscala%2Frv32i%2FPCRegTest.scala%22%2C%22path%22%3A%22%2Fhome%2Fcurry%2Fcode%2Fysyx_curry%2Fnpc%2Fsrc%2Ftest%2Fscala%2Frv32i%2FPCRegTest.scala%22%2C%22scheme%22%3A%22vscode-remote%22%2C%22authority%22%3A%22wsl%2Bubuntu%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A7%2C%22startColumn%22%3A1%2C%22endLineNumber%22%3A20%2C%22endColumn%22%3A10%7D%7D%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:774)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:771)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:718)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at jdk.internal.reflect.GeneratedMethodAccessor15.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2025.01.13 17:47:40 INFO  compiling npc.test (1 scala source)[0m
+2025.01.13 17:47:40 INFO  time: compiled npc.test in 0.56s[0m
+2025.01.13 17:48:08 INFO  compiling npc (1 scala source)[0m
+2025.01.13 17:48:08 INFO  time: compiled npc in 0.49s[0m
+2025.01.13 17:48:27 INFO  compiling npc (1 scala source)[0m
+2025.01.13 17:48:27 INFO  time: compiled npc in 0.3s[0m
+2025.01.13 17:48:53 INFO  compiling npc (1 scala source)[0m
+2025.01.13 17:48:54 WARN  Could not load snapshot text for /home/curry/code/ysyx_curry/npc/src/main/scala/rv32i/PCReg.scala[0m
+2025.01.13 17:48:54 WARN  Could not load snapshot text for /home/curry/code/ysyx_curry/npc/src/main/scala/rv32i/PCReg.scala[0m
+2025.01.13 17:48:54 WARN  Could not find 'RegInit' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. [0m
+2025.01.13 17:48:54 WARN  Could not load snapshot text for /home/curry/code/ysyx_curry/npc/src/main/scala/rv32i/PCReg.scala[0m
+2025.01.13 17:48:54 WARN  Could not load snapshot text for /home/curry/code/ysyx_curry/npc/src/main/scala/rv32i/PCReg.scala[0m
+2025.01.13 17:48:54 WARN  Could not load snapshot text for /home/curry/code/ysyx_curry/npc/src/main/scala/rv32i/PCReg.scala[0m
+2025.01.13 17:48:54 WARN  Could not load snapshot text for /home/curry/code/ysyx_curry/npc/src/main/scala/rv32i/PCReg.scala[0m
+2025.01.13 17:48:54 WARN  Could not load snapshot text for /home/curry/code/ysyx_curry/npc/src/main/scala/rv32i/PCReg.scala[0m
+2025.01.13 17:48:54 WARN  Could not load snapshot text for /home/curry/code/ysyx_curry/npc/src/main/scala/rv32i/PCReg.scala[0m
+2025.01.13 17:48:53 INFO  time: compiled npc in 0.66s[0m
+2025.01.13 18:51:58 INFO  compiling npc (1 scala source)[0m
+2025.01.13 18:51:58 INFO  time: compiled npc in 0.31s[0m
+Jan 13, 2025 6:52:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3717
+2025.01.13 18:52:33 INFO  compiling npc (1 scala source)[0m
+2025.01.13 18:52:33 INFO  time: compiled npc in 0.27s[0m
+Jan 13, 2025 7:05:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3994
+Jan 13, 2025 7:06:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4133
+2025.01.13 19:09:07 INFO  compiling npc (1 scala source)[0m
+2025.01.13 19:09:07 INFO  time: compiled npc in 0.13s[0m
+2025.01.13 19:09:58 INFO  compiling npc (3 scala sources)[0m
+2025.01.13 19:09:58 INFO  time: compiled npc in 0.15s[0m
+2025.01.13 19:10:00 INFO  compiling npc (3 scala sources)[0m
+2025.01.13 19:10:00 INFO  time: compiled npc in 0.15s[0m
+2025.01.13 19:10:00 INFO  compiling npc (3 scala sources)[0m
+2025.01.13 19:10:00 INFO  time: compiled npc in 0.14s[0m
+2025.01.13 19:10:57 INFO  compiling npc (3 scala sources)[0m
+2025.01.13 19:10:57 INFO  time: compiled npc in 0.77s[0m
+2025.01.13 19:10:57 INFO  time: compiled npc.test in 2ms[0m
+2025.01.13 21:28:22 INFO  Shutting down server[0m
+2025.01.13 21:28:22 INFO  shutting down Metals[0m
+2025.01.13 21:28:22 INFO  Shut down connection with build server.[0m
+2025.01.13 21:28:22 INFO  Exiting server[0m

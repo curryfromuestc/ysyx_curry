@@ -1,3 +1,2 @@
-Detected Mill version change ? -> 0.12.5. Dropping previous incremental compilation state
 [0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/curry/code/ysyx_curry/npc/out/mill-build/compile.dest/classes ...[0m
 [0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
