@@ -1,8 +1,8 @@
 {
     "value": [
-        "ref:v0:f2f57623:/home/curry/code/ysyx_curry/npc/build.sc",
-        "ref:v0:dc252282:/home/curry/code/ysyx_curry/npc/out/mill-build/generateScriptSources.dest"
+        "ref:v0:550de6e6:/home/curry/code/ysyx_curry/npc/build.sc",
+        "ref:v0:f2ed3afd:/home/curry/code/ysyx_curry/npc/out/mill-build/generateScriptSources.dest"
     ],
-    "valueHash": 1787007639,
-    "inputsHash": 591796004
+    "valueHash": 484947543,
+    "inputsHash": -1099757879
 }

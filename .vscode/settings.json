@@ -4,5 +4,8 @@
         "random": "c",
         "paddr.h": "c",
         "getopt.h": "c"
+    },
+    "files.watcherExclude": {
+        "**/target": true
     }
 }

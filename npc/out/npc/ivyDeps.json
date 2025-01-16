@@ -1,0 +1,45 @@
+{
+    "value": [
+        {
+            "dep": {
+                "module": {
+                    "organization": {
+                        "value": "org.chipsalliance"
+                    },
+                    "name": {
+                        "value": "chisel"
+                    },
+                    "attributes": {}
+                },
+                "version": "6.6.0",
+                "configuration": {
+                    "value": "default(compile)"
+                },
+                "minimizedExclusions": {
+                    "data": "coursier.core.MinimizedExclusions.ExcludeNone"
+                },
+                "publication": {
+                    "name": "",
+                    "type": {
+                        "value": ""
+                    },
+                    "ext": {
+                        "value": ""
+                    },
+                    "classifier": {
+                        "value": ""
+                    }
+                },
+                "optional": false,
+                "transitive": true
+            },
+            "cross": {
+                "$type": "mill.scalalib.CrossVersion.Binary",
+                "platformed": false
+            },
+            "force": false
+        }
+    ],
+    "valueHash": -1488160838,
+    "inputsHash": 1308353842
+}

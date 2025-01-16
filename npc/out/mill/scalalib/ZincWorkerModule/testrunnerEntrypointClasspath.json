@@ -1,8 +1,8 @@
 {
     "value": [
-        "qref:v1:61fc2872:/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/mill-testrunner-entrypoint/0.12.5/mill-testrunner-entrypoint-0.12.5.jar",
-        "qref:v1:9ca2e086:/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar"
+        "qref:v0:c767b1b2:/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/mill-testrunner-entrypoint/0.11.5/mill-testrunner-entrypoint-0.11.5.jar",
+        "qref:v0:9ca2e086:/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar"
     ],
-    "valueHash": 19962376,
-    "inputsHash": -1481495761
+    "valueHash": -1914213659,
+    "inputsHash": 680874816
 }

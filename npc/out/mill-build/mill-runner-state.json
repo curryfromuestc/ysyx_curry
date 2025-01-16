@@ -1,37 +1,51 @@
 {
     "workerCache": {
         "mill.scalalib.ZincWorkerModule.worker": {
-            "identityHashCode": 70788844,
-            "inputHash": 751387656
+            "identityHashCode": 150113797,
+            "inputHash": -1907258016
         }
     },
     "evalWatched": [
+        "qref:v0:1479c276:/home/curry/code/ysyx_curry/npc/out/mill-launcher/0.11.5.jar",
         "ref:v0:c984eca8:/home/curry/code/ysyx_curry/npc/mill-build/src",
-        "qref:v0:457201db:/home/curry/code/ysyx_curry/npc/out/mill-launcher/0.12.5.jar",
-        "ref:v0:f2f57623:/home/curry/code/ysyx_curry/npc/build.sc",
         "ref:v0:c984eca8:/home/curry/code/ysyx_curry/npc/mill-build/compile-resources",
-        "ref:v0:c984eca8:/home/curry/code/ysyx_curry/npc/mill-build/resources"
+        "ref:v0:c984eca8:/home/curry/code/ysyx_curry/npc/mill-build/resources",
+        "ref:v0:550de6e6:/home/curry/code/ysyx_curry/npc/build.sc"
     ],
     "moduleWatched": [],
+    "scriptImportGraph": [
+        [
+            "/home/curry/code/ysyx_curry/npc/build.sc",
+            [
+                -131807256,
+                []
+            ]
+        ]
+    ],
     "classLoaderIdentity": [
-        401092374
+        -1488724541
     ],
     "runClasspath": [
-        "qref:v1:147a7190:/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/mill-moduledefs_2.13/0.11.1/mill-moduledefs_2.13-0.11.1.jar",
-        "qref:v1:66635991:/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.15/scala-library-2.13.15.jar",
-        "ref:v0:c984eca8:/home/curry/code/ysyx_curry/npc/mill-build/compile-resources",
-        "qref:v0:457201db:/home/curry/code/ysyx_curry/npc/out/mill-launcher/0.12.5.jar",
-        "qref:v1:3e3d72cd:/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/mill-runner-linenumbers_2.13/0.12.5/mill-runner-linenumbers_2.13-0.12.5.jar",
-        "qref:v1:930501cd:/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.15/scala-compiler-2.13.15.jar",
-        "qref:v1:66635991:/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.15/scala-library-2.13.15.jar",
-        "qref:v1:147a7190:/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/mill-moduledefs_2.13/0.11.1/mill-moduledefs_2.13-0.11.1.jar",
-        "qref:v1:af4ba822:/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/mill-main-client/0.12.5/mill-main-client-0.12.5.jar",
-        "qref:v1:0d6dad67:/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.15/scala-reflect-2.13.15.jar",
-        "qref:v1:c3fede0e:/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.jar",
-        "qref:v1:756f448c:/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.26.3/jline-3.26.3.jar",
-        "qref:v1:93dd03ee:/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.14.0/jna-5.14.0.jar",
+        "qref:v1:647bb4c6:/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/mill-moduledefs_2.13/0.10.9/mill-moduledefs_2.13-0.10.9.jar",
+        "qref:v1:0004e741:/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.jar",
+        "qref:v1:388af458:/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.12/scala-compiler-2.13.12.jar",
         "qref:v1:589290b0:/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.13/0.3.0/sourcecode_2.13-0.3.0.jar",
-        "ref:v0:290952d6:/home/curry/code/ysyx_curry/npc/out/mill-build/compile.dest/classes"
+        "qref:v1:9ddb38f4:/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.12/scala-reflect-2.13.12.jar",
+        "qref:v1:c3fede0e:/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.jar",
+        "qref:v1:cc689ca3:/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.22.0/jline-3.22.0.jar",
+        "qref:v1:85acd520:/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar",
+        "ref:v0:c984eca8:/home/curry/code/ysyx_curry/npc/mill-build/compile-resources",
+        "qref:v0:1479c276:/home/curry/code/ysyx_curry/npc/out/mill-launcher/0.11.5.jar",
+        "qref:v0:e7fe5226:/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/mill-runner-linenumbers_2.13/0.11.5/mill-runner-linenumbers_2.13-0.11.5.jar",
+        "qref:v0:388af458:/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.12/scala-compiler-2.13.12.jar",
+        "qref:v0:0004e741:/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.jar",
+        "qref:v0:647bb4c6:/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/mill-moduledefs_2.13/0.10.9/mill-moduledefs_2.13-0.10.9.jar",
+        "qref:v0:9ddb38f4:/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.12/scala-reflect-2.13.12.jar",
+        "qref:v0:c3fede0e:/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.jar",
+        "qref:v0:cc689ca3:/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.22.0/jline-3.22.0.jar",
+        "qref:v0:85acd520:/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar",
+        "qref:v0:589290b0:/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.13/0.3.0/sourcecode_2.13-0.3.0.jar",
+        "ref:v0:4b66e413:/home/curry/code/ysyx_curry/npc/out/mill-build/compile.dest/classes"
     ],
-    "runClasspathHash": -2075679219
+    "runClasspathHash": -1621167033
 }
