@@ -76,11 +76,11 @@
         "qref:v1:6cc36184:/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.18/jansi-1.18.jar",
         "ref:v0:c984eca8:/home/curry/code/ysyx_curry/npc/compile-resources",
         "ref:v0:c984eca8:/home/curry/code/ysyx_curry/npc/src/main/resources",
-        "ref:v0:10a9cd16:/home/curry/code/ysyx_curry/npc/out/npc/compile.dest/classes",
+        "ref:v0:4ec760d3:/home/curry/code/ysyx_curry/npc/out/npc/compile.dest/classes",
         "ref:v0:c984eca8:/home/curry/code/ysyx_curry/npc/compile-resources",
         "ref:v0:c984eca8:/home/curry/code/ysyx_curry/npc/src/test/resources",
         "ref:v0:16805757:/home/curry/code/ysyx_curry/npc/out/npc/test/compile.dest/classes"
     ],
-    "valueHash": -810304974,
-    "inputsHash": 301504259
+    "valueHash": -1030659519,
+    "inputsHash": -602242772
 }

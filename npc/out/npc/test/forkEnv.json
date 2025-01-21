@@ -3,7 +3,7 @@
         "NAME": "curry",
         "VSCODE_GIT_ASKPASS_MAIN": "/home/curry/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/extensions/git/dist/askpass-main.js",
         "CONDA_EXE": "/home/curry/miniconda3/bin/conda",
-        "WSL_INTEROP": "/run/WSL/536_interop",
+        "WSL_INTEROP": "/run/WSL/7275_interop",
         "USER": "curry",
         "PULSE_SERVER": "unix:/mnt/wslg/PulseServer",
         "_": "/usr/local/bin/mill",
@@ -12,7 +12,7 @@
         "SHELL": "/bin/bash",
         "LOGNAME": "curry",
         "VSCODE_GIT_ASKPASS_NODE": "/home/curry/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/node",
-        "PATH": "/home/curry/Xilinx/Vivado/2024.1/bin:/usr/lib/ccache:/home/curry/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/bin/remote-cli:/home/curry/miniconda3/bin:/home/curry/miniconda3/condabin:/home/curry/Xilinx/Vivado/2024.1/bin:/usr/lib/ccache:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MATLAB/R2024a/runtime/win64:/mnt/c/Program Files/MATLAB/R2024a/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Users/21047/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/21047/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/curry/.cache/scalacli/local-repo/bin/scala-cli:/home/curry/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand",
+        "PATH": "/home/curry/code/yosys-sta:/home/curry/Xilinx/Vivado/2024.2/bin:/home/curry/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/bin/remote-cli:/home/curry/code/yosys-sta:/home/curry/Xilinx/Vivado/2024.2/bin:/home/curry/miniconda3/bin:/home/curry/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files/dotnet:/mnt/c/Program Files/MATLAB/R2024a/runtime/win64:/mnt/c/Program Files/MATLAB/R2024a/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/ProgramData/miniconda3:/mnt/c/ProgramData/miniconda3/Scripts:/mnt/c/ProgramData/miniconda3/Library/bin:/mnt/c/Users/21047/AppData/Local/Microsoft/WindowsApps:/mnt/c/ProgramData/Microsoft VS Code/bin:/snap/bin:/home/curry/.cache/scalacli/local-repo/bin/scala-cli:/home/curry/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand",
         "_CE_M": "",
         "TERM": "xterm-256color",
         "LESSCLOSE": "/usr/bin/lesspipe %s %s",
@@ -46,9 +46,9 @@
         "WSL2_GUI_APPS_ENABLED": "1",
         "VSCODE_GIT_IPC_HANDLE": "/run/user/1000/vscode-git-9c29cffea4.sock",
         "CONDA_PROMPT_MODIFIER": "(base) ",
-        "VSCODE_IPC_HOOK_CLI": "/run/user/1000/vscode-ipc-0bc7e849-7292-4bd6-8ad2-57b52ac77cb1.sock",
+        "VSCODE_IPC_HOOK_CLI": "/run/user/1000/vscode-ipc-9f7c96ff-bece-4cd4-ba63-88bd7a91f92d.sock",
         "WSLENV": "VSCODE_WSL_EXT_LOCATION/up"
     },
-    "valueHash": 1565227966,
-    "inputsHash": 1137135633
+    "valueHash": 12242444,
+    "inputsHash": -1093682444
 }

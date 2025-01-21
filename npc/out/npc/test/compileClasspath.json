@@ -75,8 +75,8 @@
         "qref:v1:02881b91:/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/xbean/xbean-reflect/3.7/xbean-reflect-3.7.jar",
         "qref:v1:6cc36184:/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.18/jansi-1.18.jar",
         "ref:v0:c984eca8:/home/curry/code/ysyx_curry/npc/compile-resources",
-        "ref:v0:10a9cd16:/home/curry/code/ysyx_curry/npc/out/npc/compile.dest/classes"
+        "ref:v0:4ec760d3:/home/curry/code/ysyx_curry/npc/out/npc/compile.dest/classes"
     ],
-    "valueHash": 1569159601,
-    "inputsHash": 1762532052
+    "valueHash": -1980083811,
+    "inputsHash": 1150236495
 }
