@@ -1,15 +1,15 @@
 {
     "value": [
-        "\u001b[36mRun completed in 2 seconds, 839 milliseconds.\u001b[0m\n\u001b[36mTotal number of tests run: 1\u001b[0m\n\u001b[36mSuites: completed 1, aborted 0\u001b[0m\n\u001b[36mTests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0\u001b[0m\n\u001b[32mAll tests passed.\u001b[0m",
+        "\u001b[36mRun completed in 8 seconds, 170 milliseconds.\u001b[0m\n\u001b[36mTotal number of tests run: 1\u001b[0m\n\u001b[36mSuites: completed 1, aborted 0\u001b[0m\n\u001b[36mTests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0\u001b[0m\n\u001b[32mAll tests passed.\u001b[0m",
         [
             {
                 "fullyQualifiedName": "rv32i.PCRegTest",
                 "selector": "PCReg should do something",
-                "duration": 2670,
+                "duration": 7890,
                 "status": "Success"
             }
         ]
     ],
-    "valueHash": 578785057,
-    "inputsHash": -968539907
+    "valueHash": -1722226508,
+    "inputsHash": -497323640
 }
