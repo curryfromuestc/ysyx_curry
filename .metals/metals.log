@@ -1060,3 +1060,18 @@ Jan 28, 2025 6:12:11 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notif
 WARNING: Unsupported notification method: metals/windowStateDidChange
 Jan 28, 2025 6:14:54 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.02.07 10:28:10 INFO  Started: Metals version 1.5.1 in folders '/home/curry/code/ysyx_curry' for client Visual Studio Code 1.96.4.[0m
+2025.02.07 10:28:12 INFO  Attempting to connect to the build server...[0m
+2025.02.07 10:28:12 INFO  No running Bloop server found, starting one.[0m
+2025.02.07 10:28:13 INFO  Starting compilation server[0m
+2025.02.07 10:28:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/curry/code/ysyx_curry/.metals/bsp.trace.json or /home/curry/.cache/metals/bsp.trace.json[0m
+2025.02.07 10:28:14 INFO  time: Connected to build server in 2.08s[0m
+2025.02.07 10:28:14 INFO  Connected to Build server: Bloop v2.0.8[0m
+2025.02.07 10:28:14 INFO  time: Imported build in 0.12s[0m
+2025.02.07 10:28:14 INFO  running doctor check[0m
+2025.02.07 10:28:14 INFO  java targets: npc, npc.test[0m
+2025.02.07 10:28:19 INFO  time: indexed workspace in 4.72s[0m
+2025.02.07 10:28:19 INFO  compiling npc (3 scala sources)[0m
+2025.02.07 10:28:22 INFO  compiling npc.test (1 scala source)[0m
+2025.02.07 10:28:22 INFO  time: compiled npc in 2.85s[0m
+2025.02.07 10:28:22 INFO  time: compiled npc.test in 0.71s[0m
