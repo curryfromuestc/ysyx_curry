@@ -17,7 +17,8 @@
 #include <cpu/decode.h>
 #include <cpu/difftest.h>
 #include <locale.h>
-#include </home/curry/code/ysyx_curry/nemu/src/monitor/sdb/watchpoint.h>
+#include "../monitor/sdb/watchpoint.h"
+#include "../utils/local-include/itrace.h"
 
 /* The assembly code of instructions executed is only output to the screen
  * when the number of instructions executed is less than this value.
@@ -115,6 +116,7 @@ static void statistic() {
 }
 
 void assert_fail_msg() {
+  display_inst();
   isa_reg_display();
   statistic();
 }
