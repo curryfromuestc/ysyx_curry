@@ -1,3 +1,3 @@
-NAME = crc32
-SRCS = tests/crc32.c
+NAME = bubble-sort
+SRCS = tests/bubble-sort.c
 include /home/curry/code/ysyx_curry/abstract-machine/Makefile
