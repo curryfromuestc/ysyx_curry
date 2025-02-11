@@ -1,6 +1,6 @@
 [1;34m[src/utils/log.c:30 init_log] Log is written to /home/curry/code/ysyx_curry/am-kernels/tests/cpu-tests/build/nemu-log.txt[0m
 [1;34m[src/memory/paddr.c:51 init_mem] physical memory area [0x80000000, 0x87ffffff][0m
-[1;34m[src/monitor/monitor.c:61 load_img] The image is /home/curry/code/ysyx_curry/am-kernels/tests/cpu-tests/build/fact-riscv32-nemu.bin, size = 452[0m
+[1;34m[src/monitor/monitor.c:61 load_img] The image is /home/curry/code/ysyx_curry/am-kernels/tests/cpu-tests/build/if-else-riscv32-nemu.bin, size = 456[0m
 [1;34m[src/cpu/difftest/dut.c:84 init_difftest] Differential testing: [1;32mON[0m[0m
 [1;34m[src/cpu/difftest/dut.c:85 init_difftest] The result of every instruction will be compared with /home/curry/code/ysyx_curry/nemu/tools/spike-diff/build/riscv32-spike-so. This will help you a lot for debugging, but also significantly reduce the performance. If it is not necessary, you can turn it off in menuconfig.[0m
 [1;34m[src/monitor/monitor.c:28 welcome] Trace: [1;32mON[0m[0m
