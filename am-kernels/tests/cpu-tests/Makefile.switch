@@ -1,3 +1,3 @@
-NAME = goldbach
-SRCS = tests/goldbach.c
+NAME = switch
+SRCS = tests/switch.c
 include /home/curry/code/ysyx_curry/abstract-machine/Makefile
