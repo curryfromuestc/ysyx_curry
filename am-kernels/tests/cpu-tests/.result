@@ -24,3 +24,4 @@
 [        string] [1;31m***FAIL***[0m
 [         mov-c] [1;31m***FAIL***[0m
 [    quick-sort] [1;31m***FAIL***[0m
+[     leap-year] [1;31m***FAIL***[0m
