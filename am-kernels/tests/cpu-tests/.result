@@ -3,3 +3,4 @@
 [       unalign] [1;32mPASS[0m
 [         shift] [1;32mPASS[0m
 [ to-lower-case] [1;32mPASS[0m
+[  add-longlong] [1;32mPASS[0m
