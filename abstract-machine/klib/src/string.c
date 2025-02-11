@@ -8,123 +8,166 @@ size_t strlen(const char *s) {
   if (s == NULL) {
     return 0;
   }
-  size_t len = 0;
-  while (s[len] != '\0') {
-    len++;
+  size_t n = 0;
+  while(s[n] != '\0') {
+    n++;
   }
-  return len;
+  return n;
 }
 
 char *strcpy(char *dst, const char *src) {
-  assert(dst != NULL && src != NULL);
-
-  char *tmp = dst;
-
-  while(*src != '\0')
-  {
-    *tmp++ = *src++;
+  if (src == NULL || dst == NULL) {  
+    return dst;
   }
-  *tmp = '\0';
-  
-  return dst;
+  char *res = dst;
+  while(*src != '\0'){
+    *dst = *src;
+    dst++;
+    src++;
+  }  
+  *dst = '\0';
+  return res;
+
 }
 
-
+//unused
 char *strncpy(char *dst, const char *src, size_t n) {
-  size_t i = 0;
-  for(i = 0; src[i] != '\0'; i++){
-    dst[i] = src[i];
+  if (src == NULL || dst == NULL) {
+    return dst;
   }
+  char *ans = dst;
+  while (*src != '\0' && n != 0) {
+    *dst = *src;
+    ++dst;
+    ++src;
+    --n;
+  }
+  while (n != 0) {
+    *dst = '\0';
+    ++dst;
+    --n;
+  }
+  return ans;
 
-  dst[i] = '\0';
-  return dst;
 }
 
+//unused
 char *strcat(char *dst, const char *src) {
-  size_t len = strlen(dst);
-  strcpy(dst + len, src);
-  return dst;
+  if (src == NULL || dst == NULL) {
+    return dst;
+  }
+  char *ans = dst;
+  while (*dst != '\0') {
+    ++dst;
+  }
+  do {
+    *dst = *src;
+    dst++;
+    src++;
+  } while(*src != '\0');  
+  return ans;
+
 }
 
 int strcmp(const char *s1, const char *s2) {
-  while (*s1 != '\0' && *s2 != '\0') {
-    if (*s1 != *s2) {
-      return *s1 - *s2;
-    }
+  if (s1 == NULL || s2 == NULL) {
+    return 0;
+  }
+  while (*s1 != '\0' && *s2 != '\0' && *s1 == *s2) {
     s1++;
     s2++;
   }
-  return *s1 - *s2;
+  return *s1 == *s2 ? 0 : (unsigned char)*s1 < (unsigned char)*s2 ? -1 : 1;
+
 }
 
 int strncmp(const char *s1, const char *s2, size_t n) {
-  size_t i = 0;
-  while (i < n && s1[i] != '\0' && s2[i] != '\0') {
-    if (s1[i] != s2[i]) {
-      return s1[i] - s2[i];
-    }
-    i++;
-  }
-  if (i == n) {
+  if (s1 == NULL || s2 == NULL) {
     return 0;
   }
-  return s1[i] - s2[i];
+  while (n != 0 && *s1 != '\0' && *s2 != '\0' && *s1 == *s2) {
+    --n;
+    ++s1;
+    ++s2;
+  }
+  
+  return *s1 == *s2 || n == 0 ? 0 : (unsigned char)*s1 < (unsigned char)*s2 ? -1 : 1;
+
 }
 
 void *memset(void *s, int c, size_t n) {
-  char *p = s;
-  while (n-- > 0) {
-    *p++ = c;
+  if (s == NULL) {
+    return s;
+  }
+  unsigned char *src = s;  
+  unsigned char value = (unsigned char)c;
+  while (n != 0) {
+    --n;
+    *src = value;
+    ++src;
   }
   return s;
+
 }
 
+//unused
 void *memmove(void *dst, const void *src, size_t n) {
-  if(dst < src)
-  {
-	  char *d = (char *) dst;
-	  char *s = (char *) src;
-	  while(n--)
-	  {
-		  *d = *s;
-		  d++;
-		  s++;
-	  }
+  if (dst == NULL || src == NULL || n == 0 || dst == src) {
+    return dst;
   }
-  else
-  {
-	  char *d = (char *) dst + n - 1;
-	  char *s = (char *) src + n - 1;
-	  while(n--)
-	  {
-		  *d = *s;
-		  d--;
-		  s--;
-	  }
+  unsigned char *dest = dst;
+  const unsigned char *source = src;
+  if (dst < src) {
+    while (n != 0) {
+      --n;
+      *dest = *source;
+      ++dest;
+      ++source;
+    }
+  } else {
+    dest += n;
+    source += n;
+    while (n != 0) {
+      --n;
+      --dest;
+      --source;
+      *dest = *source;
+    }
   }
   return dst;
+
 }
 
+
 void *memcpy(void *out, const void *in, size_t n) {
-  char *d = out;
-  const char *s = in;
-  while (n-- > 0) {
-    *d++ = *s++;
+  if (out == NULL || in == NULL || n == 0 || out == in) {
+    return out;
+  }
+  unsigned char *dest = out;
+  const unsigned char *src = in;
+  while (n != 0) {
+    *dest = *src;
+    --n;
+    ++dest;
+    ++src;
   }
   return out;
+
 }
 
 int memcmp(const void *s1, const void *s2, size_t n) {
-  const unsigned char *p1 = s1;
-  const unsigned char *p2 = s2;
-  while (n-- > 0) {
-    if (*p1 != *p2) {
-      return *p1 - *p2;
-    }
-    p1++;
-    p2++;
+  if (s1 == NULL || s2 == NULL) {
+    return 0;
   }
-  return 0;
+  const unsigned char *src1 = s1;
+  const unsigned char *src2 = s2;
+  while (n != 0 && *src1 != '\0' && *src2 != '\0' && *src1 == *src2) {
+    --n;
+    ++src1;
+    ++src2;
+  }
+  return *src1 == *src2 || n == 0 ? 0 : *src1 < *src2 ? -1 : 1;
+
 }
 
 #endif
