@@ -29,3 +29,4 @@
 [        pascal] [1;32mPASS[0m
 [           add] [1;32mPASS[0m
 [  mul-longlong] [1;32mPASS[0m
+[           fib] [1;32mPASS[0m
