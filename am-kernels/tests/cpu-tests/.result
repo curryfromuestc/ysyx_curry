@@ -6,3 +6,4 @@
 [  add-longlong] [1;32mPASS[0m
 [         movsx] [1;32mPASS[0m
 [     hello-str] [1;32mPASS[0m
+[     recursion] [1;32mPASS[0m
