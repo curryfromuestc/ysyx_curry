@@ -4,3 +4,4 @@
 [         shift] [1;31m***FAIL***[0m
 [ to-lower-case] [1;31m***FAIL***[0m
 [  add-longlong] [1;31m***FAIL***[0m
+[         movsx] [1;31m***FAIL***[0m
