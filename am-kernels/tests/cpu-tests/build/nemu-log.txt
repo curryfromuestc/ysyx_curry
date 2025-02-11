@@ -1,6 +1,6 @@
 [1;34m[src/utils/log.c:30 init_log] Log is written to /home/curry/code/ysyx_curry/am-kernels/tests/cpu-tests/build/nemu-log.txt[0m
 [1;34m[src/memory/paddr.c:51 init_mem] physical memory area [0x80000000, 0x87ffffff][0m
-[1;34m[src/monitor/monitor.c:61 load_img] The image is /home/curry/code/ysyx_curry/am-kernels/tests/cpu-tests/build/matrix-mul-riscv32-nemu.bin, size = 2020[0m
+[1;34m[src/monitor/monitor.c:61 load_img] The image is /home/curry/code/ysyx_curry/am-kernels/tests/cpu-tests/build/min3-riscv32-nemu.bin, size = 712[0m
 [1;34m[src/cpu/difftest/dut.c:84 init_difftest] Differential testing: [1;32mON[0m[0m
 [1;34m[src/cpu/difftest/dut.c:85 init_difftest] The result of every instruction will be compared with /home/curry/code/ysyx_curry/nemu/tools/spike-diff/build/riscv32-spike-so. This will help you a lot for debugging, but also significantly reduce the performance. If it is not necessary, you can turn it off in menuconfig.[0m
 [1;34m[src/monitor/monitor.c:28 welcome] Trace: [1;32mON[0m[0m
@@ -8,6 +8,6 @@
 [1;34m[src/monitor/monitor.c:32 welcome] Build time: 20:05:49, Jan 21 2025[0m
 0x80000000: 00 00 04 13 mv	s0, zero
 [1;34m[src/cpu/cpu-exec.c:145 cpu_exec] nemu: [1;31mABORT[0m at pc = 0x80000000[0m
-[1;34m[src/cpu/cpu-exec.c:112 statistic] host time spent = 47 us[0m
+[1;34m[src/cpu/cpu-exec.c:112 statistic] host time spent = 46 us[0m
 [1;34m[src/cpu/cpu-exec.c:113 statistic] total guest instructions = 1[0m
-[1;34m[src/cpu/cpu-exec.c:114 statistic] simulation frequency = 21,276 inst/s[0m
+[1;34m[src/cpu/cpu-exec.c:114 statistic] simulation frequency = 21,739 inst/s[0m
