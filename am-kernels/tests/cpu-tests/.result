@@ -6,3 +6,4 @@
 [  add-longlong] [1;31m***FAIL***[0m
 [         movsx] [1;31m***FAIL***[0m
 [     hello-str] [1;31m***FAIL***[0m
+[     recursion] [1;31m***FAIL***[0m
