@@ -8,3 +8,4 @@
 [     hello-str] [1;31m***FAIL***[0m
 [     recursion] [1;31m***FAIL***[0m
 [   select-sort] [1;31m***FAIL***[0m
+[         crc32] [1;31m***FAIL***[0m
