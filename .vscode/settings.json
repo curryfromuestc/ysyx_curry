@@ -3,7 +3,15 @@
         "system_error": "cpp",
         "random": "c",
         "paddr.h": "c",
-        "getopt.h": "c"
+        "getopt.h": "c",
+        "locale.h": "c",
+        "difftest.h": "c",
+        "decode.h": "c",
+        "watchpoint.h": "c",
+        "itrace.h": "c",
+        "elf.h": "c",
+        "unistd.h": "c",
+        "fcntl.h": "c"
     },
     "files.watcherExclude": {
         "**/target": true

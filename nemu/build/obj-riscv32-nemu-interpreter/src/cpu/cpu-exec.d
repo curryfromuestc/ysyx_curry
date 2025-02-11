@@ -28,8 +28,9 @@ deps_/home/curry/code/ysyx_curry/nemu/build/obj-riscv32-nemu-interpreter/src/cpu
     $(wildcard include/config/isa/mips32.h) \
     $(wildcard include/config/isa/riscv.h) \
     $(wildcard include/config/isa/loongarch32r.h) \
-  /home/curry/code/ysyx_curry/nemu/src/monitor/sdb/watchpoint.h \
-  /home/curry/code/ysyx_curry/nemu/src/monitor/sdb/sdb.h \
+  src/cpu/../monitor/sdb/watchpoint.h \
+  src/cpu/../monitor/sdb/sdb.h \
+  src/cpu/../utils/local-include/itrace.h \
 
 /home/curry/code/ysyx_curry/nemu/build/obj-riscv32-nemu-interpreter/src/cpu/cpu-exec.o: $(deps_/home/curry/code/ysyx_curry/nemu/build/obj-riscv32-nemu-interpreter/src/cpu/cpu-exec.o)
 

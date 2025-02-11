@@ -8,6 +8,7 @@ deps_/home/curry/code/ysyx_curry/nemu/build/obj-riscv32-nemu-interpreter/src/mem
     $(wildcard include/config/msize.h) \
     $(wildcard include/config/mbase.h) \
     $(wildcard include/config/mem/random.h) \
+    $(wildcard include/config/trace.h) \
     $(wildcard include/config/device.h) \
   /home/curry/code/ysyx_curry/nemu/include/memory/host.h \
     $(wildcard include/config/isa64.h) \
@@ -25,6 +26,7 @@ deps_/home/curry/code/ysyx_curry/nemu/build/obj-riscv32-nemu-interpreter/src/mem
   /home/curry/code/ysyx_curry/nemu/src/isa/riscv32/include/isa-def.h \
     $(wildcard include/config/rve.h) \
     $(wildcard include/config/rv64.h) \
+  src/memory/../utils/local-include/itrace.h \
 
 /home/curry/code/ysyx_curry/nemu/build/obj-riscv32-nemu-interpreter/src/memory/paddr.o: $(deps_/home/curry/code/ysyx_curry/nemu/build/obj-riscv32-nemu-interpreter/src/memory/paddr.o)
 
