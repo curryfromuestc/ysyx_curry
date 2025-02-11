@@ -1,3 +1,3 @@
-NAME = mul-longlong
-SRCS = tests/mul-longlong.c
+NAME = fib
+SRCS = tests/fib.c
 include /home/curry/code/ysyx_curry/abstract-machine/Makefile
