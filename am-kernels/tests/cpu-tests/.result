@@ -5,3 +5,4 @@
 [ to-lower-case] [1;31m***FAIL***[0m
 [  add-longlong] [1;31m***FAIL***[0m
 [         movsx] [1;31m***FAIL***[0m
+[     hello-str] [1;31m***FAIL***[0m
