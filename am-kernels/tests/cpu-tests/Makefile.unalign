@@ -1,3 +1,3 @@
-NAME = bit
-SRCS = tests/bit.c
+NAME = unalign
+SRCS = tests/unalign.c
 include /home/curry/code/ysyx_curry/abstract-machine/Makefile
