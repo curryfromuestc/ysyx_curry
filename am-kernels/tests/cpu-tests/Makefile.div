@@ -1,3 +1,3 @@
-NAME = mersenne
-SRCS = tests/mersenne.c
+NAME = div
+SRCS = tests/div.c
 include /home/curry/code/ysyx_curry/abstract-machine/Makefile
