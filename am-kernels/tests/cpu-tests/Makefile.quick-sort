@@ -1,3 +1,3 @@
-NAME = mov-c
-SRCS = tests/mov-c.c
+NAME = quick-sort
+SRCS = tests/quick-sort.c
 include /home/curry/code/ysyx_curry/abstract-machine/Makefile

@@ -22,3 +22,4 @@
 [          fact] [1;31m***FAIL***[0m
 [       if-else] [1;31m***FAIL***[0m
 [        string] [1;31m***FAIL***[0m
+[         mov-c] [1;31m***FAIL***[0m
