@@ -31,3 +31,4 @@
 [  mul-longlong] [1;32mPASS[0m
 [           fib] [1;32mPASS[0m
 [  sub-longlong] [1;32mPASS[0m
+[      goldbach] [1;32mPASS[0m
