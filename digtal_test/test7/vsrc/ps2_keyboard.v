@@ -44,7 +44,7 @@ module ps2_keyboard(//添加计数器
                     w_ptr <= w_ptr+3'b1;
                     ready <= 1'b1;
                     overflow <= overflow | (r_ptr == (w_ptr + 3'b1));
-                    //$display("receive %x", buffer[8:1]);
+                    $display("receive %x", buffer[8:1]);
                 end
                 count <= 0;     // for next
               end else begin
