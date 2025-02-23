@@ -1,7 +1,11 @@
 {
     "value": [
-        "ref:v0:8c99fa7c:/home/curry/code/ysyx_curry/npc/src/test/scala/rv32i/PCRegTest.scala"
+        "ref:v0:a78687ae:/home/curry/code/ysyx_curry/npc/src/test/scala/riscv/core/InstructionFetchTest.scala",
+        "ref:v0:ef2b886f:/home/curry/code/ysyx_curry/npc/src/test/scala/riscv/core/InstructionDecodeTest.scala",
+        "ref:v0:2809c51a:/home/curry/code/ysyx_curry/npc/src/test/scala/riscv/core/ExecuteTest.scala",
+        "ref:v0:08d26361:/home/curry/code/ysyx_curry/npc/src/test/scala/riscv/core/MemoryControlTest.scala",
+        "ref:v0:7e69c35b:/home/curry/code/ysyx_curry/npc/src/test/scala/riscv/TestAnnotations.scala"
     ],
-    "valueHash": 643158099,
-    "inputsHash": -579072148
+    "valueHash": -1121570257,
+    "inputsHash": -1606055667
 }

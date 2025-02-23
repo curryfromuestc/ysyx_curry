@@ -3,7 +3,7 @@
         "seenScripts": [
             [
                 "/home/curry/code/ysyx_curry/npc/build.sc",
-                "// import Mill dependency\nimport mill._\nimport mill.define.Sources\nimport mill.modules.Util\nimport mill.scalalib.TestModule.ScalaTest\nimport scalalib._\n// support BSP\nimport mill.bsp._\n\nobject npc extends SbtModule { m =>\n  override def millSourcePath = os.pwd\n  override def scalaVersion = \"2.13.15\"\n  override def scalacOptions = Seq(\n    \"-language:reflectiveCalls\",\n    \"-deprecation\",\n    \"-feature\",\n    \"-Xcheckinit\",\n  )\n  override def ivyDeps = Agg(\n    ivy\"org.chipsalliance::chisel:6.6.0\",\n  )\n  override def scalacPluginIvyDeps = Agg(\n    ivy\"org.chipsalliance:::chisel-plugin:6.6.0\",\n  )\n  object test extends SbtModuleTests with TestModule.ScalaTest {\n    override def ivyDeps = m.ivyDeps() ++ Agg(\n      ivy\"org.scalatest::scalatest::3.2.16\"\n    )\n  }\n}\n"
+                "// import Mill dependency\nimport mill._\nimport mill.define.Sources\nimport mill.modules.Util\nimport mill.scalalib.TestModule.ScalaTest\nimport scalalib._\n// support BSP\nimport mill.bsp._\n\nobject npc extends SbtModule { m =>\n  override def millSourcePath = os.pwd\n  override def scalaVersion = \"2.13.12\"\n  override def scalacOptions = Seq(\n    \"-language:reflectiveCalls\",\n    \"-deprecation\",\n    \"-feature\",\n    \"-Xcheckinit\",\n  )\n  override def ivyDeps = Agg(\n    ivy\"org.chipsalliance::chisel:5.1.0\",\n  )\n  override def scalacPluginIvyDeps = Agg(\n    ivy\"org.chipsalliance:::chisel-plugin:5.1.0\",\n  )\n  object test extends SbtModuleTests with TestModule.ScalaTest {\n    override def ivyDeps = m.ivyDeps() ++ Agg(\n      ivy\"edu.berkeley.cs::chiseltest:5.0.2\"\n    )\n  }\n}"
             ]
         ],
         "repos": [],
@@ -17,6 +17,6 @@
         "errors": [],
         "millImport": false
     },
-    "valueHash": -1772642952,
-    "inputsHash": -155033752
+    "valueHash": 94679279,
+    "inputsHash": 636384784
 }

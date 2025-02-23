@@ -2,8 +2,8 @@
     "value": [
         "ref:v0:c984eca8:/home/curry/code/ysyx_curry/npc/compile-resources",
         "ref:v0:c984eca8:/home/curry/code/ysyx_curry/npc/src/test/resources",
-        "ref:v0:16805757:/home/curry/code/ysyx_curry/npc/out/npc/test/compile.dest/classes"
+        "ref:v0:ecafb8db:/home/curry/code/ysyx_curry/npc/out/npc/test/compile.dest/classes"
     ],
-    "valueHash": -930306922,
-    "inputsHash": -1472050738
+    "valueHash": -1372988563,
+    "inputsHash": 1245068611
 }

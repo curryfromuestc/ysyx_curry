@@ -11,7 +11,7 @@
                     },
                     "attributes": {}
                 },
-                "version": "6.6.0",
+                "version": "5.1.0",
                 "configuration": {
                     "value": "default(compile)"
                 },
@@ -43,14 +43,14 @@
             "dep": {
                 "module": {
                     "organization": {
-                        "value": "org.scalatest"
+                        "value": "edu.berkeley.cs"
                     },
                     "name": {
-                        "value": "scalatest"
+                        "value": "chiseltest"
                     },
                     "attributes": {}
                 },
-                "version": "3.2.16",
+                "version": "5.0.2",
                 "configuration": {
                     "value": "default(compile)"
                 },
@@ -74,11 +74,11 @@
             },
             "cross": {
                 "$type": "mill.scalalib.CrossVersion.Binary",
-                "platformed": true
+                "platformed": false
             },
             "force": false
         }
     ],
-    "valueHash": -1659560487,
-    "inputsHash": 694896368
+    "valueHash": 2035322608,
+    "inputsHash": -402792889
 }

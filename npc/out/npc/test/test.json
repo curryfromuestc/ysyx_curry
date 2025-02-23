@@ -1,15 +1,39 @@
 {
     "value": [
-        "\u001b[36mRun completed in 8 seconds, 170 milliseconds.\u001b[0m\n\u001b[36mTotal number of tests run: 1\u001b[0m\n\u001b[36mSuites: completed 1, aborted 0\u001b[0m\n\u001b[36mTests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0\u001b[0m\n\u001b[32mAll tests passed.\u001b[0m",
+        "\u001b[36mRun completed in 16 seconds, 497 milliseconds.\u001b[0m\n\u001b[36mTotal number of tests run: 5\u001b[0m\n\u001b[36mSuites: completed 4, aborted 0\u001b[0m\n\u001b[36mTests: succeeded 5, failed 0, canceled 0, ignored 0, pending 0\u001b[0m\n\u001b[32mAll tests passed.\u001b[0m",
         [
             {
-                "fullyQualifiedName": "rv32i.PCRegTest",
-                "selector": "PCReg should do something",
-                "duration": 7890,
+                "fullyQualifiedName": "riscv.core.InstructionFetchTest",
+                "selector": "InstructionFetch of Single Cycle CPU should fetch instruction",
+                "duration": 4764,
+                "status": "Success"
+            },
+            {
+                "fullyQualifiedName": "riscv.core.InstructionDecodeTest",
+                "selector": "InstructionDecoder of Single Cycle CPU should produce correct control signal",
+                "duration": 2804,
+                "status": "Success"
+            },
+            {
+                "fullyQualifiedName": "riscv.core.MemoryControlTest",
+                "selector": "MemoryControl should read data from memory",
+                "duration": 2831,
+                "status": "Success"
+            },
+            {
+                "fullyQualifiedName": "riscv.core.MemoryControlTest",
+                "selector": "MemoryControl should write data to memory",
+                "duration": 3035,
+                "status": "Success"
+            },
+            {
+                "fullyQualifiedName": "riscv.core.ExecuteTest",
+                "selector": "Execute of Single Cycle CPU should execute correctly",
+                "duration": 2856,
                 "status": "Success"
             }
         ]
     ],
-    "valueHash": -1722226508,
-    "inputsHash": -497323640
+    "valueHash": -708098920,
+    "inputsHash": 1008586833
 }

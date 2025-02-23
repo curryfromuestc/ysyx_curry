@@ -9,7 +9,9 @@
         "decode.h": "c",
         "watchpoint.h": "c",
         "itrace.h": "c",
-        "elf.h": "c"
+        "elf.h": "c",
+        "unistd.h": "c",
+        "fcntl.h": "c"
     },
     "files.watcherExclude": {
         "**/target": true

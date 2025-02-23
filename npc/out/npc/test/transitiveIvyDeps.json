@@ -11,7 +11,7 @@
                     },
                     "attributes": {}
                 },
-                "version": "6.6.0",
+                "version": "5.1.0",
                 "configuration": {
                     "value": "default(compile)"
                 },
@@ -39,14 +39,14 @@
             "dep": {
                 "module": {
                     "organization": {
-                        "value": "org.scalatest"
+                        "value": "edu.berkeley.cs"
                     },
                     "name": {
-                        "value": "scalatest_2.13"
+                        "value": "chiseltest_2.13"
                     },
                     "attributes": {}
                 },
-                "version": "3.2.16",
+                "version": "5.0.2",
                 "configuration": {
                     "value": "default(compile)"
                 },
@@ -81,7 +81,7 @@
                     },
                     "attributes": {}
                 },
-                "version": "2.13.15",
+                "version": "2.13.12",
                 "configuration": {
                     "value": "default(compile)"
                 },
@@ -106,6 +106,6 @@
             "force": true
         }
     ],
-    "valueHash": -1725601239,
-    "inputsHash": 713589598
+    "valueHash": 541053384,
+    "inputsHash": -789784486
 }
