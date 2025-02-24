@@ -1,75 +1,75 @@
 {
     "value": [
-        "\u001b[36mRun completed in 37 seconds, 763 milliseconds.\u001b[0m\n\u001b[36mTotal number of tests run: 11\u001b[0m\n\u001b[36mSuites: completed 6, aborted 0\u001b[0m\n\u001b[36mTests: succeeded 11, failed 0, canceled 0, ignored 0, pending 0\u001b[0m\n\u001b[32mAll tests passed.\u001b[0m",
+        "\u001b[36mRun completed in 36 seconds, 849 milliseconds.\u001b[0m\n\u001b[36mTotal number of tests run: 11\u001b[0m\n\u001b[36mSuites: completed 6, aborted 0\u001b[0m\n\u001b[36mTests: succeeded 11, failed 0, canceled 0, ignored 0, pending 0\u001b[0m\n\u001b[32mAll tests passed.\u001b[0m",
         [
             {
                 "fullyQualifiedName": "peripheral.MemoryTest",
                 "selector": "Memory should read the write data",
-                "duration": 5396,
+                "duration": 5618,
                 "status": "Success"
             },
             {
                 "fullyQualifiedName": "peripheral.MemoryTest",
                 "selector": "Memory should read the written instruction",
-                "duration": 4241,
+                "duration": 3807,
                 "status": "Success"
             },
             {
                 "fullyQualifiedName": "riscv.core.InstructionFetchTest",
                 "selector": "InstructionFetch of Single Cycle CPU should fetch instruction",
-                "duration": 3907,
+                "duration": 4191,
                 "status": "Success"
             },
             {
                 "fullyQualifiedName": "riscv.core.InstructionDecodeTest",
                 "selector": "InstructionDecoder of Single Cycle CPU should produce correct control signal",
-                "duration": 3337,
+                "duration": 3119,
                 "status": "Success"
             },
             {
                 "fullyQualifiedName": "riscv.core.MemoryControlTest",
                 "selector": "MemoryControl should read data from memory",
-                "duration": 2980,
+                "duration": 2901,
                 "status": "Success"
             },
             {
                 "fullyQualifiedName": "riscv.core.MemoryControlTest",
                 "selector": "MemoryControl should write data to memory",
-                "duration": 2958,
+                "duration": 2929,
                 "status": "Success"
             },
             {
                 "fullyQualifiedName": "riscv.core.RegisterFileTest",
                 "selector": "RegisterFile should read the written content",
-                "duration": 3116,
+                "duration": 2886,
                 "status": "Success"
             },
             {
                 "fullyQualifiedName": "riscv.core.RegisterFileTest",
                 "selector": "RegisterFile should x0 always be zero",
-                "duration": 2809,
+                "duration": 2705,
                 "status": "Success"
             },
             {
                 "fullyQualifiedName": "riscv.core.RegisterFileTest",
                 "selector": "RegisterFile should read the writing content",
-                "duration": 3013,
+                "duration": 2842,
                 "status": "Success"
             },
             {
                 "fullyQualifiedName": "riscv.core.RegisterFileTest",
                 "selector": "RegisterFile should read the written content in debug mode: 调试模式",
-                "duration": 2848,
+                "duration": 2628,
                 "status": "Success"
             },
             {
                 "fullyQualifiedName": "riscv.core.ExecuteTest",
                 "selector": "Execute of Single Cycle CPU should execute correctly",
-                "duration": 2909,
+                "duration": 2939,
                 "status": "Success"
             }
         ]
     ],
-    "valueHash": 1797464310,
-    "inputsHash": 354452007
+    "valueHash": 745543148,
+    "inputsHash": 788374072
 }
