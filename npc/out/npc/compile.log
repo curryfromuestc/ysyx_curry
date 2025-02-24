@@ -1,2 +1,12 @@
-[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/curry/code/ysyx_curry/npc/out/npc/compile.dest/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to /home/curry/code/ysyx_curry/npc/out/npc/compile.dest/classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/MemoryControl.scala:31:31: method apply in object MuxLookup is deprecated (since Chisel 3.6): Use MuxLookup(key, default)(mapping) instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    io.wb_memory_read_data := MuxLookup( [0m
+[0m[[0m[33mwarn[0m] [0m[0m                              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/MemoryControl.scala:35:33: method apply in object MuxLookup is deprecated (since Chisel 3.6): Use MuxLookup(key, default)(mapping) instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m        InstructionsTypeL.lb -> MuxLookup([0m
+[0m[[0m[33mwarn[0m] [0m[0m                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/MemoryControl.scala:44:34: method apply in object MuxLookup is deprecated (since Chisel 3.6): Use MuxLookup(key, default)(mapping) instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m        InstructionsTypeL.lbu -> MuxLookup([0m
+[0m[[0m[33mwarn[0m] [0m[0m                                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mthree warnings found[0m
 [0m[[0m[0minfo[0m] [0m[0mdone compiling[0m

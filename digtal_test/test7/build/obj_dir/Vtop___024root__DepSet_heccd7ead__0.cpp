@@ -71,22 +71,6 @@ VL_INLINE_OPT void Vtop___024root___nba_sequent__TOP__0(Vtop___024root* vlSelf) 
     __Vdly__top__DOT__my_keyboard__DOT__ps2_clk_sync 
         = ((6U & ((IData)(vlSelf->top__DOT__my_keyboard__DOT__ps2_clk_sync) 
                   << 1U)) | (IData)(vlSelf->ps2_clk));
-    if ((1U != (IData)(vlSelf->top__DOT__state))) {
-        vlSelf->seg3 = 0xffU;
-        vlSelf->seg2 = 0xffU;
-        vlSelf->seg1 = 0xffU;
-        vlSelf->seg0 = 0xffU;
-    } else if ((1U == (IData)(vlSelf->top__DOT__state))) {
-        vlSelf->seg3 = vlSelf->top__DOT__tmp_seg3;
-        vlSelf->seg2 = vlSelf->top__DOT__tmp_seg2;
-        vlSelf->seg1 = vlSelf->top__DOT__tmp_seg1;
-        vlSelf->seg0 = vlSelf->top__DOT__tmp_seg0;
-    } else {
-        vlSelf->seg3 = 0xffU;
-        vlSelf->seg2 = 0xffU;
-        vlSelf->seg1 = 0xffU;
-        vlSelf->seg0 = 0xffU;
-    }
     if (vlSelf->clrn) {
         __Vdly__top__DOT__my_keyboard__DOT__count = 0U;
         __Vdly__top__DOT__my_keyboard__DOT__w_ptr = 0U;
@@ -94,7 +78,6 @@ VL_INLINE_OPT void Vtop___024root___nba_sequent__TOP__0(Vtop___024root* vlSelf) 
         __Vdly__top__DOT__overflow = 0U;
         __Vdly__top__DOT__ready = 0U;
         __Vdly__top__DOT__key_count = 0U;
-        vlSelf->top__DOT__state = 0U;
     } else {
         if (vlSelf->top__DOT__ready) {
             __Vdly__top__DOT__my_keyboard__DOT__r_ptr 
@@ -106,16 +89,20 @@ VL_INLINE_OPT void Vtop___024root___nba_sequent__TOP__0(Vtop___024root* vlSelf) 
         }
         if ((IData)((4U == (6U & (IData)(vlSelf->top__DOT__my_keyboard__DOT__ps2_clk_sync))))) {
             if ((0xaU == (IData)(vlSelf->top__DOT__my_keyboard__DOT__count))) {
-                if ((((~ (IData)(vlSelf->top__DOT__my_keyboard__DOT__buffer)) 
-                      & (IData)(vlSelf->ps2_data)) 
-                     & VL_REDXOR_32((0x1ffU & ((IData)(vlSelf->top__DOT__my_keyboard__DOT__buffer) 
-                                               >> 1U))))) {
+                if (VL_UNLIKELY((((~ (IData)(vlSelf->top__DOT__my_keyboard__DOT__buffer)) 
+                                  & (IData)(vlSelf->ps2_data)) 
+                                 & VL_REDXOR_32((0x1ffU 
+                                                 & ((IData)(vlSelf->top__DOT__my_keyboard__DOT__buffer) 
+                                                    >> 1U)))))) {
                     if ((0xf0U == (0xffU & ((IData)(vlSelf->top__DOT__my_keyboard__DOT__buffer) 
                                             >> 1U)))) {
                         __Vdly__top__DOT__key_count 
                             = (0xffU & ((IData)(1U) 
                                         + (IData)(vlSelf->top__DOT__key_count)));
                     }
+                    VL_WRITEF("receive %x\n",8,(0xffU 
+                                                & ((IData)(vlSelf->top__DOT__my_keyboard__DOT__buffer) 
+                                                   >> 1U)));
                     __Vdlyvval__top__DOT__my_keyboard__DOT__fifo__v0 
                         = (0xffU & ((IData)(vlSelf->top__DOT__my_keyboard__DOT__buffer) 
                                     >> 1U));
@@ -147,8 +134,25 @@ VL_INLINE_OPT void Vtop___024root___nba_sequent__TOP__0(Vtop___024root* vlSelf) 
                     = (0xfU & ((IData)(1U) + (IData)(vlSelf->top__DOT__my_keyboard__DOT__count)));
             }
         }
-        vlSelf->top__DOT__state = vlSelf->top__DOT__next_state;
     }
+    if ((1U != (IData)(vlSelf->top__DOT__state))) {
+        vlSelf->seg3 = 0xffU;
+        vlSelf->seg2 = 0xffU;
+        vlSelf->seg1 = 0xffU;
+        vlSelf->seg0 = 0xffU;
+    } else if ((1U == (IData)(vlSelf->top__DOT__state))) {
+        vlSelf->seg3 = vlSelf->top__DOT__tmp_seg3;
+        vlSelf->seg2 = vlSelf->top__DOT__tmp_seg2;
+        vlSelf->seg1 = vlSelf->top__DOT__tmp_seg1;
+        vlSelf->seg0 = vlSelf->top__DOT__tmp_seg0;
+    } else {
+        vlSelf->seg3 = 0xffU;
+        vlSelf->seg2 = 0xffU;
+        vlSelf->seg1 = 0xffU;
+        vlSelf->seg0 = 0xffU;
+    }
+    vlSelf->top__DOT__state = ((IData)(vlSelf->clrn)
+                                ? 0U : (IData)(vlSelf->top__DOT__next_state));
     vlSelf->top__DOT__my_keyboard__DOT__count = __Vdly__top__DOT__my_keyboard__DOT__count;
     vlSelf->top__DOT__my_keyboard__DOT__w_ptr = __Vdly__top__DOT__my_keyboard__DOT__w_ptr;
     vlSelf->top__DOT__overflow = __Vdly__top__DOT__overflow;
