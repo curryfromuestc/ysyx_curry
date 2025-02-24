@@ -1,3 +1,3 @@
-npc/out/
-npc/test_run_dir/
-nemu/build/
+npc/out/*
+npc/test_run_dir/*
+nemu/build/*
