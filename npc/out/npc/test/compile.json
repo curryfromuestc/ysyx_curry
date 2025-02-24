@@ -1,8 +1,8 @@
 {
     "value": {
         "analysisFile": "/home/curry/code/ysyx_curry/npc/out/npc/test/compile.dest/zinc",
-        "classes": "ref:v0:ecafb8db:/home/curry/code/ysyx_curry/npc/out/npc/test/compile.dest/classes"
+        "classes": "ref:v0:e54e5634:/home/curry/code/ysyx_curry/npc/out/npc/test/compile.dest/classes"
     },
-    "valueHash": 1920988661,
-    "inputsHash": -47254325
+    "valueHash": 1038047981,
+    "inputsHash": 360737235
 }

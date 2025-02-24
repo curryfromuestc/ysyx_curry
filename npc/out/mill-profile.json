@@ -1,13 +1,13 @@
 [
   {
     "label": "npc.runUseArgsFile",
-    "millis": 14,
+    "millis": 15,
     "cached": true,
     "inputsHash": 1183828511
   },
   {
     "label": "npc.test.runUseArgsFile",
-    "millis": 2,
+    "millis": 4,
     "cached": true,
     "dependencies": [
       "npc.runUseArgsFile"
@@ -16,7 +16,7 @@
   },
   {
     "label": "npc.test.testUseArgsFile",
-    "millis": 3,
+    "millis": 4,
     "cached": true,
     "dependencies": [
       "npc.test.runUseArgsFile"
@@ -43,7 +43,7 @@
   },
   {
     "label": "npc.scalaVersion",
-    "millis": 1,
+    "millis": 0,
     "cached": true,
     "inputsHash": -403262370
   },
@@ -64,7 +64,7 @@
   },
   {
     "label": "npc.ivyDeps",
-    "millis": 1,
+    "millis": 4,
     "cached": true,
     "inputsHash": -1111311554
   },
@@ -79,13 +79,13 @@
   },
   {
     "label": "npc.test.mandatoryIvyDeps.super.mill.scalalib.JavaModule.mandatoryIvyDeps",
-    "millis": 1,
+    "millis": 2,
     "cached": true,
     "inputsHash": -786540758
   },
   {
     "label": "npc.scalaOrganization",
-    "millis": 0,
+    "millis": 1,
     "cached": true,
     "dependencies": [
       "npc.scalaVersion"
@@ -94,7 +94,7 @@
   },
   {
     "label": "npc.test.scalaOrganization",
-    "millis": 1,
+    "millis": 0,
     "cached": true,
     "dependencies": [
       "npc.scalaOrganization"
@@ -103,7 +103,7 @@
   },
   {
     "label": "npc.test.scalaLibraryIvyDeps",
-    "millis": 6,
+    "millis": 0,
     "cached": true,
     "dependencies": [
       "npc.test.scalaOrganization",
@@ -113,7 +113,7 @@
   },
   {
     "label": "npc.test.mandatoryIvyDeps",
-    "millis": 2,
+    "millis": 1,
     "cached": true,
     "dependencies": [
       "npc.test.mandatoryIvyDeps.super.mill.scalalib.JavaModule.mandatoryIvyDeps",
@@ -123,13 +123,13 @@
   },
   {
     "label": "npc.mandatoryIvyDeps.super.mill.scalalib.JavaModule.mandatoryIvyDeps",
-    "millis": 1,
+    "millis": 0,
     "cached": true,
     "inputsHash": 1910365836
   },
   {
     "label": "npc.scalaLibraryIvyDeps",
-    "millis": 1,
+    "millis": 0,
     "cached": true,
     "dependencies": [
       "npc.scalaOrganization",
@@ -139,7 +139,7 @@
   },
   {
     "label": "npc.mandatoryIvyDeps",
-    "millis": 1,
+    "millis": 0,
     "cached": true,
     "dependencies": [
       "npc.mandatoryIvyDeps.super.mill.scalalib.JavaModule.mandatoryIvyDeps",
@@ -155,7 +155,7 @@
   },
   {
     "label": "npc.transitiveIvyDeps",
-    "millis": 1,
+    "millis": 0,
     "cached": true,
     "dependencies": [
       "npc.scalaVersion",
@@ -167,7 +167,7 @@
   },
   {
     "label": "npc.test.transitiveIvyDeps",
-    "millis": 8,
+    "millis": 4,
     "cached": true,
     "dependencies": [
       "npc.test.scalaVersion",
@@ -180,7 +180,7 @@
   },
   {
     "label": "npc.test.resolvedRunIvyDeps",
-    "millis": 9,
+    "millis": 11,
     "cached": true,
     "dependencies": [
       "npc.test.scalaVersion",
@@ -193,13 +193,13 @@
   },
   {
     "label": "npc.compileResources",
-    "millis": 3,
-    "inputsHash": 1939025913,
-    "previousInputsHash": 1160454442
+    "millis": 2,
+    "inputsHash": 109490227,
+    "previousInputsHash": 1438088371
   },
   {
     "label": "npc.unmanagedClasspath",
-    "millis": 1,
+    "millis": 0,
     "cached": true,
     "inputsHash": -788888921
   },
@@ -216,25 +216,25 @@
   {
     "label": "npc.resources",
     "millis": 2,
-    "inputsHash": -1289886252,
-    "previousInputsHash": -1113133431
+    "inputsHash": -723522534,
+    "previousInputsHash": -661349762
   },
   {
     "label": "mill.scalalib.ZincWorkerModule.classpath",
-    "millis": 3,
+    "millis": 0,
     "cached": true,
     "inputsHash": 680874816
   },
   {
     "label": "mill.scalalib.ZincWorkerModule.zincLogDebug",
-    "millis": 2,
-    "inputsHash": 1042630265,
-    "previousInputsHash": -1174773033
+    "millis": 1,
+    "inputsHash": -1639772756,
+    "previousInputsHash": 959370324
   },
   {
     "label": "mill.scalalib.ZincWorkerModule.worker",
-    "millis": 19,
-    "cached": false,
+    "millis": 0,
+    "cached": true,
     "dependencies": [
       "mill.scalalib.ZincWorkerModule.classpath",
       "mill.scalalib.ZincWorkerModule.zincLogDebug"
@@ -249,46 +249,44 @@
   },
   {
     "label": "npc.sources",
-    "millis": 18,
-    "inputsHash": 302700756,
-    "previousInputsHash": -2009730759
+    "millis": 7,
+    "inputsHash": 235114868,
+    "previousInputsHash": -1688593728
   },
   {
     "label": "npc.generatedSources",
-    "millis": 2,
+    "millis": 1,
     "cached": true,
     "inputsHash": 1312183184
   },
   {
     "label": "npc.allSources",
-    "millis": 5,
-    "cached": false,
+    "millis": 0,
+    "cached": true,
     "dependencies": [
       "npc.sources",
       "npc.generatedSources"
     ],
-    "inputsHash": -571598677,
-    "previousInputsHash": 1324084645
+    "inputsHash": -598634965
   },
   {
     "label": "npc.allSourceFiles",
-    "millis": 16,
-    "cached": false,
+    "millis": 1,
+    "cached": true,
     "dependencies": [
       "npc.allSources"
     ],
-    "inputsHash": -223342848,
-    "previousInputsHash": 573666212
+    "inputsHash": -1977899053
   },
   {
     "label": "npc.compileIvyDeps",
-    "millis": 2,
+    "millis": 0,
     "cached": true,
     "inputsHash": -967562774
   },
   {
     "label": "npc.transitiveCompileIvyDeps",
-    "millis": 2,
+    "millis": 0,
     "cached": true,
     "dependencies": [
       "npc.scalaVersion",
@@ -299,7 +297,7 @@
   },
   {
     "label": "npc.resolvedIvyDeps",
-    "millis": 4,
+    "millis": 3,
     "cached": true,
     "dependencies": [
       "npc.transitiveCompileIvyDeps",
@@ -317,7 +315,7 @@
   },
   {
     "label": "npc.compileClasspath",
-    "millis": 7,
+    "millis": 9,
     "cached": true,
     "dependencies": [
       "npc.resolvedIvyDeps",
@@ -328,19 +326,19 @@
   },
   {
     "label": "npc.javacOptions",
-    "millis": 2,
+    "millis": 1,
     "cached": true,
     "inputsHash": 1794729604
   },
   {
     "label": "npc.mandatoryScalacOptions",
-    "millis": 1,
+    "millis": 0,
     "cached": true,
     "inputsHash": 392023415
   },
   {
     "label": "npc.scalacPluginIvyDeps",
-    "millis": 1,
+    "millis": 2,
     "cached": true,
     "inputsHash": 2036622844
   },
@@ -358,13 +356,13 @@
   },
   {
     "label": "npc.scalacOptions",
-    "millis": 2,
+    "millis": 1,
     "cached": true,
     "inputsHash": -1002787914
   },
   {
     "label": "npc.allScalacOptions",
-    "millis": 1,
+    "millis": 0,
     "cached": true,
     "dependencies": [
       "npc.mandatoryScalacOptions",
@@ -375,7 +373,7 @@
   },
   {
     "label": "npc.scalaCompilerClasspath",
-    "millis": 5,
+    "millis": 1,
     "cached": true,
     "dependencies": [
       "npc.scalaVersion",
@@ -399,14 +397,14 @@
   },
   {
     "label": "npc.zincReportCachedProblems",
-    "millis": 3,
-    "inputsHash": -1114930728,
-    "previousInputsHash": -1446070331
+    "millis": 4,
+    "inputsHash": 1000098073,
+    "previousInputsHash": 767830223
   },
   {
     "label": "npc.compile",
-    "millis": 5206,
-    "cached": false,
+    "millis": 1,
+    "cached": true,
     "dependencies": [
       "npc.scalaVersion",
       "mill.scalalib.ZincWorkerModule.worker",
@@ -420,45 +418,43 @@
       "npc.scalacPluginClasspath",
       "npc.zincReportCachedProblems"
     ],
-    "inputsHash": 1254932084
+    "inputsHash": 91193495
   },
   {
     "label": "npc.localClasspath",
-    "millis": 4,
-    "cached": false,
+    "millis": 0,
+    "cached": true,
     "dependencies": [
       "npc.localCompileClasspath",
       "npc.resources",
       "npc.compile"
     ],
-    "inputsHash": 530954809,
-    "previousInputsHash": -622549472
+    "inputsHash": 149184802
   },
   {
     "label": "npc.test.transitiveLocalClasspath",
-    "millis": 5,
-    "cached": false,
+    "millis": 3,
+    "cached": true,
     "dependencies": [
       "npc.localClasspath"
     ],
-    "inputsHash": 1374818419,
-    "previousInputsHash": 323999960
+    "inputsHash": 940599273
   },
   {
     "label": "npc.test.compileResources",
-    "millis": 14,
-    "inputsHash": 422321988,
-    "previousInputsHash": -834444169
+    "millis": 4,
+    "inputsHash": -1260303278,
+    "previousInputsHash": 1467395903
   },
   {
     "label": "npc.test.unmanagedClasspath",
-    "millis": 9,
+    "millis": 2,
     "cached": true,
     "inputsHash": 809171781
   },
   {
     "label": "npc.test.localCompileClasspath",
-    "millis": 1,
+    "millis": 2,
     "cached": true,
     "dependencies": [
       "npc.test.compileResources",
@@ -468,25 +464,24 @@
   },
   {
     "label": "npc.test.resources",
-    "millis": 5,
-    "inputsHash": -288799733,
-    "previousInputsHash": -1386284153
+    "millis": 4,
+    "inputsHash": 321177210,
+    "previousInputsHash": -1079207009
   },
   {
     "label": "npc.test.upstreamCompileOutput",
     "millis": 2,
-    "cached": false,
+    "cached": true,
     "dependencies": [
       "npc.compile"
     ],
-    "inputsHash": 844626309,
-    "previousInputsHash": -1311979453
+    "inputsHash": 2125393087
   },
   {
     "label": "npc.test.sources",
-    "millis": 30,
-    "inputsHash": -1747885054,
-    "previousInputsHash": 532207735
+    "millis": 12,
+    "inputsHash": 91718945,
+    "previousInputsHash": 342035644
   },
   {
     "label": "npc.test.generatedSources",
@@ -496,24 +491,22 @@
   },
   {
     "label": "npc.test.allSources",
-    "millis": 2,
-    "cached": false,
+    "millis": 1,
+    "cached": true,
     "dependencies": [
       "npc.test.sources",
       "npc.test.generatedSources"
     ],
-    "inputsHash": 1433191053,
-    "previousInputsHash": -586494555
+    "inputsHash": 1593432975
   },
   {
     "label": "npc.test.allSourceFiles",
-    "millis": 9,
-    "cached": false,
+    "millis": 1,
+    "cached": true,
     "dependencies": [
       "npc.test.allSources"
     ],
-    "inputsHash": -1606055667,
-    "previousInputsHash": 1847100656
+    "inputsHash": -195207161
   },
   {
     "label": "npc.test.compileIvyDeps",
@@ -523,7 +516,7 @@
   },
   {
     "label": "npc.test.transitiveCompileIvyDeps",
-    "millis": 1,
+    "millis": 0,
     "cached": true,
     "dependencies": [
       "npc.test.scalaVersion",
@@ -534,7 +527,7 @@
   },
   {
     "label": "npc.test.resolvedIvyDeps",
-    "millis": 14,
+    "millis": 10,
     "cached": true,
     "dependencies": [
       "npc.test.transitiveCompileIvyDeps",
@@ -546,26 +539,24 @@
   },
   {
     "label": "npc.test.transitiveCompileClasspath",
-    "millis": 4,
-    "cached": false,
+    "millis": 1,
+    "cached": true,
     "dependencies": [
       "npc.localCompileClasspath",
       "npc.compile"
     ],
-    "inputsHash": -2011364582,
-    "previousInputsHash": -292075394
+    "inputsHash": 54363936
   },
   {
     "label": "npc.test.compileClasspath",
-    "millis": 6,
-    "cached": false,
+    "millis": 2,
+    "cached": true,
     "dependencies": [
       "npc.test.resolvedIvyDeps",
       "npc.test.transitiveCompileClasspath",
       "npc.test.localCompileClasspath"
     ],
-    "inputsHash": 1559014942,
-    "previousInputsHash": -334326630
+    "inputsHash": 1207500588
   },
   {
     "label": "npc.test.javacOptions",
@@ -587,7 +578,7 @@
   },
   {
     "label": "npc.test.scalacPluginIvyDeps",
-    "millis": 3,
+    "millis": 5,
     "cached": true,
     "dependencies": [
       "npc.scalacPluginIvyDeps"
@@ -608,7 +599,7 @@
   },
   {
     "label": "npc.test.scalacOptions",
-    "millis": 2,
+    "millis": 1,
     "cached": true,
     "dependencies": [
       "npc.scalacOptions"
@@ -617,7 +608,7 @@
   },
   {
     "label": "npc.test.allScalacOptions",
-    "millis": 2,
+    "millis": 0,
     "cached": true,
     "dependencies": [
       "npc.test.mandatoryScalacOptions",
@@ -628,7 +619,7 @@
   },
   {
     "label": "npc.test.scalaCompilerClasspath",
-    "millis": 3,
+    "millis": 1,
     "cached": true,
     "dependencies": [
       "npc.test.scalaVersion",
@@ -640,7 +631,7 @@
   },
   {
     "label": "npc.test.scalacPluginClasspath",
-    "millis": 3,
+    "millis": 1,
     "cached": true,
     "dependencies": [
       "npc.scalacPluginClasspath"
@@ -650,13 +641,13 @@
   {
     "label": "npc.test.zincReportCachedProblems",
     "millis": 2,
-    "inputsHash": 864431919,
-    "previousInputsHash": 1286592161
+    "inputsHash": 1609626675,
+    "previousInputsHash": -367392284
   },
   {
     "label": "npc.test.compile",
-    "millis": 749,
-    "cached": false,
+    "millis": 0,
+    "cached": true,
     "dependencies": [
       "npc.test.scalaVersion",
       "mill.scalalib.ZincWorkerModule.worker",
@@ -670,50 +661,47 @@
       "npc.test.scalacPluginClasspath",
       "npc.test.zincReportCachedProblems"
     ],
-    "inputsHash": -47254325,
-    "previousInputsHash": 161255790
+    "inputsHash": 360737235
   },
   {
     "label": "npc.test.localClasspath",
-    "millis": 4,
-    "cached": false,
+    "millis": 1,
+    "cached": true,
     "dependencies": [
       "npc.test.localCompileClasspath",
       "npc.test.resources",
       "npc.test.compile"
     ],
-    "inputsHash": 1245068611,
-    "previousInputsHash": 1662051966
+    "inputsHash": 1506381221
   },
   {
     "label": "npc.test.runClasspath",
-    "millis": 7,
-    "cached": false,
+    "millis": 16,
+    "cached": true,
     "dependencies": [
       "npc.test.resolvedRunIvyDeps",
       "npc.test.transitiveLocalClasspath",
       "npc.test.localClasspath"
     ],
-    "inputsHash": 1014491598,
-    "previousInputsHash": 1639586271
+    "inputsHash": -1897750028
   },
   {
     "label": "mill.scalalib.ZincWorkerModule.scalalibClasspath",
-    "millis": 3,
-    "cached": true,
-    "inputsHash": 680874816
-  },
-  {
-    "label": "mill.scalalib.ZincWorkerModule.testrunnerEntrypointClasspath",
     "millis": 2,
     "cached": true,
     "inputsHash": 680874816
   },
   {
+    "label": "mill.scalalib.ZincWorkerModule.testrunnerEntrypointClasspath",
+    "millis": 1,
+    "cached": true,
+    "inputsHash": 680874816
+  },
+  {
     "label": "npc.test.forkEnv",
-    "millis": 9,
-    "inputsHash": 619109507,
-    "previousInputsHash": -561025387
+    "millis": 2,
+    "inputsHash": 361887826,
+    "previousInputsHash": 930921667
   },
   {
     "label": "npc.test.forkWorkingDir",
@@ -723,7 +711,7 @@
   },
   {
     "label": "npc.test.test",
-    "millis": 17265,
+    "millis": 37459,
     "cached": false,
     "dependencies": [
       "npc.test.testUseArgsFile",
@@ -736,7 +724,7 @@
       "npc.test.forkEnv",
       "npc.test.forkWorkingDir"
     ],
-    "inputsHash": 1008586833,
-    "previousInputsHash": 1298431800
+    "inputsHash": 788374072,
+    "previousInputsHash": 354452007
   }
 ]
