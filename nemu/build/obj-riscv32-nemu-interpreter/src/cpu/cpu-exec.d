@@ -31,6 +31,7 @@ deps_/home/curry/code/ysyx_curry/nemu/build/obj-riscv32-nemu-interpreter/src/cpu
   src/cpu/../monitor/sdb/watchpoint.h \
   src/cpu/../monitor/sdb/sdb.h \
   src/cpu/../utils/local-include/itrace.h \
+  src/cpu/../utils/local-include/../../../include/device/map.h \
 
 /home/curry/code/ysyx_curry/nemu/build/obj-riscv32-nemu-interpreter/src/cpu/cpu-exec.o: $(deps_/home/curry/code/ysyx_curry/nemu/build/obj-riscv32-nemu-interpreter/src/cpu/cpu-exec.o)
 
