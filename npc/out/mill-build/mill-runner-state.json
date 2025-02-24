@@ -8,9 +8,9 @@
     "evalWatched": [
         "ref:v0:c984eca8:/home/curry/code/ysyx_curry/npc/mill-build/src",
         "ref:v0:109be1a3:/home/curry/code/ysyx_curry/npc/build.sc",
-        "ref:v0:c984eca8:/home/curry/code/ysyx_curry/npc/mill-build/resources",
         "qref:v0:1479c276:/home/curry/code/ysyx_curry/npc/out/mill-launcher/0.11.5.jar",
-        "ref:v0:c984eca8:/home/curry/code/ysyx_curry/npc/mill-build/compile-resources"
+        "ref:v0:c984eca8:/home/curry/code/ysyx_curry/npc/mill-build/compile-resources",
+        "ref:v0:c984eca8:/home/curry/code/ysyx_curry/npc/mill-build/resources"
     ],
     "moduleWatched": [],
     "scriptImportGraph": [
