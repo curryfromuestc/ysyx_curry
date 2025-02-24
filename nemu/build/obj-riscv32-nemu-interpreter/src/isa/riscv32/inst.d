@@ -24,6 +24,14 @@ deps_/home/curry/code/ysyx_curry/nemu/build/obj-riscv32-nemu-interpreter/src/isa
   /home/curry/code/ysyx_curry/nemu/src/isa/riscv32/include/isa-def.h \
     $(wildcard include/config/rv64.h) \
   src/isa/riscv32/../../utils/local-include/itrace.h \
+  src/isa/riscv32/../../utils/local-include/../../../include/device/map.h \
+  /home/curry/code/ysyx_curry/nemu/include/cpu/difftest.h \
+    $(wildcard include/config/difftest.h) \
+  /home/curry/code/ysyx_curry/nemu/include/difftest-def.h \
+    $(wildcard include/config/isa/x86.h) \
+    $(wildcard include/config/isa/mips32.h) \
+    $(wildcard include/config/isa/riscv.h) \
+    $(wildcard include/config/isa/loongarch32r.h) \
 
 /home/curry/code/ysyx_curry/nemu/build/obj-riscv32-nemu-interpreter/src/isa/riscv32/inst.o: $(deps_/home/curry/code/ysyx_curry/nemu/build/obj-riscv32-nemu-interpreter/src/isa/riscv32/inst.o)
 

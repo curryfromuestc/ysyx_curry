@@ -52,11 +52,11 @@
         "qref:v1:90d63e60:/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/2.1.0/scala-xml_2.13-2.1.0.jar",
         "ref:v0:c984eca8:/home/curry/code/ysyx_curry/npc/compile-resources",
         "ref:v0:c984eca8:/home/curry/code/ysyx_curry/npc/src/main/resources",
-        "ref:v0:3832a0a0:/home/curry/code/ysyx_curry/npc/out/npc/compile.dest/classes",
+        "ref:v0:27a9deab:/home/curry/code/ysyx_curry/npc/out/npc/compile.dest/classes",
         "ref:v0:c984eca8:/home/curry/code/ysyx_curry/npc/compile-resources",
         "ref:v0:c984eca8:/home/curry/code/ysyx_curry/npc/src/test/resources",
-        "ref:v0:ecafb8db:/home/curry/code/ysyx_curry/npc/out/npc/test/compile.dest/classes"
+        "ref:v0:e54e5634:/home/curry/code/ysyx_curry/npc/out/npc/test/compile.dest/classes"
     ],
-    "valueHash": 34873555,
-    "inputsHash": 1014491598
+    "valueHash": 943149732,
+    "inputsHash": -1897750028
 }

@@ -51,8 +51,8 @@
         "qref:v1:f32174ee:/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.2.15/scalactic_2.13-3.2.15.jar",
         "qref:v1:90d63e60:/home/curry/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/2.1.0/scala-xml_2.13-2.1.0.jar",
         "ref:v0:c984eca8:/home/curry/code/ysyx_curry/npc/compile-resources",
-        "ref:v0:3832a0a0:/home/curry/code/ysyx_curry/npc/out/npc/compile.dest/classes"
+        "ref:v0:27a9deab:/home/curry/code/ysyx_curry/npc/out/npc/compile.dest/classes"
     ],
-    "valueHash": 18186591,
-    "inputsHash": 1559014942
+    "valueHash": -1226528763,
+    "inputsHash": 1207500588
 }
