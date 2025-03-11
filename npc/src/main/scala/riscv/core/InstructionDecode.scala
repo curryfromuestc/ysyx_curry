@@ -98,7 +98,7 @@ object InstructionsRet {
 
 object InstructionsEnv {
   val ecall = 0x00000073L.U(Parameters.DataWidth)
-  val ebreak = 0x00100073L.U(Parameters.DataWidth)
+  val ebreak = Module(new Ebreak).io.instruction
 }
 
 object ALUOp1Source {

@@ -1075,3 +1075,978 @@ WARNING: Unsupported notification method: metals/windowStateDidChange
 2025.02.07 10:28:22 INFO  compiling npc.test (1 scala source)[0m
 2025.02.07 10:28:22 INFO  time: compiled npc in 2.85s[0m
 2025.02.07 10:28:22 INFO  time: compiled npc.test in 0.71s[0m
+2025.03.08 14:51:53 INFO  Started: Metals version 1.5.1 in folders '/home/curry/code/ysyx_curry' for client Cursor 1.96.2.[0m
+2025.03.08 14:51:57 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 14:51:57 INFO  Attempting to connect to the build server...[0m
+2025.03.08 14:51:57 INFO  No running Bloop server found, starting one.[0m
+2025.03.08 14:51:58 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 14:52:33 INFO  Started: Metals version 1.5.1 in folders '/home/curry/code/ysyx_curry' for client Cursor 1.96.2.[0m
+2025.03.08 14:52:34 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/Parameters.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 14:52:35 INFO  Attempting to connect to the build server...[0m
+2025.03.08 14:52:35 INFO  No running Bloop server found, starting one.[0m
+2025.03.08 14:52:40 INFO  Starting compilation server[0m
+2025.03.08 14:52:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/curry/code/ysyx_curry/.metals/bsp.trace.json or /home/curry/.cache/metals/bsp.trace.json[0m
+2025.03.08 14:52:42 WARN  Scala instance jar /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/scala-compiler/2.13.15/scala-compiler-2.13.15.jar doesn't exist![0m
+2025.03.08 14:52:42 WARN  Scala instance jar /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/scala-reflect/2.13.15/scala-reflect-2.13.15.jar doesn't exist![0m
+2025.03.08 14:52:42 WARN  Scala instance jar /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/scala-library/2.13.15/scala-library-2.13.15.jar doesn't exist![0m
+2025.03.08 14:52:42 WARN  Scala instance jar /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/scala-compiler/2.13.15/scala-compiler-2.13.15.jar doesn't exist![0m
+2025.03.08 14:52:42 WARN  Scala instance jar /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.jar doesn't exist![0m
+2025.03.08 14:52:42 WARN  Scala instance jar /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/scala-reflect/2.13.15/scala-reflect-2.13.15.jar doesn't exist![0m
+2025.03.08 14:52:42 WARN  Scala instance jar /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/scala-library/2.13.15/scala-library-2.13.15.jar doesn't exist![0m
+2025.03.08 14:52:42 WARN  Scala instance jar /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.jar doesn't exist![0m
+2025.03.08 14:52:42 WARN  Scala instance jar /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/org/jline/jline/3.26.3/jline-3.26.3.jar doesn't exist![0m
+2025.03.08 14:52:42 WARN  Scala instance jar /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/org/jline/jline/3.26.3/jline-3.26.3.jar doesn't exist![0m
+2025.03.08 14:52:42 WARN  Scala instance jar /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/net/java/dev/jna/jna/5.14.0/jna-5.14.0.jar doesn't exist![0m
+2025.03.08 14:52:42 WARN  Scala instance jar /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/net/java/dev/jna/jna/5.14.0/jna-5.14.0.jar doesn't exist![0m
+2025.03.08 14:52:42 ERROR Bloop server PID: 4096
+Ignoring SIGINT
+Will truncate output file /home/curry/.local/share/scalacli/bloop/daemon/output every 5 minutes
+Unable to load nailgun-version.properties.
+NGServer [UNKNOWN] started on local socket /home/curry/.local/share/scalacli/bloop/daemon/socket.
+/home/curry/.local/share/scalacli/bloop
+/home/curry/.local/share/scalacli/bloop
+[0m
+2025.03.08 14:52:42 ERROR Failed to connect with build server, no functionality will work.
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: bloop.data.Project$ProjectReadException: Failed to load project from /home/curry/code/ysyx_curry/npc/.bloop/npc.json
+	at bloop.data.Project$.fromBytesAndOrigin(Project.scala:265)
+	at bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:264)
+	at bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:59)
+	at monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:81)
+	at monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)
+	at monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)
+	at monix.eval.internal.TaskShift$Register$$anon$1.run(TaskShift.scala:65)
+	at monix.execution.internal.InterceptRunnable.run(InterceptRunnable.scala:27)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.nio.file.NoSuchFileException: /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/scala-compiler/2.13.15/scala-compiler-2.13.15.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:148)
+	at java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1851)
+	at bloop.ScalaInstance.$anonfun$hashCode$1(ScalaInstance.scala:114)
+	at scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:286)
+	at scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)
+	at scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)
+	at scala.collection.mutable.WrappedArray.foreach(WrappedArray.scala:38)
+	at scala.collection.TraversableLike.map(TraversableLike.scala:286)
+	at scala.collection.TraversableLike.map$(TraversableLike.scala:279)
+	at scala.collection.AbstractTraversable.map(Traversable.scala:108)
+	at bloop.ScalaInstance.<init>(ScalaInstance.scala:110)
+	at bloop.ScalaInstance$.newInstance$1(ScalaInstance.scala:198)
+	at bloop.ScalaInstance$.$anonfun$apply$9(ScalaInstance.scala:204)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at bloop.ScalaInstance$.apply(ScalaInstance.scala:204)
+	at bloop.data.Project$.$anonfun$fromConfig$1(Project.scala:287)
+	at scala.Option.flatMap(Option.scala:271)
+	at bloop.data.Project$.fromConfig(Project.scala:276)
+	at bloop.data.Project$.fromBytesAndOrigin(Project.scala:259)
+	... 10 more
+
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:755)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:630)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: bloop.data.Project$ProjectReadException: Failed to load project from /home/curry/code/ysyx_curry/npc/.bloop/npc.json
+	at bloop.data.Project$.fromBytesAndOrigin(Project.scala:265)
+	at bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:264)
+	at bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:59)
+	at monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:81)
+	at monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)
+	at monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)
+	at monix.eval.internal.TaskShift$Register$$anon$1.run(TaskShift.scala:65)
+	at monix.execution.internal.InterceptRunnable.run(InterceptRunnable.scala:27)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.nio.file.NoSuchFileException: /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/scala-compiler/2.13.15/scala-compiler-2.13.15.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:148)
+	at java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1851)
+	at bloop.ScalaInstance.$anonfun$hashCode$1(ScalaInstance.scala:114)
+	at scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:286)
+	at scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)
+	at scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)
+	at scala.collection.mutable.WrappedArray.foreach(WrappedArray.scala:38)
+	at scala.collection.TraversableLike.map(TraversableLike.scala:286)
+	at scala.collection.TraversableLike.map$(TraversableLike.scala:279)
+	at scala.collection.AbstractTraversable.map(Traversable.scala:108)
+	at bloop.ScalaInstance.<init>(ScalaInstance.scala:110)
+	at bloop.ScalaInstance$.newInstance$1(ScalaInstance.scala:198)
+	at bloop.ScalaInstance$.$anonfun$apply$9(ScalaInstance.scala:204)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at bloop.ScalaInstance$.apply(ScalaInstance.scala:204)
+	at bloop.data.Project$.$anonfun$fromConfig$1(Project.scala:287)
+	at scala.Option.flatMap(Option.scala:271)
+	at bloop.data.Project$.fromConfig(Project.scala:276)
+	at bloop.data.Project$.fromBytesAndOrigin(Project.scala:259)
+	... 10 more
+
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2025.03.08 14:52:42 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/Parameters.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+Mar 08, 2025 2:53:27 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 08, 2025 3:22:36 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 08, 2025 3:22:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 08, 2025 3:22:47 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 08, 2025 3:57:16 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 08, 2025 3:57:20 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 08, 2025 3:59:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 08, 2025 3:59:47 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 08, 2025 3:59:50 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 08, 2025 4:00:57 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 08, 2025 4:01:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 08, 2025 4:01:48 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 08, 2025 4:01:51 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 08, 2025 4:01:53 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.03.08 16:02:23 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/Parameters.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:02:36 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:02:36 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:02:38 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:02:40 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:02:41 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:02:41 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:02:41 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:02:43 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:02:44 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:02:44 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:02:43 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:02:44 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:02:44 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:02:52 WARN  no build target for: /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala[0m
+2025.03.08 16:02:52 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:02 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:02 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:03 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:03 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:06 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:06 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:06 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:06 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:06 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:06 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:07 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:07 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:07 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:07 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:08 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:08 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:09 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:09 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:08 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:10 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:10 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:10 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:10 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:10 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:10 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:11 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:11 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:11 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:11 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:11 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:12 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:12 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:13 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:13 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:13 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:13 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:14 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:14 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:14 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:14 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:14 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:15 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:15 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:15 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:15 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:15 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:16 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:16 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:16 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:16 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:17 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:17 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:18 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:18 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:18 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:19 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:20 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:20 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:22 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:22 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:22 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:25 WARN  no build target for: /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala[0m
+2025.03.08 16:03:25 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:45 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:52 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:52 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:52 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:53 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:03:59 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:04:00 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:04:27 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/test/scala/riscv/core/CPUTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:04:27 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/test/scala/riscv/core/CPUTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:04:27 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/test/scala/riscv/core/CPUTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:04:28 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/test/scala/riscv/core/CPUTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:04:43 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:04:43 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:04:43 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:04:43 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:04:47 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:04:47 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:04:47 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:04:51 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:04:51 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:04:51 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:04:53 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:04:53 WARN  no build target for: /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala[0m
+2025.03.08 16:04:53 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:04:53 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:04:53 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+Mar 08, 2025 4:04:54 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+SEVERE: empty definition using pc, found symbol in pc: `<none>`. (full report at: /home/curry/code/ysyx_curry/.metals/.reports/metals-full/2025-03-08/r_empty-definition_16-04-54-105.md)
+2025.03.08 16:05:13 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:05:13 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:07:06 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:07:28 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/test/scala/riscv/core/CPUTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+Mar 08, 2025 4:07:34 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 08, 2025 4:08:04 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 08, 2025 4:09:55 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 08, 2025 4:10:57 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 08, 2025 4:12:17 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 08, 2025 4:12:20 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 08, 2025 4:12:32 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 08, 2025 4:13:07 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 08, 2025 4:13:10 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 08, 2025 4:14:01 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 08, 2025 4:14:25 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 08, 2025 4:14:26 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 08, 2025 4:14:35 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 08, 2025 4:14:41 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 08, 2025 4:15:23 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 08, 2025 4:16:06 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 08, 2025 4:16:30 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 08, 2025 4:16:32 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.03.08 16:16:51 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:16:51 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:16:51 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:16:53 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:16:53 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:16:56 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:17:19 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:17:20 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+Mar 08, 2025 4:17:20 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+SEVERE: empty definition using pc, found symbol in pc: `<none>`. (full report at: /home/curry/code/ysyx_curry/.metals/.reports/metals-full/2025-03-08/r_empty-definition_16-04-54-105.md)
+2025.03.08 16:17:21 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+Mar 08, 2025 4:17:50 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 08, 2025 4:18:41 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 08, 2025 4:19:10 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 08, 2025 4:19:12 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.03.08 16:19:31 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/test/scala/riscv/core/CPUTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:19:31 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/test/scala/riscv/core/CPUTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:20:06 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/test/scala/riscv/core/CPUTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:20:06 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/test/scala/riscv/core/CPUTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:20:22 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/CPUBundle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:20:22 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/CPUBundle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:20:22 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/MemoryAccess.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:20:22 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/MemoryAccess.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:20:22 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/Execute.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:20:22 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/Execute.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:20:23 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/InstructionDecode.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:20:22 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/InstructionDecode.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:20:22 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/RegisterFile.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:20:22 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/RegisterFile.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:20:23 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/MemoryControl.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:20:22 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/MemoryControl.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:20:22 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/ALU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:20:23 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/ALU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:20:23 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/InstructionFetch.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:20:22 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/InstructionFetch.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:20:23 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/Ebreak.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:20:22 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/Ebreak.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:20:22 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/WriteBack.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:20:23 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/WriteBack.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:20:22 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/ALUControll.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:20:23 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/ALUControll.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:21:38 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/test/scala/riscv/core/CPUTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:21:38 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/test/scala/riscv/core/CPUTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:23:23 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/test/scala/riscv/core/CPUTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:23:23 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/test/scala/riscv/core/CPUTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+Mar 08, 2025 4:24:52 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 08, 2025 4:25:26 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 08, 2025 4:25:31 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 08, 2025 4:25:47 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 08, 2025 4:25:48 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 08, 2025 4:25:53 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 08, 2025 4:25:55 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.03.08 16:26:03 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:26:03 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+Mar 08, 2025 4:26:11 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.03.08 16:26:37 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:26:37 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/Parameters.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:26:38 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/test/scala/riscv/core/InstructionFetchTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:26:38 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/test/scala/riscv/core/InstructionFetchTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:26:38 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/test/scala/riscv/core/InstructionFetchTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:26:39 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/test/scala/riscv/core/InstructionFetchTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:26:39 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/Parameters.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:26:41 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/Parameters.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:26:41 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/CPUBundle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:26:41 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/CPUBundle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:26:44 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/CPUBundle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:26:44 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/test/scala/riscv/peripheral/MemoryTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:26:44 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/test/scala/riscv/peripheral/MemoryTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:26:44 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/test/scala/riscv/peripheral/MemoryTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.08 16:26:44 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/test/scala/riscv/peripheral/MemoryTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+Mar 08, 2025 4:27:20 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 08, 2025 4:28:08 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 08, 2025 4:28:27 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 08, 2025 4:28:32 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 08, 2025 4:29:12 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 08, 2025 4:29:16 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 08, 2025 4:29:20 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 08, 2025 4:29:42 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 08, 2025 4:30:13 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 08, 2025 4:31:04 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 08, 2025 8:07:47 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 08, 2025 8:26:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 08, 2025 8:45:47 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 08, 2025 8:45:48 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 09, 2025 1:12:01 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 09, 2025 1:12:22 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 09, 2025 1:51:20 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 09, 2025 1:51:21 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.03.10 10:53:42 INFO  Started: Metals version 1.5.1 in folders '/home/curry/code/ysyx_curry' for client Cursor 1.96.2.[0m
+2025.03.10 10:53:46 INFO  Attempting to connect to the build server...[0m
+2025.03.10 10:53:46 INFO  No running Bloop server found, starting one.[0m
+2025.03.10 10:53:48 INFO  Starting compilation server[0m
+2025.03.10 10:53:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/curry/code/ysyx_curry/.metals/bsp.trace.json or /home/curry/.cache/metals/bsp.trace.json[0m
+2025.03.10 10:53:49 WARN  Scala instance jar /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/scala-compiler/2.13.15/scala-compiler-2.13.15.jar doesn't exist![0m
+2025.03.10 10:53:49 WARN  Scala instance jar /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/scala-compiler/2.13.15/scala-compiler-2.13.15.jar doesn't exist![0m
+2025.03.10 10:53:49 WARN  Scala instance jar /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/scala-reflect/2.13.15/scala-reflect-2.13.15.jar doesn't exist![0m
+2025.03.10 10:53:49 WARN  Scala instance jar /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/scala-reflect/2.13.15/scala-reflect-2.13.15.jar doesn't exist![0m
+2025.03.10 10:53:49 WARN  Scala instance jar /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/scala-library/2.13.15/scala-library-2.13.15.jar doesn't exist![0m
+2025.03.10 10:53:49 WARN  Scala instance jar /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/scala-library/2.13.15/scala-library-2.13.15.jar doesn't exist![0m
+2025.03.10 10:53:49 WARN  Scala instance jar /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.jar doesn't exist![0m
+2025.03.10 10:53:49 WARN  Scala instance jar /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.jar doesn't exist![0m
+2025.03.10 10:53:49 WARN  Scala instance jar /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/org/jline/jline/3.26.3/jline-3.26.3.jar doesn't exist![0m
+2025.03.10 10:53:49 WARN  Scala instance jar /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/net/java/dev/jna/jna/5.14.0/jna-5.14.0.jar doesn't exist![0m
+2025.03.10 10:53:49 WARN  Scala instance jar /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/org/jline/jline/3.26.3/jline-3.26.3.jar doesn't exist![0m
+2025.03.10 10:53:49 WARN  Scala instance jar /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/net/java/dev/jna/jna/5.14.0/jna-5.14.0.jar doesn't exist![0m
+2025.03.10 10:53:49 ERROR Bloop server PID: 1615
+Ignoring SIGINT
+Will truncate output file /home/curry/.local/share/scalacli/bloop/daemon/output every 5 minutes
+Unable to load nailgun-version.properties.
+NGServer [UNKNOWN] started on local socket /home/curry/.local/share/scalacli/bloop/daemon/socket.
+/home/curry/.local/share/scalacli/bloop
+/home/curry/.local/share/scalacli/bloop
+[0m
+2025.03.10 10:53:49 ERROR Failed to connect with build server, no functionality will work.
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: bloop.data.Project$ProjectReadException: Failed to load project from /home/curry/code/ysyx_curry/npc/.bloop/npc.test.json
+	at bloop.data.Project$.fromBytesAndOrigin(Project.scala:265)
+	at bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:264)
+	at bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:59)
+	at monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:81)
+	at monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)
+	at monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)
+	at monix.eval.internal.TaskShift$Register$$anon$1.run(TaskShift.scala:65)
+	at monix.execution.internal.InterceptRunnable.run(InterceptRunnable.scala:27)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.nio.file.NoSuchFileException: /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/scala-compiler/2.13.15/scala-compiler-2.13.15.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:148)
+	at java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1851)
+	at bloop.ScalaInstance.$anonfun$hashCode$1(ScalaInstance.scala:114)
+	at scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:286)
+	at scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)
+	at scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)
+	at scala.collection.mutable.WrappedArray.foreach(WrappedArray.scala:38)
+	at scala.collection.TraversableLike.map(TraversableLike.scala:286)
+	at scala.collection.TraversableLike.map$(TraversableLike.scala:279)
+	at scala.collection.AbstractTraversable.map(Traversable.scala:108)
+	at bloop.ScalaInstance.<init>(ScalaInstance.scala:110)
+	at bloop.ScalaInstance$.newInstance$1(ScalaInstance.scala:198)
+	at bloop.ScalaInstance$.$anonfun$apply$9(ScalaInstance.scala:204)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at bloop.ScalaInstance$.apply(ScalaInstance.scala:204)
+	at bloop.data.Project$.$anonfun$fromConfig$1(Project.scala:287)
+	at scala.Option.flatMap(Option.scala:271)
+	at bloop.data.Project$.fromConfig(Project.scala:276)
+	at bloop.data.Project$.fromBytesAndOrigin(Project.scala:259)
+	... 10 more
+
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:755)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:630)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: bloop.data.Project$ProjectReadException: Failed to load project from /home/curry/code/ysyx_curry/npc/.bloop/npc.test.json
+	at bloop.data.Project$.fromBytesAndOrigin(Project.scala:265)
+	at bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:264)
+	at bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:59)
+	at monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:81)
+	at monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)
+	at monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)
+	at monix.eval.internal.TaskShift$Register$$anon$1.run(TaskShift.scala:65)
+	at monix.execution.internal.InterceptRunnable.run(InterceptRunnable.scala:27)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.nio.file.NoSuchFileException: /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/scala-compiler/2.13.15/scala-compiler-2.13.15.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:148)
+	at java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1851)
+	at bloop.ScalaInstance.$anonfun$hashCode$1(ScalaInstance.scala:114)
+	at scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:286)
+	at scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)
+	at scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)
+	at scala.collection.mutable.WrappedArray.foreach(WrappedArray.scala:38)
+	at scala.collection.TraversableLike.map(TraversableLike.scala:286)
+	at scala.collection.TraversableLike.map$(TraversableLike.scala:279)
+	at scala.collection.AbstractTraversable.map(Traversable.scala:108)
+	at bloop.ScalaInstance.<init>(ScalaInstance.scala:110)
+	at bloop.ScalaInstance$.newInstance$1(ScalaInstance.scala:198)
+	at bloop.ScalaInstance$.$anonfun$apply$9(ScalaInstance.scala:204)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at bloop.ScalaInstance$.apply(ScalaInstance.scala:204)
+	at bloop.data.Project$.$anonfun$fromConfig$1(Project.scala:287)
+	at scala.Option.flatMap(Option.scala:271)
+	at bloop.data.Project$.fromConfig(Project.scala:276)
+	at bloop.data.Project$.fromBytesAndOrigin(Project.scala:259)
+	... 10 more
+
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+Mar 10, 2025 10:54:25 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 10, 2025 10:55:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 10, 2025 10:55:11 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.03.10 10:55:34 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/test/scala/riscv/core/CPUTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 10:55:34 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/test/scala/riscv/core/CPUTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 10:55:35 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/test/scala/riscv/core/CPUTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 10:55:35 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/test/scala/riscv/core/CPUTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+Mar 10, 2025 10:55:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+2025.03.10 10:55:35 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/test/scala/riscv/core/CPUTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 10:55:36 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/test/scala/riscv/core/CPUTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 10:55:36 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/test/scala/riscv/core/CPUTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 10:55:36 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/test/scala/riscv/core/CPUTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 10:55:38 INFO  time: code lens generation in 3.76s[0m
+Mar 10, 2025 10:57:06 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 10, 2025 10:57:26 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 10, 2025 11:22:10 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 10, 2025 11:22:11 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.03.10 11:22:21 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/test/scala/riscv/core/CPUTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 11:22:21 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 11:22:21 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+Mar 10, 2025 11:22:25 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 10, 2025 11:23:22 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 10, 2025 11:24:40 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 10, 2025 11:24:42 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.03.10 11:24:42 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 11:24:43 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 11:24:42 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+Mar 10, 2025 11:24:43 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+SEVERE: empty definition using pc, found symbol in pc: `<none>`. (full report at: /home/curry/code/ysyx_curry/.metals/.reports/metals-full/2025-03-08/r_empty-definition_16-04-54-105.md)
+2025.03.10 11:24:42 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 11:24:43 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 11:24:43 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 11:24:43 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+Mar 10, 2025 11:24:44 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+SEVERE: empty definition using pc, found symbol in pc: `<none>`. (full report at: /home/curry/code/ysyx_curry/.metals/.reports/metals-full/2025-03-08/r_empty-definition_16-04-54-105.md)
+2025.03.10 11:24:43 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 11:24:43 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 11:24:43 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+Mar 10, 2025 11:24:44 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+SEVERE: empty definition using pc, found symbol in pc: `<none>`. (full report at: /home/curry/code/ysyx_curry/.metals/.reports/metals-full/2025-03-08/r_empty-definition_16-04-54-105.md)
+2025.03.10 11:24:47 WARN  no build target for: /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala[0m
+2025.03.10 11:24:47 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 11:24:47 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 11:24:47 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 11:24:47 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 11:24:47 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+Mar 10, 2025 11:24:48 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+SEVERE: empty definition using pc, found symbol in pc: `<none>`. (full report at: /home/curry/code/ysyx_curry/.metals/.reports/metals-full/2025-03-08/r_empty-definition_16-04-54-105.md)
+2025.03.10 11:24:48 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+Mar 10, 2025 11:25:52 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.03.10 11:33:42 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 11:33:42 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+Mar 10, 2025 11:33:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 10, 2025 11:34:05 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.03.10 11:34:05 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+Mar 10, 2025 11:34:06 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.03.10 11:34:24 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/test/scala/riscv/core/CPUTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 11:34:24 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/test/scala/riscv/core/CPUTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 11:34:24 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/test/scala/riscv/peripheral/MemoryTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 11:34:24 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/test/scala/riscv/peripheral/MemoryTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 11:34:24 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/CPUBundle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 11:34:24 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/CPUBundle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 11:35:20 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/test/scala/riscv/core/CPUTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 11:35:20 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/test/scala/riscv/core/CPUTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 11:35:20 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/CPUBundle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 11:35:20 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/test/scala/riscv/peripheral/MemoryTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 11:35:20 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/test/scala/riscv/peripheral/MemoryTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 11:35:20 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/CPUBundle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 11:35:52 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/test/scala/riscv/core/CPUTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 11:35:52 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/test/scala/riscv/core/CPUTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 11:35:53 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/test/scala/riscv/core/CPUTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 11:35:58 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/test/scala/riscv/core/CPUTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 11:36:04 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/test/scala/riscv/core/CPUTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 11:36:04 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/test/scala/riscv/core/CPUTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 11:36:04 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/test/scala/riscv/core/CPUTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 11:36:23 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/test/scala/riscv/core/CPUTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 11:36:23 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 11:36:23 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 11:36:23 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 11:36:24 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 11:36:25 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 3.3.4[0m
+Mar 10, 2025 11:37:32 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 10, 2025 11:38:17 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 10, 2025 11:38:53 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 10, 2025 11:40:55 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 10, 2025 12:20:20 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 10, 2025 12:20:23 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.03.10 12:20:23 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 12:20:23 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 12:20:23 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 12:20:23 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 12:20:25 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 12:20:25 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.10 12:20:25 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+Mar 10, 2025 12:20:29 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 10, 2025 12:21:32 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 10, 2025 12:51:35 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.03.10 12:51:36 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+Mar 10, 2025 12:51:36 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.03.11 09:50:28 INFO  Shutting down server[0m
+2025.03.11 09:50:28 INFO  shutting down Metals[0m
+2025.03.11 09:50:28 INFO  Exiting server[0m
+2025.03.11 09:51:34 INFO  Started: Metals version 1.5.1 in folders '/home/curry/code/ysyx_curry' for client Cursor 1.96.2.[0m
+2025.03.11 09:51:35 INFO  Attempting to connect to the build server...[0m
+2025.03.11 09:51:35 INFO  Found a Bloop server running[0m
+2025.03.11 09:51:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/curry/code/ysyx_curry/.metals/bsp.trace.json or /home/curry/.cache/metals/bsp.trace.json[0m
+2025.03.11 09:51:35 WARN  Scala instance jar /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/scala-compiler/2.13.15/scala-compiler-2.13.15.jar doesn't exist![0m
+2025.03.11 09:51:35 WARN  Scala instance jar /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/scala-reflect/2.13.15/scala-reflect-2.13.15.jar doesn't exist![0m
+2025.03.11 09:51:35 WARN  Scala instance jar /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/scala-library/2.13.15/scala-library-2.13.15.jar doesn't exist![0m
+2025.03.11 09:51:35 WARN  Scala instance jar /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.jar doesn't exist![0m
+2025.03.11 09:51:35 WARN  Scala instance jar /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/org/jline/jline/3.26.3/jline-3.26.3.jar doesn't exist![0m
+2025.03.11 09:51:35 WARN  Scala instance jar /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/net/java/dev/jna/jna/5.14.0/jna-5.14.0.jar doesn't exist![0m
+2025.03.11 09:51:35 WARN  Scala instance jar /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/scala-compiler/2.13.15/scala-compiler-2.13.15.jar doesn't exist![0m
+2025.03.11 09:51:35 WARN  Scala instance jar /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/scala-reflect/2.13.15/scala-reflect-2.13.15.jar doesn't exist![0m
+2025.03.11 09:51:35 WARN  Scala instance jar /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/scala-library/2.13.15/scala-library-2.13.15.jar doesn't exist![0m
+2025.03.11 09:51:35 WARN  Scala instance jar /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.jar doesn't exist![0m
+2025.03.11 09:51:35 WARN  Scala instance jar /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/org/jline/jline/3.26.3/jline-3.26.3.jar doesn't exist![0m
+2025.03.11 09:51:35 WARN  Scala instance jar /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/net/java/dev/jna/jna/5.14.0/jna-5.14.0.jar doesn't exist![0m
+2025.03.11 09:51:35 ERROR Bloop server PID: 1615
+Ignoring SIGINT
+Will truncate output file /home/curry/.local/share/scalacli/bloop/daemon/output every 5 minutes
+Unable to load nailgun-version.properties.
+NGServer [UNKNOWN] started on local socket /home/curry/.local/share/scalacli/bloop/daemon/socket.
+/home/curry/.local/share/scalacli/bloop
+/home/curry/.local/share/scalacli/bloop
+/home/curry/.local/share/scalacli/bloop
+/home/curry/.local/share/scalacli/bloop
+[0m
+2025.03.11 09:51:35 ERROR Failed to connect with build server, no functionality will work.
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: bloop.data.Project$ProjectReadException: Failed to load project from /home/curry/code/ysyx_curry/npc/.bloop/npc.json
+	at bloop.data.Project$.fromBytesAndOrigin(Project.scala:265)
+	at bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:264)
+	at bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:59)
+	at monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:81)
+	at monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)
+	at monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)
+	at monix.eval.internal.TaskShift$Register$$anon$1.run(TaskShift.scala:65)
+	at monix.execution.internal.InterceptRunnable.run(InterceptRunnable.scala:27)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.nio.file.NoSuchFileException: /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/scala-compiler/2.13.15/scala-compiler-2.13.15.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:148)
+	at java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1851)
+	at bloop.ScalaInstance.$anonfun$hashCode$1(ScalaInstance.scala:114)
+	at scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:286)
+	at scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)
+	at scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)
+	at scala.collection.mutable.WrappedArray.foreach(WrappedArray.scala:38)
+	at scala.collection.TraversableLike.map(TraversableLike.scala:286)
+	at scala.collection.TraversableLike.map$(TraversableLike.scala:279)
+	at scala.collection.AbstractTraversable.map(Traversable.scala:108)
+	at bloop.ScalaInstance.<init>(ScalaInstance.scala:110)
+	at bloop.ScalaInstance$.newInstance$1(ScalaInstance.scala:198)
+	at bloop.ScalaInstance$.$anonfun$apply$9(ScalaInstance.scala:204)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at bloop.ScalaInstance$.apply(ScalaInstance.scala:204)
+	at bloop.data.Project$.$anonfun$fromConfig$1(Project.scala:287)
+	at scala.Option.flatMap(Option.scala:271)
+	at bloop.data.Project$.fromConfig(Project.scala:276)
+	at bloop.data.Project$.fromBytesAndOrigin(Project.scala:259)
+	... 10 more
+
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:755)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:630)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: bloop.data.Project$ProjectReadException: Failed to load project from /home/curry/code/ysyx_curry/npc/.bloop/npc.json
+	at bloop.data.Project$.fromBytesAndOrigin(Project.scala:265)
+	at bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:264)
+	at bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:59)
+	at monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:81)
+	at monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)
+	at monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)
+	at monix.eval.internal.TaskShift$Register$$anon$1.run(TaskShift.scala:65)
+	at monix.execution.internal.InterceptRunnable.run(InterceptRunnable.scala:27)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.nio.file.NoSuchFileException: /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/scala-compiler/2.13.15/scala-compiler-2.13.15.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:148)
+	at java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1851)
+	at bloop.ScalaInstance.$anonfun$hashCode$1(ScalaInstance.scala:114)
+	at scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:286)
+	at scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)
+	at scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)
+	at scala.collection.mutable.WrappedArray.foreach(WrappedArray.scala:38)
+	at scala.collection.TraversableLike.map(TraversableLike.scala:286)
+	at scala.collection.TraversableLike.map$(TraversableLike.scala:279)
+	at scala.collection.AbstractTraversable.map(Traversable.scala:108)
+	at bloop.ScalaInstance.<init>(ScalaInstance.scala:110)
+	at bloop.ScalaInstance$.newInstance$1(ScalaInstance.scala:198)
+	at bloop.ScalaInstance$.$anonfun$apply$9(ScalaInstance.scala:204)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at bloop.ScalaInstance$.apply(ScalaInstance.scala:204)
+	at bloop.data.Project$.$anonfun$fromConfig$1(Project.scala:287)
+	at scala.Option.flatMap(Option.scala:271)
+	at bloop.data.Project$.fromConfig(Project.scala:276)
+	at bloop.data.Project$.fromBytesAndOrigin(Project.scala:259)
+	... 10 more
+
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2025.03.11 09:51:35 INFO  no build target found for /home/curry/code/ysyx_curry/npc/build.sc. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.11 09:51:37 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+Mar 11, 2025 9:54:59 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 11, 2025 9:55:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.03.11 09:55:03 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.11 09:55:03 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.11 09:55:03 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+Mar 11, 2025 9:55:07 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 11, 2025 9:55:07 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.03.11 09:55:07 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+Mar 11, 2025 9:55:09 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 11, 2025 9:55:25 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.03.11 09:55:25 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+Mar 11, 2025 9:55:26 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 11, 2025 9:56:12 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.03.11 15:05:29 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+Mar 11, 2025 3:05:33 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.03.11 15:05:33 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+Mar 11, 2025 3:05:40 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.03.11 15:05:40 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+Mar 11, 2025 3:05:41 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 11, 2025 3:06:19 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.03.11 15:06:19 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.11 15:06:23 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+Mar 11, 2025 3:06:23 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.03.11 15:06:35 INFO  Shutting down server[0m
+2025.03.11 15:06:35 INFO  shutting down Metals[0m
+2025.03.11 15:06:35 INFO  Exiting server[0m
+2025.03.11 15:09:40 INFO  Started: Metals version 1.5.1 in folders '/home/curry/code/ysyx_curry' for client Cursor 1.96.2.[0m
+2025.03.11 15:09:41 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.11 15:09:41 INFO  Attempting to connect to the build server...[0m
+2025.03.11 15:09:41 INFO  No running Bloop server found, starting one.[0m
+2025.03.11 15:09:43 INFO  Starting compilation server[0m
+2025.03.11 15:09:45 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/curry/code/ysyx_curry/.metals/bsp.trace.json or /home/curry/.cache/metals/bsp.trace.json[0m
+2025.03.11 15:09:45 WARN  Scala instance jar /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/scala-compiler/2.13.15/scala-compiler-2.13.15.jar doesn't exist![0m
+2025.03.11 15:09:45 WARN  Scala instance jar /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/scala-compiler/2.13.15/scala-compiler-2.13.15.jar doesn't exist![0m
+2025.03.11 15:09:45 WARN  Scala instance jar /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/scala-reflect/2.13.15/scala-reflect-2.13.15.jar doesn't exist![0m
+2025.03.11 15:09:45 WARN  Scala instance jar /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/scala-library/2.13.15/scala-library-2.13.15.jar doesn't exist![0m
+2025.03.11 15:09:45 WARN  Scala instance jar /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.jar doesn't exist![0m
+2025.03.11 15:09:45 WARN  Scala instance jar /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/org/jline/jline/3.26.3/jline-3.26.3.jar doesn't exist![0m
+2025.03.11 15:09:45 WARN  Scala instance jar /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/net/java/dev/jna/jna/5.14.0/jna-5.14.0.jar doesn't exist![0m
+2025.03.11 15:09:45 WARN  Scala instance jar /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/scala-reflect/2.13.15/scala-reflect-2.13.15.jar doesn't exist![0m
+2025.03.11 15:09:45 WARN  Scala instance jar /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/scala-library/2.13.15/scala-library-2.13.15.jar doesn't exist![0m
+2025.03.11 15:09:45 WARN  Scala instance jar /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.jar doesn't exist![0m
+2025.03.11 15:09:45 WARN  Scala instance jar /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/org/jline/jline/3.26.3/jline-3.26.3.jar doesn't exist![0m
+2025.03.11 15:09:45 WARN  Scala instance jar /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/net/java/dev/jna/jna/5.14.0/jna-5.14.0.jar doesn't exist![0m
+2025.03.11 15:09:45 ERROR Bloop server PID: 3678
+Ignoring SIGINT
+Will truncate output file /home/curry/.local/share/scalacli/bloop/daemon/output every 5 minutes
+Unable to load nailgun-version.properties.
+NGServer [UNKNOWN] started on local socket /home/curry/.local/share/scalacli/bloop/daemon/socket.
+/home/curry/.local/share/scalacli/bloop
+/home/curry/.local/share/scalacli/bloop
+[0m
+2025.03.11 15:09:45 ERROR Failed to connect with build server, no functionality will work.
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: bloop.data.Project$ProjectReadException: Failed to load project from /home/curry/code/ysyx_curry/npc/.bloop/npc.json
+	at bloop.data.Project$.fromBytesAndOrigin(Project.scala:265)
+	at bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:264)
+	at bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:59)
+	at monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:81)
+	at monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)
+	at monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)
+	at monix.eval.internal.TaskShift$Register$$anon$1.run(TaskShift.scala:65)
+	at monix.execution.internal.InterceptRunnable.run(InterceptRunnable.scala:27)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.nio.file.NoSuchFileException: /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/scala-compiler/2.13.15/scala-compiler-2.13.15.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:148)
+	at java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1851)
+	at bloop.ScalaInstance.$anonfun$hashCode$1(ScalaInstance.scala:114)
+	at scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:286)
+	at scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)
+	at scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)
+	at scala.collection.mutable.WrappedArray.foreach(WrappedArray.scala:38)
+	at scala.collection.TraversableLike.map(TraversableLike.scala:286)
+	at scala.collection.TraversableLike.map$(TraversableLike.scala:279)
+	at scala.collection.AbstractTraversable.map(Traversable.scala:108)
+	at bloop.ScalaInstance.<init>(ScalaInstance.scala:110)
+	at bloop.ScalaInstance$.newInstance$1(ScalaInstance.scala:198)
+	at bloop.ScalaInstance$.$anonfun$apply$9(ScalaInstance.scala:204)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at bloop.ScalaInstance$.apply(ScalaInstance.scala:204)
+	at bloop.data.Project$.$anonfun$fromConfig$1(Project.scala:287)
+	at scala.Option.flatMap(Option.scala:271)
+	at bloop.data.Project$.fromConfig(Project.scala:276)
+	at bloop.data.Project$.fromBytesAndOrigin(Project.scala:259)
+	... 10 more
+
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:755)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:630)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: bloop.data.Project$ProjectReadException: Failed to load project from /home/curry/code/ysyx_curry/npc/.bloop/npc.json
+	at bloop.data.Project$.fromBytesAndOrigin(Project.scala:265)
+	at bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:264)
+	at bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:59)
+	at monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:81)
+	at monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)
+	at monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)
+	at monix.eval.internal.TaskShift$Register$$anon$1.run(TaskShift.scala:65)
+	at monix.execution.internal.InterceptRunnable.run(InterceptRunnable.scala:27)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.nio.file.NoSuchFileException: /home/curry/.cache/coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/scala-compiler/2.13.15/scala-compiler-2.13.15.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:148)
+	at java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1851)
+	at bloop.ScalaInstance.$anonfun$hashCode$1(ScalaInstance.scala:114)
+	at scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:286)
+	at scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)
+	at scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)
+	at scala.collection.mutable.WrappedArray.foreach(WrappedArray.scala:38)
+	at scala.collection.TraversableLike.map(TraversableLike.scala:286)
+	at scala.collection.TraversableLike.map$(TraversableLike.scala:279)
+	at scala.collection.AbstractTraversable.map(Traversable.scala:108)
+	at bloop.ScalaInstance.<init>(ScalaInstance.scala:110)
+	at bloop.ScalaInstance$.newInstance$1(ScalaInstance.scala:198)
+	at bloop.ScalaInstance$.$anonfun$apply$9(ScalaInstance.scala:204)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at bloop.ScalaInstance$.apply(ScalaInstance.scala:204)
+	at bloop.data.Project$.$anonfun$fromConfig$1(Project.scala:287)
+	at scala.Option.flatMap(Option.scala:271)
+	at bloop.data.Project$.fromConfig(Project.scala:276)
+	at bloop.data.Project$.fromBytesAndOrigin(Project.scala:259)
+	... 10 more
+
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2025.03.11 15:09:45 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.11 15:09:50 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/main/scala/riscv/core/CPU.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+Mar 11, 2025 3:09:51 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 11, 2025 3:10:14 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 11, 2025 3:10:16 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
