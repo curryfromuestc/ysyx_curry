@@ -56,7 +56,8 @@ class MemoryTest extends AnyFlatSpec with ChiselScalatestTester {
     behavior of "Memory"
     it should "read the write data" in {
         test(new Memory(1024)).withAnnotations(TestAnnotations.annos) { c =>
-            c.io.bundle.address.poke(0x123123.U) // 写入地址
+            val write_address = BigInt("80000010",16)
+            c.io.bundle.address.poke(write_address) // 写入地址
             c.io.bundle.write_data.poke(0x12345678.U) // 写入数据
             c.io.bundle.write_enable.poke(true.B) // 写使能
             //c.io.bundle.write_strobe.poke(VecInit(Seq.fill(Parameters.WordSize)(true.B))) // 写掩码
@@ -67,14 +68,15 @@ class MemoryTest extends AnyFlatSpec with ChiselScalatestTester {
                 c.io.bundle.write_strobe(i).poke(true.B)
             }
             c.clock.step(1)
-            c.io.bundle.address.poke(0x123123.U) // 写入地址
+            c.io.bundle.address.poke(write_address) // 写入地址
             c.io.bundle.read_data.expect(0x12345678.U)
         }
     }
     it should "read the written instruction" in {
         test(new Memory(1024)).withAnnotations(TestAnnotations.annos) { c =>
+            val write_address = BigInt("80000010",16)
             timescope {
-                c.io.bundle.address.poke(0x123123.U)
+                c.io.bundle.address.poke(write_address)
                 c.io.bundle.write_data.poke(0x00a02223L.U) //sw x10, 4(x0)
                 c.io.bundle.write_enable.poke(true.B)
                 for (i <- 0 until Parameters.WordSize) {
@@ -84,7 +86,7 @@ class MemoryTest extends AnyFlatSpec with ChiselScalatestTester {
                 c.io.bundle.read_data.expect(0x00a02223L.U)
             }
             timescope {
-                c.io.instruction_address.poke(0x123123.U)
+                c.io.instruction_address.poke(write_address)
                 c.clock.step(1)
                 c.io.instruction.expect(0x00a02223L.U)
             }
