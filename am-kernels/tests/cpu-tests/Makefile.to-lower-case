@@ -1,3 +1,3 @@
-NAME = shift
-SRCS = tests/shift.c
+NAME = to-lower-case
+SRCS = tests/to-lower-case.c
 include /home/curry/code/ysyx_curry/abstract-machine/Makefile
