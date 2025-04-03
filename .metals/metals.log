@@ -4490,3 +4490,5 @@ java.nio.file.NoSuchFileException: /home/curry/.cache/coursier/v1/https/maven.al
 	at java.lang.Thread.run(Thread.java:840)
 [0m
 2025.04.03 09:28:01 INFO  compiling npc (16 scala sources)[0m
+2025.04.03 09:28:09 WARN  Invalid text document uri received from build server: file:///home/curry/code/ysyx_curry/npc/src/main/scala/rv32i/MemInst.scala[0m
+2025.04.03 09:28:09 INFO  time: compiled npc in 7.99s[0m
