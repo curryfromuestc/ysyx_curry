@@ -10,6 +10,7 @@
 [1;34m[src/monitor/monitor.c:61 load_img] The image is /home/curry/code/ysyx_curry/am-kernels/benchmarks/microbench/build/microbench-riscv32-nemu.bin, size = 28244[0m
 [1;34m[src/cpu/difftest/dut.c:85 init_difftest] Differential testing: [1;32mON[0m[0m
 [1;34m[src/cpu/difftest/dut.c:86 init_difftest] The result of every instruction will be compared with /home/curry/code/ysyx_curry/nemu/tools/spike-diff/build/riscv32-spike-so. This will help you a lot for debugging, but also significantly reduce the performance. If it is not necessary, you can turn it off in menuconfig.[0m
+[1;34m[src/utils/itrace.c:429 parse_elf] specified ELF file: /home/curry/code/ysyx_curry/am-kernels/benchmarks/microbench/build/microbench-riscv32-nemu.elf[0m
 [1;34m[src/monitor/monitor.c:28 welcome] Trace: [1;32mON[0m[0m
 [1;34m[src/monitor/monitor.c:29 welcome] If trace is enabled, a log file will be generated to record the trace. This may lead to a large log file. If it is not necessary, you can disable it in menuconfig[0m
 [1;34m[src/monitor/monitor.c:32 welcome] Build time: 13:21:53, Apr  3 2025[0m
