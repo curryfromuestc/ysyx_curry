@@ -1,3 +1,3 @@
-NAME = switch
-SRCS = tests/switch.c
+NAME = prime
+SRCS = tests/prime.c
 include /home/curry/code/ysyx_curry/abstract-machine/Makefile
