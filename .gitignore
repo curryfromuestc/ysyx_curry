@@ -1,3 +1,4 @@
 npc/out
 npc/test_run_dir
 nemu/build
+nemu/ftrace.txt
