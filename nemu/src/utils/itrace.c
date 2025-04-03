@@ -9,7 +9,7 @@
 #include <fcntl.h>
 #include <unistd.h>
 #include <stdarg.h>
-#define FOUTPUT_FILE "/root/ysyx-workbench/nemu/src/utils/ftrace.txt"
+#define FOUTPUT_FILE "ftrace.txt"
 
 
 typedef struct {

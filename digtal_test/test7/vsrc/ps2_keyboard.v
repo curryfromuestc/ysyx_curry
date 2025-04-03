@@ -56,4 +56,7 @@ module ps2_keyboard(//添加计数器
     end
     assign data = fifo[r_ptr]; //always set output data
 
+    always @(posedge clk) begin
+        $display("count=%d", count);
+    end
 endmodule
