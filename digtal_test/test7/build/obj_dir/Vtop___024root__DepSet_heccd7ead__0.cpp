@@ -59,6 +59,7 @@ VL_INLINE_OPT void Vtop___024root___nba_sequent__TOP__0(Vtop___024root* vlSelf) 
     CData/*0:0*/ __Vdlyvset__top__DOT__my_keyboard__DOT__fifo__v0;
     __Vdlyvset__top__DOT__my_keyboard__DOT__fifo__v0 = 0;
     // Body
+    VL_WRITEF("count=%2#\n",4,vlSelf->top__DOT__my_keyboard__DOT__count);
     __Vdly__top__DOT__my_keyboard__DOT__ps2_clk_sync 
         = vlSelf->top__DOT__my_keyboard__DOT__ps2_clk_sync;
     __Vdly__top__DOT__overflow = vlSelf->top__DOT__overflow;
@@ -153,11 +154,11 @@ VL_INLINE_OPT void Vtop___024root___nba_sequent__TOP__0(Vtop___024root* vlSelf) 
     }
     vlSelf->top__DOT__state = ((IData)(vlSelf->clrn)
                                 ? 0U : (IData)(vlSelf->top__DOT__next_state));
-    vlSelf->top__DOT__my_keyboard__DOT__count = __Vdly__top__DOT__my_keyboard__DOT__count;
     vlSelf->top__DOT__my_keyboard__DOT__w_ptr = __Vdly__top__DOT__my_keyboard__DOT__w_ptr;
     vlSelf->top__DOT__overflow = __Vdly__top__DOT__overflow;
     vlSelf->top__DOT__my_keyboard__DOT__ps2_clk_sync 
         = __Vdly__top__DOT__my_keyboard__DOT__ps2_clk_sync;
+    vlSelf->top__DOT__my_keyboard__DOT__count = __Vdly__top__DOT__my_keyboard__DOT__count;
     vlSelf->top__DOT__key_count = __Vdly__top__DOT__key_count;
     vlSelf->top__DOT__ready = __Vdly__top__DOT__ready;
     vlSelf->top__DOT__my_keyboard__DOT__r_ptr = __Vdly__top__DOT__my_keyboard__DOT__r_ptr;
