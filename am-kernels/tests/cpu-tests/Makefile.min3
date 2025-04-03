@@ -1,3 +1,3 @@
-NAME = matrix-mul
-SRCS = tests/matrix-mul.c
+NAME = min3
+SRCS = tests/min3.c
 include /home/curry/code/ysyx_curry/abstract-machine/Makefile
