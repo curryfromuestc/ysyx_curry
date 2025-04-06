@@ -1,4 +1,6 @@
 npc/out
 npc/test_run_dir
+npc/.metals
 nemu/build
 nemu/ftrace.txt
+.metals/
