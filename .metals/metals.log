@@ -4925,3 +4925,16 @@ WARNING: Unsupported notification method: metals/windowStateDidChange
 2025.04.06 20:47:02 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/AllBundles.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
 2025.04.06 20:47:33 WARN  no build target for: /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/AllBundles.scala[0m
 2025.04.06 20:47:33 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/AllBundles.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.07 21:05:28 INFO  Started: Metals version 1.5.2 in folders '/home/curry/code/ysyx_curry' for client Cursor 1.96.2.[0m
+2025.04.07 21:05:35 INFO  Attempting to connect to the build server...[0m
+2025.04.07 21:05:35 INFO  No running Bloop server found, starting one.[0m
+2025.04.07 21:05:29 INFO  Starting compilation server[0m
+2025.04.07 21:05:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/curry/code/ysyx_curry/.metals/bsp.trace.json or /home/curry/.cache/metals/bsp.trace.json[0m
+2025.04.07 21:05:31 INFO  time: Connected to build server in 2.33s[0m
+2025.04.07 21:05:31 INFO  Connected to Build server: Bloop v2.0.9[0m
+2025.04.07 21:05:31 INFO  time: Imported build in 0.14s[0m
+2025.04.07 21:05:33 INFO  time: indexed workspace in 2.1s[0m
+Apr 07, 2025 9:48:17 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 07, 2025 9:48:18 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
