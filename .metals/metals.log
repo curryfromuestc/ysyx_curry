@@ -4938,3 +4938,703 @@ Apr 07, 2025 9:48:17 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notif
 INFO: Unsupported notification method: $/setTrace
 Apr 07, 2025 9:48:18 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2025.04.08 16:45:20 INFO  Started: Metals version 1.5.2 in folders '/home/curry/code/ysyx_curry' for client Cursor 1.96.2.[0m
+2025.04.08 16:45:24 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 3.3.5[0m
+2025.04.08 16:45:25 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 3.3.5[0m
+2025.04.08 16:45:25 INFO  Attempting to connect to the build server...[0m
+2025.04.08 16:45:25 INFO  Found a Bloop server running[0m
+2025.04.08 16:45:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/curry/code/ysyx_curry/.metals/bsp.trace.json or /home/curry/.cache/metals/bsp.trace.json[0m
+2025.04.08 16:45:25 ERROR /usr/lib/jvm/temurin-17-jdk-amd64 release file missing JAVA_VERSION property - using Bloop's JVM version 17.0.14[0m
+2025.04.08 16:45:25 ERROR /usr/lib/jvm/temurin-17-jdk-amd64 release file missing JAVA_VERSION property - using Bloop's JVM version 17.0.14[0m
+2025.04.08 16:45:25 INFO  time: Connected to build server in 0.6s[0m
+2025.04.08 16:45:25 INFO  Connected to Build server: Bloop v2.0.9[0m
+2025.04.08 16:45:25 INFO  time: Imported build in 0.21s[0m
+2025.04.08 16:45:26 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 3.3.5[0m
+Apr 08, 2025 4:45:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+Apr 08, 2025 4:45:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+Apr 08, 2025 4:45:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+2025.04.08 16:45:26 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:27 ERROR Running process '/usr/lib/jvm/temurin-17-jdk-amd64/bin/java -version' failed
+java.io.IOException: Cannot run program "/usr/lib/jvm/temurin-17-jdk-amd64/bin/java" (in directory "/usr/lib/jvm/temurin-17-jdk-amd64"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:139)
+	at scala.meta.internal.metals.JdkVersion$.fromShell(JavaInteractiveSemanticdb.scala:238)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$3(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$2(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JdkVersion$.maybeJdkVersionFromJavaHome(JavaInteractiveSemanticdb.scala:227)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$5(ProjectMetalsLspService.scala:445)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$3(ProjectMetalsLspService.scala:445)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$1(ProjectMetalsLspService.scala:442)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.ProjectMetalsLspService.getProjectsJavaInfo(ProjectMetalsLspService.scala:441)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$projectInfo$3(ProjectMetalsLspService.scala:435)
+	at scala.meta.internal.metals.doctor.MetalsServiceInfo$ProjectService.getJavaInfo(Doctor.scala:776)
+	at scala.meta.internal.metals.doctor.Doctor.$anonfun$problemResolver$3(Doctor.scala:82)
+	at scala.meta.internal.metals.doctor.ProblemResolver.javaSourcesProblem$1(ProblemResolver.scala:240)
+	at scala.meta.internal.metals.doctor.ProblemResolver.$anonfun$findProblem$6(ProblemResolver.scala:308)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.doctor.ProblemResolver.findProblem(ProblemResolver.scala:308)
+	at scala.meta.internal.metals.doctor.ProblemResolver.$anonfun$problemMessage$1(ProblemResolver.scala:67)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.metals.doctor.ProblemResolver.problemMessage(ProblemResolver.scala:66)
+	at scala.meta.internal.metals.doctor.Doctor.check(Doctor.scala:113)
+	at scala.meta.internal.metals.MetalsLspService.check(MetalsLspService.scala:1548)
+	at scala.meta.internal.metals.ProjectMetalsLspService.check(ProjectMetalsLspService.scala:721)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$connectionProvider$1(ProjectMetalsLspService.scala:162)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$11(Indexer.scala:150)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:150)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:57)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:57)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:139)
+	at scala.meta.internal.metals.JdkVersion$.fromShell(JavaInteractiveSemanticdb.scala:238)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$3(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$2(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JdkVersion$.maybeJdkVersionFromJavaHome(JavaInteractiveSemanticdb.scala:227)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$5(ProjectMetalsLspService.scala:445)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$3(ProjectMetalsLspService.scala:445)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$1(ProjectMetalsLspService.scala:442)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.ProjectMetalsLspService.getProjectsJavaInfo(ProjectMetalsLspService.scala:441)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$projectInfo$3(ProjectMetalsLspService.scala:435)
+	at scala.meta.internal.metals.doctor.MetalsServiceInfo$ProjectService.getJavaInfo(Doctor.scala:776)
+	at scala.meta.internal.metals.doctor.Doctor.$anonfun$problemResolver$3(Doctor.scala:82)
+	at scala.meta.internal.metals.doctor.ProblemResolver.javaSourcesProblem$1(ProblemResolver.scala:240)
+	at scala.meta.internal.metals.doctor.ProblemResolver.$anonfun$findProblem$6(ProblemResolver.scala:308)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.doctor.ProblemResolver.findProblem(ProblemResolver.scala:308)
+	at scala.meta.internal.metals.doctor.ProblemResolver.$anonfun$problemMessage$1(ProblemResolver.scala:67)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.metals.doctor.ProblemResolver.problemMessage(ProblemResolver.scala:66)
+	at scala.meta.internal.metals.doctor.Doctor.check(Doctor.scala:113)
+	at scala.meta.internal.metals.MetalsLspService.check(MetalsLspService.scala:1548)
+	at scala.meta.internal.metals.ProjectMetalsLspService.check(ProjectMetalsLspService.scala:721)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$connectionProvider$1(ProjectMetalsLspService.scala:162)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$11(Indexer.scala:150)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:150)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:57)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:57)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2025.04.08 16:45:27 ERROR Running process '/usr/lib/jvm/temurin-17-jdk-amd64/bin/java -version' failed
+java.io.IOException: Cannot run program "/usr/lib/jvm/temurin-17-jdk-amd64/bin/java" (in directory "/usr/lib/jvm/temurin-17-jdk-amd64"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:139)
+	at scala.meta.internal.metals.JdkVersion$.fromShell(JavaInteractiveSemanticdb.scala:238)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$3(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$2(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JdkVersion$.maybeJdkVersionFromJavaHome(JavaInteractiveSemanticdb.scala:227)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$5(ProjectMetalsLspService.scala:445)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$3(ProjectMetalsLspService.scala:445)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$1(ProjectMetalsLspService.scala:442)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.ProjectMetalsLspService.getProjectsJavaInfo(ProjectMetalsLspService.scala:441)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$projectInfo$3(ProjectMetalsLspService.scala:435)
+	at scala.meta.internal.metals.doctor.MetalsServiceInfo$ProjectService.getJavaInfo(Doctor.scala:776)
+	at scala.meta.internal.metals.doctor.Doctor.$anonfun$problemResolver$3(Doctor.scala:82)
+	at scala.meta.internal.metals.doctor.ProblemResolver.javaSourcesProblem$1(ProblemResolver.scala:240)
+	at scala.meta.internal.metals.doctor.ProblemResolver.$anonfun$findProblem$6(ProblemResolver.scala:308)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.doctor.ProblemResolver.findProblem(ProblemResolver.scala:308)
+	at scala.meta.internal.metals.doctor.ProblemResolver.$anonfun$problemMessage$1(ProblemResolver.scala:67)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.metals.doctor.ProblemResolver.problemMessage(ProblemResolver.scala:66)
+	at scala.meta.internal.metals.doctor.Doctor.check(Doctor.scala:113)
+	at scala.meta.internal.metals.MetalsLspService.check(MetalsLspService.scala:1548)
+	at scala.meta.internal.metals.ProjectMetalsLspService.check(ProjectMetalsLspService.scala:721)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$connectionProvider$1(ProjectMetalsLspService.scala:162)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$11(Indexer.scala:150)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:150)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:57)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:57)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:139)
+	at scala.meta.internal.metals.JdkVersion$.fromShell(JavaInteractiveSemanticdb.scala:238)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$3(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$2(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JdkVersion$.maybeJdkVersionFromJavaHome(JavaInteractiveSemanticdb.scala:227)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$5(ProjectMetalsLspService.scala:445)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$3(ProjectMetalsLspService.scala:445)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$1(ProjectMetalsLspService.scala:442)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.ProjectMetalsLspService.getProjectsJavaInfo(ProjectMetalsLspService.scala:441)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$projectInfo$3(ProjectMetalsLspService.scala:435)
+	at scala.meta.internal.metals.doctor.MetalsServiceInfo$ProjectService.getJavaInfo(Doctor.scala:776)
+	at scala.meta.internal.metals.doctor.Doctor.$anonfun$problemResolver$3(Doctor.scala:82)
+	at scala.meta.internal.metals.doctor.ProblemResolver.javaSourcesProblem$1(ProblemResolver.scala:240)
+	at scala.meta.internal.metals.doctor.ProblemResolver.$anonfun$findProblem$6(ProblemResolver.scala:308)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.doctor.ProblemResolver.findProblem(ProblemResolver.scala:308)
+	at scala.meta.internal.metals.doctor.ProblemResolver.$anonfun$problemMessage$1(ProblemResolver.scala:67)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.metals.doctor.ProblemResolver.problemMessage(ProblemResolver.scala:66)
+	at scala.meta.internal.metals.doctor.Doctor.check(Doctor.scala:113)
+	at scala.meta.internal.metals.MetalsLspService.check(MetalsLspService.scala:1548)
+	at scala.meta.internal.metals.ProjectMetalsLspService.check(ProjectMetalsLspService.scala:721)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$connectionProvider$1(ProjectMetalsLspService.scala:162)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$11(Indexer.scala:150)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:150)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:57)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:57)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2025.04.08 16:45:27 ERROR Running process '/usr/lib/jvm/temurin-17-jdk-amd64/bin/java -version' failed
+java.io.IOException: Cannot run program "/usr/lib/jvm/temurin-17-jdk-amd64/bin/java" (in directory "/usr/lib/jvm/temurin-17-jdk-amd64"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:139)
+	at scala.meta.internal.metals.JdkVersion$.fromShell(JavaInteractiveSemanticdb.scala:238)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$3(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$2(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JdkVersion$.maybeJdkVersionFromJavaHome(JavaInteractiveSemanticdb.scala:227)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$5(ProjectMetalsLspService.scala:445)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$3(ProjectMetalsLspService.scala:445)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$1(ProjectMetalsLspService.scala:442)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.ProjectMetalsLspService.getProjectsJavaInfo(ProjectMetalsLspService.scala:441)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$projectInfo$3(ProjectMetalsLspService.scala:435)
+	at scala.meta.internal.metals.doctor.MetalsServiceInfo$ProjectService.getJavaInfo(Doctor.scala:776)
+	at scala.meta.internal.metals.doctor.Doctor.$anonfun$problemResolver$3(Doctor.scala:82)
+	at scala.meta.internal.metals.doctor.ProblemResolver.isWrongJavaRelease(ProblemResolver.scala:340)
+	at scala.meta.internal.metals.doctor.ProblemResolver.findProblem(ProblemResolver.scala:331)
+	at scala.meta.internal.metals.doctor.ProblemResolver.$anonfun$problemMessage$3(ProblemResolver.scala:88)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.metals.doctor.ProblemResolver.problemMessage(ProblemResolver.scala:87)
+	at scala.meta.internal.metals.doctor.Doctor.check(Doctor.scala:113)
+	at scala.meta.internal.metals.MetalsLspService.check(MetalsLspService.scala:1548)
+	at scala.meta.internal.metals.ProjectMetalsLspService.check(ProjectMetalsLspService.scala:721)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$connectionProvider$1(ProjectMetalsLspService.scala:162)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$11(Indexer.scala:150)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:150)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:57)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:57)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:139)
+	at scala.meta.internal.metals.JdkVersion$.fromShell(JavaInteractiveSemanticdb.scala:238)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$3(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$2(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JdkVersion$.maybeJdkVersionFromJavaHome(JavaInteractiveSemanticdb.scala:227)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$5(ProjectMetalsLspService.scala:445)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$3(ProjectMetalsLspService.scala:445)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$1(ProjectMetalsLspService.scala:442)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.ProjectMetalsLspService.getProjectsJavaInfo(ProjectMetalsLspService.scala:441)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$projectInfo$3(ProjectMetalsLspService.scala:435)
+	at scala.meta.internal.metals.doctor.MetalsServiceInfo$ProjectService.getJavaInfo(Doctor.scala:776)
+	at scala.meta.internal.metals.doctor.Doctor.$anonfun$problemResolver$3(Doctor.scala:82)
+	at scala.meta.internal.metals.doctor.ProblemResolver.isWrongJavaRelease(ProblemResolver.scala:340)
+	at scala.meta.internal.metals.doctor.ProblemResolver.findProblem(ProblemResolver.scala:331)
+	at scala.meta.internal.metals.doctor.ProblemResolver.$anonfun$problemMessage$3(ProblemResolver.scala:88)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.metals.doctor.ProblemResolver.problemMessage(ProblemResolver.scala:87)
+	at scala.meta.internal.metals.doctor.Doctor.check(Doctor.scala:113)
+	at scala.meta.internal.metals.MetalsLspService.check(MetalsLspService.scala:1548)
+	at scala.meta.internal.metals.ProjectMetalsLspService.check(ProjectMetalsLspService.scala:721)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$connectionProvider$1(ProjectMetalsLspService.scala:162)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$11(Indexer.scala:150)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:150)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:57)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:57)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2025.04.08 16:45:27 ERROR Running process '/usr/lib/jvm/temurin-17-jdk-amd64/bin/java -version' failed
+java.io.IOException: Cannot run program "/usr/lib/jvm/temurin-17-jdk-amd64/bin/java" (in directory "/usr/lib/jvm/temurin-17-jdk-amd64"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:139)
+	at scala.meta.internal.metals.JdkVersion$.fromShell(JavaInteractiveSemanticdb.scala:238)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$3(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$2(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JdkVersion$.maybeJdkVersionFromJavaHome(JavaInteractiveSemanticdb.scala:227)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$5(ProjectMetalsLspService.scala:445)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$3(ProjectMetalsLspService.scala:445)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$1(ProjectMetalsLspService.scala:442)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.ProjectMetalsLspService.getProjectsJavaInfo(ProjectMetalsLspService.scala:441)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$projectInfo$3(ProjectMetalsLspService.scala:435)
+	at scala.meta.internal.metals.doctor.MetalsServiceInfo$ProjectService.getJavaInfo(Doctor.scala:776)
+	at scala.meta.internal.metals.doctor.Doctor.$anonfun$problemResolver$3(Doctor.scala:82)
+	at scala.meta.internal.metals.doctor.ProblemResolver.isWrongJavaRelease(ProblemResolver.scala:340)
+	at scala.meta.internal.metals.doctor.ProblemResolver.findProblem(ProblemResolver.scala:331)
+	at scala.meta.internal.metals.doctor.ProblemResolver.$anonfun$problemMessage$3(ProblemResolver.scala:88)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.metals.doctor.ProblemResolver.problemMessage(ProblemResolver.scala:87)
+	at scala.meta.internal.metals.doctor.Doctor.check(Doctor.scala:113)
+	at scala.meta.internal.metals.MetalsLspService.check(MetalsLspService.scala:1548)
+	at scala.meta.internal.metals.ProjectMetalsLspService.check(ProjectMetalsLspService.scala:721)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$connectionProvider$1(ProjectMetalsLspService.scala:162)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$11(Indexer.scala:150)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:150)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:57)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:57)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:139)
+	at scala.meta.internal.metals.JdkVersion$.fromShell(JavaInteractiveSemanticdb.scala:238)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$3(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$2(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JdkVersion$.maybeJdkVersionFromJavaHome(JavaInteractiveSemanticdb.scala:227)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$5(ProjectMetalsLspService.scala:445)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$3(ProjectMetalsLspService.scala:445)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$1(ProjectMetalsLspService.scala:442)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.ProjectMetalsLspService.getProjectsJavaInfo(ProjectMetalsLspService.scala:441)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$projectInfo$3(ProjectMetalsLspService.scala:435)
+	at scala.meta.internal.metals.doctor.MetalsServiceInfo$ProjectService.getJavaInfo(Doctor.scala:776)
+	at scala.meta.internal.metals.doctor.Doctor.$anonfun$problemResolver$3(Doctor.scala:82)
+	at scala.meta.internal.metals.doctor.ProblemResolver.isWrongJavaRelease(ProblemResolver.scala:340)
+	at scala.meta.internal.metals.doctor.ProblemResolver.findProblem(ProblemResolver.scala:331)
+	at scala.meta.internal.metals.doctor.ProblemResolver.$anonfun$problemMessage$3(ProblemResolver.scala:88)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.metals.doctor.ProblemResolver.problemMessage(ProblemResolver.scala:87)
+	at scala.meta.internal.metals.doctor.Doctor.check(Doctor.scala:113)
+	at scala.meta.internal.metals.MetalsLspService.check(MetalsLspService.scala:1548)
+	at scala.meta.internal.metals.ProjectMetalsLspService.check(ProjectMetalsLspService.scala:721)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$connectionProvider$1(ProjectMetalsLspService.scala:162)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$11(Indexer.scala:150)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:150)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:57)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:57)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+Apr 08, 2025 4:45:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+2025.04.08 16:45:27 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:26 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:26 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+Apr 08, 2025 4:45:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 26
+2025.04.08 16:45:28 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:28 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:28 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:29 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:29 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2025.04.08 16:45:30 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:29 INFO  time: indexed workspace in 3.5s[0m
+2025.04.08 16:45:30 WARN  no build target for: /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala[0m
+2025.04.08 16:45:30 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:29 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:30 WARN  no build target for: /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala[0m
+2025.04.08 16:45:30 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:29 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:30 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:31 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:36 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:36 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:36 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:36 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:38 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:38 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:38 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:38 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:38 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:38 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:38 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:39 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:39 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:39 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:39 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:39 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:40 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:40 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:41 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:41 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:41 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:42 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:42 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:42 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:42 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:42 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:42 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:42 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:43 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:43 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:43 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:45 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:45 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:45 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:45 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:45 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:45 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:45 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:45 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:45 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:45 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:46 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:45 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:49 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:49 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:49 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:49 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:50 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:50 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:51 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:51 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:51 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:51 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:52 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:52 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:52 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:54 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:54 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:54 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:54 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:54 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+Apr 08, 2025 4:45:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "this.tok" is null
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "this.tok" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "this.tok" is null
+	at scala.meta.internal.parsers.ScalametaParser$XtensionToken.is(ScalametaParser.scala:403)
+	at scala.meta.internal.parsers.ScalametaParser$XtensionToken.isAny(ScalametaParser.scala:406)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$peek(ScalametaParser.scala:419)
+	at scala.meta.internal.parsers.ScalametaParser.withName$1(ScalametaParser.scala:3978)
+	at scala.meta.internal.parsers.ScalametaParser.selfEither(ScalametaParser.scala:3982)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$scala$meta$internal$parsers$ScalametaParser$$templateStatSeq$1(ScalametaParser.scala:4255)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$tryParse(ScalametaParser.scala:205)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$templateStatSeq(ScalametaParser.scala:4255)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateBodyOnLeftBrace$2(ScalametaParser.scala:4114)
+	at scala.meta.internal.parsers.ScalametaParser.inBracesOnOpen(ScalametaParser.scala:258)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateBodyOnLeftBrace$1(ScalametaParser.scala:4114)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:324)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOnLeftBrace(ScalametaParser.scala:4114)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOpt(ScalametaParser.scala:4121)
+	at scala.meta.internal.parsers.ScalametaParser.templateAfterExtends(ScalametaParser.scala:4069)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$3(ScalametaParser.scala:4105)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$1(ScalametaParser.scala:4103)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:324)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4103)
+	at scala.meta.internal.parsers.ScalametaParser.objectDef(ScalametaParser.scala:3826)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$tmplDef$1(ScalametaParser.scala:3752)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPosOpt(ScalametaParser.scala:387)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPosOpt(ScalametaParser.scala:391)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3748)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:3742)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4247)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4241)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4234)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$statSeq$1(ScalametaParser.scala:4223)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$statSeq$1$adapted(ScalametaParser.scala:4223)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:555)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4223)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4393)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4396)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:324)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4361)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4399)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:114)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:111)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:60)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:55)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:111)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:30)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:37)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionInputOffset.safeParse(ScalametaCommonEnrichments.scala:602)
+	at scala.meta.internal.parsing.Trees.$anonfun$parse$2(Trees.scala:181)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsing.Trees.parse(Trees.scala:172)
+	at scala.meta.internal.parsing.Trees.didChange(Trees.scala:132)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$parseTreesAndPublishDiags$2(MetalsLspService.scala:616)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2025.04.08 16:45:55 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:55 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:55 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:55 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:55 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:55 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:55 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:55 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:55 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:45:56 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:04 WARN  no build target for: /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala[0m
+2025.04.08 16:46:04 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:05 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:05 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:05 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:05 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:05 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:05 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:06 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:06 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:06 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:06 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:12 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:12 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:12 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:12 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:12 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:12 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:12 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:12 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+Apr 08, 2025 4:46:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 210
+2025.04.08 16:46:13 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:13 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:14 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:14 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:14 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:14 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:14 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:14 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:14 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:14 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:14 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:15 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:15 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:15 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:15 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:17 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:17 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:18 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:18 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:21 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:21 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:21 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:21 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:21 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:21 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:21 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:21 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:23 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:23 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:23 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:23 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:24 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:25 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:25 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:30 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:30 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:30 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:30 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:30 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:31 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:31 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:31 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:36 WARN  no build target for: /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala[0m
+2025.04.08 16:46:36 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:36 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:38 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:39 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:39 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:40 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:40 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:40 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:42 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:42 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:42 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:50 WARN  no build target for: /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala[0m
+2025.04.08 16:46:50 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:50 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:50 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:50 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:52 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:52 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:56 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:56 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:56 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:56 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:57 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:56 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:46:58 WARN  no build target for: /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala[0m
+2025.04.08 16:46:58 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:47:13 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:47:13 WARN  no build target for: /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala[0m
+2025.04.08 16:47:13 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:47:43 WARN  no build target for: /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala[0m
+2025.04.08 16:47:43 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:48:16 WARN  no build target for: /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala[0m
+2025.04.08 16:48:16 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:48:49 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:48:49 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:48:49 WARN  no build target for: /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala[0m
+2025.04.08 16:48:50 WARN  no build target for: /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala[0m
+2025.04.08 16:48:49 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:48:50 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:48:51 WARN  no build target for: /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala[0m
+2025.04.08 16:48:51 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:48:52 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:48:52 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:48:55 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:48:56 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:48:56 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:49:13 WARN  no build target for: /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala[0m
+2025.04.08 16:49:13 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:49:13 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:49:14 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:49:14 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:49:14 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:49:16 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:49:16 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:49:17 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:49:18 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 16:49:31 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+Apr 08, 2025 4:55:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 471
+2025.04.08 17:30:24 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 17:30:24 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 17:30:26 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 17:30:26 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 17:30:26 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 17:30:27 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 17:30:29 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
+2025.04.08 17:31:56 INFO  no build target found for /home/curry/code/ysyx_curry/npc/src/mian/scala/rv32/Parameters.scala. Using presentation compiler with project's scala-library version: 2.13.15[0m
