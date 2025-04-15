@@ -68,3 +68,8 @@ object Instructions {
   val snnleak = BitPat("b1110001_?????_?????_???_?????_0001011")
   val snnthreshold = BitPat("b1110010_00000_?????_???_00000_0001011")
 }
+
+object Parameters {
+  val WORD_LEN = 32
+  val START_PC = 0x80000000.U(WORD_LEN.W)
+}
