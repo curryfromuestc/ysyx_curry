@@ -8,12 +8,10 @@
 [1;34m[src/device/io/mmio.c:50 add_mmio_map] Add mmio map 'audio' at [0xa0000200, 0xa0000217][0m
 [1;34m[src/device/io/mmio.c:50 add_mmio_map] Add mmio map 'audio-sbuf' at [0xa1200000, 0xa120ffff][0m
 [1;34m[src/monitor/monitor.c:61 load_img] The image is /home/curry/code/ysyx_curry/am-kernels/kernels/demo/build/demo-riscv32-nemu.bin, size = 36736[0m
-[1;34m[src/cpu/difftest/dut.c:85 init_difftest] Differential testing: [1;32mON[0m[0m
-[1;34m[src/cpu/difftest/dut.c:86 init_difftest] The result of every instruction will be compared with /home/curry/code/ysyx_curry/nemu/tools/spike-diff/build/riscv32-spike-so. This will help you a lot for debugging, but also significantly reduce the performance. If it is not necessary, you can turn it off in menuconfig.[0m
 [1;34m[src/utils/itrace.c:429 parse_elf] specified ELF file: /home/curry/code/ysyx_curry/am-kernels/kernels/demo/build/demo-riscv32-nemu.elf[0m
 [1;34m[src/monitor/monitor.c:28 welcome] Trace: [1;32mON[0m[0m
 [1;34m[src/monitor/monitor.c:29 welcome] If trace is enabled, a log file will be generated to record the trace. This may lead to a large log file. If it is not necessary, you can disable it in menuconfig[0m
-[1;34m[src/monitor/monitor.c:32 welcome] Build time: 14:29:41, Apr  8 2025[0m
+[1;34m[src/monitor/monitor.c:32 welcome] Build time: 21:24:41, Apr  7 2025[0m
 0x80000000: 00 00 04 13 mv	s0, zero
 0x80000004: 00 01 11 17 auipc	sp, 0x11
 0x80000008: ff c1 01 13 addi	sp, sp, -4
