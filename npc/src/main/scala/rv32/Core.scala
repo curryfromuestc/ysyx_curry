@@ -65,48 +65,56 @@ class DecodeStage{
         val immU = Cat(inst(31,12))
         immUsext := Cat(immU, 0.U(12.W))
 
-        val List(exeFun, op1Sel, op2Sel, memWen, rfWen, wbSel) = ListLookup(
-        inst,
-        List(ALU_NONE, OP1_RS1, OP2_RS2, MEN_NONE, REN_NONE, WB_NONE),
-        Array(
-            // 2.6 Load and Store Instructions
-            LW      -> List(ALU_ADD,  OP1_RS1,  OP2_IMI,  MEN_NONE,   REN_SCALAR, WB_MEM), // x[rs1] + sext(imm_i)
-            SW      -> List(ALU_ADD,  OP1_RS1,  OP2_IMS,  MEN_SCALAR, REN_NONE,   WB_NONE), // x[rs1] + sext(imm_s)
-            // 2.4 Integer Computational Instructions
-            ADD     -> List(ALU_ADD,  OP1_RS1,  OP2_RS2,  MEN_NONE,   REN_SCALAR, WB_ALU), // x[rs1] + x[rs2]
-            ADDI    -> List(ALU_ADD,  OP1_RS1,  OP2_IMI,  MEN_NONE,   REN_SCALAR, WB_ALU), // x[rs1] + sext(imm_i)
-            SUB     -> List(ALU_SUB,  OP1_RS1,  OP2_RS2,  MEN_NONE,   REN_SCALAR, WB_ALU), // x[rs1] - x[rs2]
-            AND     -> List(ALU_AND,  OP1_RS1,  OP2_RS2,  MEN_NONE,   REN_SCALAR, WB_ALU), // x[rs1] & x[rs2]
-            OR      -> List(ALU_OR,   OP1_RS1,  OP2_RS2,  MEN_NONE,   REN_SCALAR, WB_ALU), // x[rs1] | x[rs2]
-            XOR     -> List(ALU_XOR,  OP1_RS1,  OP2_RS2,  MEN_NONE,   REN_SCALAR, WB_ALU), // x[rs1] ^ x[rs2]
-            ANDI    -> List(ALU_AND,  OP1_RS1,  OP2_IMI,  MEN_NONE,   REN_SCALAR, WB_ALU), // x[rs1] & sext(imm_i)
-            ORI     -> List(ALU_OR ,  OP1_RS1,  OP2_IMI,  MEN_NONE,   REN_SCALAR, WB_ALU), // x[rs1] | sext(imm_i)
-            XORI    -> List(ALU_XOR,  OP1_RS1,  OP2_IMI,  MEN_NONE,   REN_SCALAR, WB_ALU), // x[rs1] ^ sext(imm_i)
-            SLL     -> List(ALU_SLL,  OP1_RS1,  OP2_RS2,  MEN_NONE,   REN_SCALAR, WB_ALU), // x[rs1] << x[rs2](4,0)
-            SRL     -> List(ALU_SRL,  OP1_RS1,  OP2_RS2,  MEN_NONE,   REN_SCALAR, WB_ALU), // x[rs1] >>u x[rs2](4,0)
-            SRA     -> List(ALU_SRA,  OP1_RS1,  OP2_RS2,  MEN_NONE,   REN_SCALAR, WB_ALU), // x[rs1] >>s x[rs2](4,0)
-            SLLI    -> List(ALU_SLL,  OP1_RS1,  OP2_IMI,  MEN_NONE,   REN_SCALAR, WB_ALU), // x[rs1] << imm_i_sext(4,0)
-            SRLI    -> List(ALU_SRL,  OP1_RS1,  OP2_IMI,  MEN_NONE,   REN_SCALAR, WB_ALU), // x[rs1] >>u imm_i_sext(4,0)
-            SRAI    -> List(ALU_SRA,  OP1_RS1,  OP2_IMI,  MEN_NONE,   REN_SCALAR, WB_ALU), // x[rs1] >>s imm_i_sext(4,0)
-            SLT     -> List(ALU_SLT,  OP1_RS1,  OP2_RS2,  MEN_NONE,   REN_SCALAR, WB_ALU), // x[rs1] <s x[rs2]
-            SLTU    -> List(ALU_SLTU, OP1_RS1,  OP2_RS2,  MEN_NONE,   REN_SCALAR, WB_ALU), // x[rs1] <u x[rs2]
-            SLTI    -> List(ALU_SLT,  OP1_RS1,  OP2_IMI,  MEN_NONE,   REN_SCALAR, WB_ALU), // x[rs1] <s imm_i_sext
-            SLTIU   -> List(ALU_SLTU, OP1_RS1,  OP2_IMI,  MEN_NONE,   REN_SCALAR, WB_ALU), // x[rs1] <u imm_i_sext
-            LUI     -> List(ALU_ADD,  OP1_NONE, OP2_IMU,  MEN_NONE,   REN_SCALAR, WB_ALU), // sext(imm_u[31:12] << 12)
-            AUIPC   -> List(ALU_ADD,  OP1_PC,   OP2_IMU,  MEN_NONE,   REN_SCALAR, WB_ALU), // PC + sext(imm_u[31:12] << 12)
-            // 2.5 Control Transfer Instructions
-            BEQ     -> List(BR_BEQ,   OP1_RS1,  OP2_RS2,  MEN_NONE,   REN_NONE,   WB_NONE), // x[rs1] === x[rs2] then PC+sext(imm_b)
-            BNE     -> List(BR_BNE,   OP1_RS1,  OP2_RS2,  MEN_NONE,   REN_NONE,   WB_NONE), // x[rs1] =/= x[rs2] then PC+sext(imm_b)
-            BGE     -> List(BR_BGE,   OP1_RS1,  OP2_RS2,  MEN_NONE,   REN_NONE,   WB_NONE), // x[rs1] >=s x[rs2] then PC+sext(imm_b)
-            BGEU    -> List(BR_BGEU,  OP1_RS1,  OP2_RS2,  MEN_NONE,   REN_NONE,   WB_NONE), // x[rs1] >=u x[rs2] then PC+sext(imm_b)
-            BLT     -> List(BR_BLT,   OP1_RS1,  OP2_RS2,  MEN_NONE,   REN_NONE,   WB_NONE), // x[rs1] <s x[rs2]  then PC+sext(imm_b)
-            BLTU    -> List(BR_BLTU,  OP1_RS1,  OP2_RS2,  MEN_NONE,   REN_NONE,   WB_NONE), // x[rs1] <u x[rs2]  then PC+sext(imm_b)
-            JAL     -> List(ALU_ADD,  OP1_PC,   OP2_IMJ,  MEN_NONE,   REN_SCALAR, WB_PC), // x[rd] <- PC+4 and PC+sext(imm_j)
-            JALR    -> List(ALU_JALR, OP1_RS1,  OP2_IMI,  MEN_NONE,   REN_SCALAR, WB_PC), // x[rd] <- PC+4 and (x[rs1]+sext(imm_i))&~1
-            // 2.8 Environment Call and Breakpoints
-            EBREAK  -> List(ALU_NONE, OP1_NONE, OP2_NONE, MEN_NONE,   REN_NONE,   WB_NONE),
-        ),
+        val decoded = ListLookup(
+            inst,
+            List(ALU_NONE, OP1_RS1, OP2_RS2, MEN_NONE, REN_NONE, WB_NONE),
+            Array(
+                // 2.6 Load and Store Instructions
+                LW      -> List(ALU_ADD,  OP1_RS1,  OP2_IMI,  MEN_NONE,   REN_SCALAR, WB_MEM), // x[rs1] + sext(imm_i)
+                SW      -> List(ALU_ADD,  OP1_RS1,  OP2_IMS,  MEN_SCALAR, REN_NONE,   WB_NONE), // x[rs1] + sext(imm_s)
+                // 2.4 Integer Computational Instructions
+                ADD     -> List(ALU_ADD,  OP1_RS1,  OP2_RS2,  MEN_NONE,   REN_SCALAR, WB_ALU), // x[rs1] + x[rs2]
+                ADDI    -> List(ALU_ADD,  OP1_RS1,  OP2_IMI,  MEN_NONE,   REN_SCALAR, WB_ALU), // x[rs1] + sext(imm_i)
+                SUB     -> List(ALU_SUB,  OP1_RS1,  OP2_RS2,  MEN_NONE,   REN_SCALAR, WB_ALU), // x[rs1] - x[rs2]
+                AND     -> List(ALU_AND,  OP1_RS1,  OP2_RS2,  MEN_NONE,   REN_SCALAR, WB_ALU), // x[rs1] & x[rs2]
+                OR      -> List(ALU_OR,   OP1_RS1,  OP2_RS2,  MEN_NONE,   REN_SCALAR, WB_ALU), // x[rs1] | x[rs2]
+                XOR     -> List(ALU_XOR,  OP1_RS1,  OP2_RS2,  MEN_NONE,   REN_SCALAR, WB_ALU), // x[rs1] ^ x[rs2]
+                ANDI    -> List(ALU_AND,  OP1_RS1,  OP2_IMI,  MEN_NONE,   REN_SCALAR, WB_ALU), // x[rs1] & sext(imm_i)
+                ORI     -> List(ALU_OR ,  OP1_RS1,  OP2_IMI,  MEN_NONE,   REN_SCALAR, WB_ALU), // x[rs1] | sext(imm_i)
+                XORI    -> List(ALU_XOR,  OP1_RS1,  OP2_IMI,  MEN_NONE,   REN_SCALAR, WB_ALU), // x[rs1] ^ sext(imm_i)
+                SLL     -> List(ALU_SLL,  OP1_RS1,  OP2_RS2,  MEN_NONE,   REN_SCALAR, WB_ALU), // x[rs1] << x[rs2](4,0)
+                SRL     -> List(ALU_SRL,  OP1_RS1,  OP2_RS2,  MEN_NONE,   REN_SCALAR, WB_ALU), // x[rs1] >>u x[rs2](4,0)
+                SRA     -> List(ALU_SRA,  OP1_RS1,  OP2_RS2,  MEN_NONE,   REN_SCALAR, WB_ALU), // x[rs1] >>s x[rs2](4,0)
+                SLLI    -> List(ALU_SLL,  OP1_RS1,  OP2_IMI,  MEN_NONE,   REN_SCALAR, WB_ALU), // x[rs1] << imm_i_sext(4,0)
+                SRLI    -> List(ALU_SRL,  OP1_RS1,  OP2_IMI,  MEN_NONE,   REN_SCALAR, WB_ALU), // x[rs1] >>u imm_i_sext(4,0)
+                SRAI    -> List(ALU_SRA,  OP1_RS1,  OP2_IMI,  MEN_NONE,   REN_SCALAR, WB_ALU), // x[rs1] >>s imm_i_sext(4,0)
+                SLT     -> List(ALU_SLT,  OP1_RS1,  OP2_RS2,  MEN_NONE,   REN_SCALAR, WB_ALU), // x[rs1] <s x[rs2]
+                SLTU    -> List(ALU_SLTU, OP1_RS1,  OP2_RS2,  MEN_NONE,   REN_SCALAR, WB_ALU), // x[rs1] <u x[rs2]
+                SLTI    -> List(ALU_SLT,  OP1_RS1,  OP2_IMI,  MEN_NONE,   REN_SCALAR, WB_ALU), // x[rs1] <s imm_i_sext
+                SLTIU   -> List(ALU_SLTU, OP1_RS1,  OP2_IMI,  MEN_NONE,   REN_SCALAR, WB_ALU), // x[rs1] <u imm_i_sext
+                LUI     -> List(ALU_ADD,  OP1_NONE, OP2_IMU,  MEN_NONE,   REN_SCALAR, WB_ALU), // sext(imm_u[31:12] << 12)
+                AUIPC   -> List(ALU_ADD,  OP1_PC,   OP2_IMU,  MEN_NONE,   REN_SCALAR, WB_ALU), // PC + sext(imm_u[31:12] << 12)
+                // 2.5 Control Transfer Instructions
+                BEQ     -> List(BR_BEQ,   OP1_RS1,  OP2_RS2,  MEN_NONE,   REN_NONE,   WB_NONE), // x[rs1] === x[rs2] then PC+sext(imm_b)
+                BNE     -> List(BR_BNE,   OP1_RS1,  OP2_RS2,  MEN_NONE,   REN_NONE,   WB_NONE), // x[rs1] =/= x[rs2] then PC+sext(imm_b)
+                BGE     -> List(BR_BGE,   OP1_RS1,  OP2_RS2,  MEN_NONE,   REN_NONE,   WB_NONE), // x[rs1] >=s x[rs2] then PC+sext(imm_b)
+                BGEU    -> List(BR_BGEU,  OP1_RS1,  OP2_RS2,  MEN_NONE,   REN_NONE,   WB_NONE), // x[rs1] >=u x[rs2] then PC+sext(imm_b)
+                BLT     -> List(BR_BLT,   OP1_RS1,  OP2_RS2,  MEN_NONE,   REN_NONE,   WB_NONE), // x[rs1] <s x[rs2]  then PC+sext(imm_b)
+                BLTU    -> List(BR_BLTU,  OP1_RS1,  OP2_RS2,  MEN_NONE,   REN_NONE,   WB_NONE), // x[rs1] <u x[rs2]  then PC+sext(imm_b)
+                JAL     -> List(ALU_ADD,  OP1_PC,   OP2_IMJ,  MEN_NONE,   REN_SCALAR, WB_PC), // x[rd] <- PC+4 and PC+sext(imm_j)
+                JALR    -> List(ALU_JALR, OP1_RS1,  OP2_IMI,  MEN_NONE,   REN_SCALAR, WB_PC), // x[rd] <- PC+4 and (x[rs1]+sext(imm_i))&~1
+                // 2.8 Environment Call and Breakpoints
+                EBREAK  -> List(ALU_NONE, OP1_NONE, OP2_NONE, MEN_NONE,   REN_NONE,   WB_NONE),
+            ),
         )
+
+        exeFun := decoded(0)
+        op1Sel := decoded(1)
+        op2Sel := decoded(2)
+        memWen := decoded(3)
+        rfWen := decoded(4)
+        wbSel := decoded(5)
+
         op1Data := MuxCase(0.U(WORD_LEN.W),Seq(
             (op1Sel === OP1_PC) -> fetch.pc,
             (op1Sel === OP1_RS1) -> rs1Data,
@@ -117,14 +125,7 @@ class DecodeStage{
             (op2Sel === OP2_IMS) -> immSsext,
             (op2Sel === OP2_IMJ) -> immJsext,
             (op2Sel === OP2_IMU) -> immUsext,
-        ))  
-
-        exeFun := exeFun
-        op1Sel := op1Sel
-        op2Sel := op2Sel
-        memWen := memWen
-        rfWen := rfWen
-        wbSel := wbSel
+        ))
     }
 }
 class ExecuteStage{
@@ -140,11 +141,11 @@ class ExecuteStage{
             (decode.exeFun === ALU_AND) -> (decode.op1Data & decode.op2Data),
             (decode.exeFun === ALU_OR) -> (decode.op1Data | decode.op2Data),
             (decode.exeFun === ALU_XOR) -> (decode.op1Data ^ decode.op2Data),
-            (decode.exeFun === ALU_SLL) -> (decode.op1Data << decode.op2Data),
-            (decode.exeFun === ALU_SRL) -> (decode.op1Data >> decode.op2Data),
-            (decode.exeFun === ALU_SRA) -> (decode.op1Data.asSInt >> decode.op2Data),
-            (decode.exeFun === ALU_SLT) -> (decode.op1Data.asSInt < decode.op2Data.asSInt),
-            (decode.exeFun === ALU_SLTU) -> (decode.op1Data < decode.op2Data),
+            (decode.exeFun === ALU_SLL) -> (decode.op1Data << decode.op2Data(4,0)),
+            (decode.exeFun === ALU_SRL) -> (decode.op1Data >> decode.op2Data(4,0)),
+            (decode.exeFun === ALU_SRA) -> (decode.op1Data.asSInt >> decode.op2Data(4,0)).asUInt,
+            (decode.exeFun === ALU_SLT) -> Mux(decode.op1Data.asSInt < decode.op2Data.asSInt, 1.U, 0.U),
+            (decode.exeFun === ALU_SLTU) -> Mux(decode.op1Data < decode.op2Data, 1.U, 0.U),
             (decode.exeFun === ALU_JALR) -> ((decode.op1Data + decode.op2Data) & ~1.U(WORD_LEN.W)),
             (decode.exeFun === ALU_RS1) -> decode.op1Data,
         ))
@@ -183,8 +184,8 @@ class WriteBackStage{
 
 class Core extends Module{
     val io = IO(new Bundle{
-        val imem = new ImemPortIo()
-        val dmem = new DmemPortIo()
+        val imem = Flipped(new ImemPortIo)
+        val dmem = Flipped(new DmemPortIo)
     })
     val fetch = new FetchStage()
     val decode = new DecodeStage()
@@ -199,4 +200,7 @@ class Core extends Module{
     execute.connect(fetch,decode)
     memory.connect(fetch,io.dmem,decode,execute)
     writeback.connect(memory,decode,execute,gr)
+
+    val ebreak = Module(new Ebreak())
+    ebreak.io.instruction := fetch.inst
 }

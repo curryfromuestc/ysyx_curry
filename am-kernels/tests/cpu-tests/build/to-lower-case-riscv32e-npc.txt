@@ -1,0 +1,73 @@
+
+/home/curry/code/ysyx_curry/am-kernels/tests/cpu-tests/build/to-lower-case-riscv32e-npc.elf:     file format elf32-littleriscv
+
+
+Disassembly of section .text:
+
+80000000 <_start>:
+80000000:	00000413          	li	s0,0
+80000004:	00009117          	auipc	sp,0x9
+80000008:	ffc10113          	addi	sp,sp,-4 # 80009000 <_end>
+8000000c:	0c4000ef          	jal	800000d0 <_trm_init>
+
+80000010 <check>:
+80000010:	00050463          	beqz	a0,80000018 <check+0x8>
+80000014:	00008067          	ret
+80000018:	ff410113          	addi	sp,sp,-12
+8000001c:	00100513          	li	a0,1
+80000020:	00112423          	sw	ra,8(sp)
+80000024:	0a8000ef          	jal	800000cc <halt>
+
+80000028 <main>:
+80000028:	ff410113          	addi	sp,sp,-12
+8000002c:	00812223          	sw	s0,4(sp)
+80000030:	00912023          	sw	s1,0(sp)
+80000034:	00112423          	sw	ra,8(sp)
+80000038:	00000413          	li	s0,0
+8000003c:	00000497          	auipc	s1,0x0
+80000040:	0ec48493          	addi	s1,s1,236 # 80000128 <ans>
+80000044:	0ff47713          	zext.b	a4,s0
+80000048:	fbf70793          	addi	a5,a4,-65
+8000004c:	02070513          	addi	a0,a4,32
+80000050:	0ff7f793          	zext.b	a5,a5
+80000054:	01900693          	li	a3,25
+80000058:	00848633          	add	a2,s1,s0
+8000005c:	0ff57513          	zext.b	a0,a0
+80000060:	02f6ec63          	bltu	a3,a5,80000098 <main+0x70>
+80000064:	00064783          	lbu	a5,0(a2)
+80000068:	00140413          	addi	s0,s0,1
+8000006c:	40f50533          	sub	a0,a0,a5
+80000070:	00153513          	seqz	a0,a0
+80000074:	f9dff0ef          	jal	80000010 <check>
+80000078:	0ff47713          	zext.b	a4,s0
+8000007c:	fbf70793          	addi	a5,a4,-65
+80000080:	02070513          	addi	a0,a4,32
+80000084:	0ff7f793          	zext.b	a5,a5
+80000088:	01900693          	li	a3,25
+8000008c:	00848633          	add	a2,s1,s0
+80000090:	0ff57513          	zext.b	a0,a0
+80000094:	fcf6f8e3          	bgeu	a3,a5,80000064 <main+0x3c>
+80000098:	00064503          	lbu	a0,0(a2)
+8000009c:	00140413          	addi	s0,s0,1
+800000a0:	40e50533          	sub	a0,a0,a4
+800000a4:	00153513          	seqz	a0,a0
+800000a8:	f69ff0ef          	jal	80000010 <check>
+800000ac:	08000793          	li	a5,128
+800000b0:	f8f41ae3          	bne	s0,a5,80000044 <main+0x1c>
+800000b4:	00812083          	lw	ra,8(sp)
+800000b8:	00412403          	lw	s0,4(sp)
+800000bc:	00012483          	lw	s1,0(sp)
+800000c0:	00000513          	li	a0,0
+800000c4:	00c10113          	addi	sp,sp,12
+800000c8:	00008067          	ret
+
+800000cc <halt>:
+800000cc:	0000006f          	j	800000cc <halt>
+
+800000d0 <_trm_init>:
+800000d0:	ff410113          	addi	sp,sp,-12
+800000d4:	00000517          	auipc	a0,0x0
+800000d8:	01450513          	addi	a0,a0,20 # 800000e8 <_etext>
+800000dc:	00112423          	sw	ra,8(sp)
+800000e0:	f49ff0ef          	jal	80000028 <main>
+800000e4:	0000006f          	j	800000e4 <_trm_init+0x14>

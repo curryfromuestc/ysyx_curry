@@ -7,7 +7,7 @@ import scalalib._
 // support BSP
 import mill.bsp._
 
-object FP8fpu extends SbtModule { m =>
+object npc extends SbtModule { m =>
   override def millSourcePath = os.pwd
   override def scalaVersion = "2.13.15"
   override def scalacOptions = Seq(

@@ -77,7 +77,9 @@ object Instructions {
 
 object Parameters {
   val WORD_LEN = 32
-  val START_PC = 0x80000000.U(WORD_LEN.W)
+  val START_PC = BigInt("80000000", 16).U
+  val MEM_WITH = 8
+  val MEM_SIZE = BigInt("90000000", 16)
   val ADDR_LEN = 5
 
   val EXE_FUN_LEN = 5
