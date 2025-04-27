@@ -11,7 +11,9 @@
         "itrace.h": "c",
         "elf.h": "c",
         "unistd.h": "c",
-        "fcntl.h": "c"
+        "fcntl.h": "c",
+        "dlfcn.h": "c",
+        "disasm.h": "c"
     },
     "files.watcherExclude": {
         "**/target": true
