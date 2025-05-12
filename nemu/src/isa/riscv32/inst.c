@@ -23,6 +23,21 @@
 #define Mr vaddr_read
 #define Mw vaddr_write
 
+static word_t *csr_reg(word_t imm) {
+  switch (imm) {
+    case 0x300 :  return &(cpu.csrs.mstatus);
+    case 0x305 :  return &(cpu.csrs.mtvec);
+    case 0x341 :  return &(cpu.csrs.mepc);
+    case 0x342 :  return &(cpu.csrs.mcause);
+    default : Log("csr error");
+  }
+  return NULL;
+}
+
+#define CSR(i) *csr_reg(i)
+#define ECALL(dnpc) { bool success; dnpc = (isa_raise_intr(isa_reg_str2val("a7", &success), s->pc)); }
+
+
 enum {
   TYPE_I, 
   TYPE_U, 
@@ -128,6 +143,10 @@ static int decode_exec(Decode *s) {
   INSTPAT("0000000 ????? ????? 010 ????? 01100 11", slt    , R, R(rd) = (int)src1 < (int)src2 ? 1: 0);
   INSTPAT("0000000 ????? ????? 100 ????? 01100 11", xor    , R, R(rd) = src1 ^ src2);
   INSTPAT("0000000 ????? ????? 110 ????? 01100 11", or     , R, R(rd) = src1 | src2);
+  INSTPAT("??????? ????? ????? 010 ????? 11100 11", csrrs  , I, R(rd) = CSR(imm); CSR(imm) |= src1);
+  INSTPAT("??????? ????? ????? 001 ????? 11100 11", csrrw  , I, R(rd) = CSR(imm); CSR(imm) = src1);
+  INSTPAT("0000000 00000 00000 000 00000 11100 11", ecall  , N, ECALL(s->dnpc));
+
   INSTPAT("0000000 00001 00000 000 00000 11100 11", ebreak , N, NEMUTRAP(s->pc, R(10))); // R(10) is $a0
   INSTPAT("??????? ????? ????? ??? ????? ????? ??", inv    , N, INV(s->pc));
   INSTPAT_END();

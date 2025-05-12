@@ -13,7 +13,8 @@
         "unistd.h": "c",
         "fcntl.h": "c",
         "dlfcn.h": "c",
-        "disasm.h": "c"
+        "disasm.h": "c",
+        "cpu.h": "c"
     },
     "files.watcherExclude": {
         "**/target": true

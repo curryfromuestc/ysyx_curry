@@ -20,15 +20,30 @@
 bool isa_difftest_checkregs(CPU_state *ref_r, vaddr_t pc) {
   int reg_num = ARRLEN(cpu.gpr);
   for (int i = 0; i < reg_num; i++) {
-    if (ref_r->gpr[i] != cpu.gpr[i]) {
-      return false;
-    }
+      if (ref_r->gpr[i] != cpu.gpr[i]) {
+          printf("reg[%d] is different! ref: 0x%08x, current: 0x%08x\n", i, ref_r->gpr[i], cpu.gpr[i]);
+          return false;
+      }
   }
   if (ref_r->pc != cpu.pc) {
-    return false;
+      printf("pc is different! ref: 0x%08x, current: 0x%08x\n", ref_r->pc, cpu.pc);
+      return false;
+  }
+  if (ref_r->csrs.mstatus != cpu.csrs.mstatus) {
+      printf("mstatus is different! ref: 0x%08x, current: 0x%08x\n", ref_r->csrs.mstatus, cpu.csrs.mstatus);
+      return false;
+  }
+  if (ref_r->csrs.mcause != cpu.csrs.mcause) {
+      printf("mcause is different! ref: 0x%08x, current: 0x%08x\n", ref_r->csrs.mcause, cpu.csrs.mcause);
+      return false;
+  }
+  if (ref_r->csrs.mepc != cpu.csrs.mepc) {
+      printf("mepc is different! ref: 0x%08x, current: 0x%08x\n", ref_r->csrs.mepc, cpu.csrs.mepc);
+      return false;
+  }
+  if (ref_r->csrs.mtvec != cpu.csrs.mtvec) {
+      printf("mtvec is different! ref: 0x%08x, current: 0x%08x\n", ref_r->csrs.mtvec, cpu.csrs.mtvec);
+      return false;
   }
   return true;
-}
-
-void isa_difftest_attach() {
 }
