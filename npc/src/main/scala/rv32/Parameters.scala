@@ -62,7 +62,7 @@ object Instructions {
   val CSRRCI  = BitPat("b?????????????????111?????1110011")
 
   // Exception
-  val EBREAK  = BitPat("b00000000000000000000000001110011")
+  val ECALL  = BitPat("b00000000000000000000000001110011")
 
   // Vector
   val VSETVLI = BitPat("b?????????????????111?????1010111")
@@ -78,6 +78,8 @@ object Instructions {
 object Parameters {
   val WORD_LEN = 32
   val START_PC = BigInt("80000000", 16).U
+  val BUBBLE   = 0x00000013.U(WORD_LEN.W)
+  val CSR_ADDR_LEN  = 12
   val MEM_WITH = 8
   val MEM_SIZE = BigInt("90000000", 16)
   val ADDR_LEN = 5
